@@ -24,17 +24,14 @@
   <body>
     <!-- Navbar -->
     <div class="bg-[#494336]">
-      <div class="max-w-[1440px] mx-auto xl:px-12 lg:px-8 md:px-6 px-4">
+      <div class="max-w-[1440px] mx-auto xl:px-12 lg:px-8 md:px-6 ps-8 pe-5">
         <div class="flex items-center justify-between pt-3 pb-4.5 gap-2">
           <div>
             <a href="#"
               ><img src="./image/Logo.png" alt="logo" width="100%"
             /></a>
           </div>
-          <button
-            id="openSidebar"
-            class="text-white px-4 py-2 rounded md:hidden"
-          >
+          <button id="openSidebar" class="text-white rounded md:hidden">
             <img src="./image/toggle.png" alt="toggle" width="100%" />
           </button>
           <ul id="menu" class="hidden md:flex xl:gap-16 lg:gap-10 gap-3">
@@ -152,14 +149,16 @@
         class="md:bg-[url('./image/hero.png')] bg-no-repeat bg-cover bg-center bg-gray-200"
       >
         <div class="max-w-[1240px] mx-auto xl:px-12 lg:px-8 md:px-6 px-4">
-          <div class="sm:max-w-[511px] max-w-[280px] md:pt-50 pt-15 pb-20">
+          <div
+            class="sm:max-w-[511px] max-w-[280px] md:pt-50 pt-9 lg:pb-20 pb-15"
+          >
             <h1
               class="xl:text-[70px] lg:text-6xl md:text-5xl text-4xl md:text-[#D7D9DD] pb-7 font-normal"
             >
               Welcome to Nebula Vets
             </h1>
             <p
-              class="md:text-[#D7D9DD] roboto-mono lg:text-[28px] md:text-2xl text-base pb-9"
+              class="md:text-[#D7D9DD] roboto-mono lg:text-[28px] md:text-2xl text-base mb-11"
             >
               Reinventing Pet Medicine
             </p>
@@ -172,19 +171,19 @@
         </div>
       </div>
       <div
-        class="md:max-w-[482px] max-w-[251px] absolute right-[-100px] md:top-0 top-50 z-0"
+        class="md:max-w-[482px] max-w-[251px] absolute right-[-100px] md:top-0 top-40 z-0"
       >
         <img src="./image/shadow-hero.png" alt="shadow" width="100%" />
       </div>
       <div
-        class="bg-[url('./image/hero.png')] bg-no-repeat bg-cover bg-center p-40 md:hidden"
+        class="bg-[url('./image/hero.png')] bg-no-repeat bg-cover bg-center p-34.5 md:hidden"
       ></div>
     </section>
     <!-- --------Our Approach--------- -->
     <section class="bg-gray-200">
-      <div class="max-w-[1240px] mx-auto xl:px-12 lg:px-8 md:px-6 px-4">
+      <div class="max-w-[1240px] mx-auto xl:px-12 lg:px-8 md:px-6 px-8">
         <div
-          class="flex justify-between gap-3 lg:flex-nowrap flex-wrap lg:py-22 py-15"
+          class="flex justify-between gap-3 lg:flex-nowrap flex-wrap lg:py-20 py-15"
         >
           <h2
             class="lg:text-4xl md:text-3xl text-2xl font-normal text-[#494336] lg:max-w-[166px]"
@@ -205,7 +204,7 @@
     </section>
     <!-- ------Why choose Nebula Vets?--------- -->
     <section class="bg-[#494336]">
-      <div class="max-w-[1240px] mx-auto xl:px-12 lg:px-8 md:px-6 px-4">
+      <div class="max-w-[1240px] mx-auto xl:px-12 lg:px-8 px-8">
         <h2
           class="xl:text-5xl lg:text-4xl md:text-3xl text-2xl text-[#D7D9DD] lg:pt-20 pt-15 lg:pb-15 pb-10"
         >
@@ -217,7 +216,7 @@
           >
             <div class="w-[480px] lg:pb-8 pb-4">
               <button
-                class="flex items-center justify-between w-full lg:pb-8 pb-4 text-left"
+                class="flex items-center justify-between w-full pb-7.5 text-left"
                 onclick="toggleAccordion('accordion1')"
               >
                 <span
@@ -248,7 +247,7 @@
             </div>
             <div class="w-[480px] lg:pb-8 pb-4">
               <button
-                class="flex items-center justify-between w-full lg:pb-8 pb-4 text-left"
+                class="flex items-center justify-between w-full pb-7.5 text-left"
                 onclick="toggleAccordion('accordion2')"
               >
                 <span
@@ -283,7 +282,7 @@
           >
             <div class="w-[480px] lg:pb-8 pb-4">
               <button
-                class="flex items-center justify-between w-full lg:pb-8 pb-4 text-left"
+                class="flex items-center justify-between w-full pb-7.5 text-left"
                 onclick="toggleAccordion('accordion3')"
               >
                 <span
@@ -314,7 +313,7 @@
             </div>
             <div class="w-[480px] lg:pb-8 pb-4">
               <button
-                class="flex items-center justify-between w-full lg:pb-8 pb-4 text-left"
+                class="flex items-center justify-between w-full pb-7.5 text-left"
                 onclick="toggleAccordion('accordion4')"
               >
                 <span
@@ -347,9 +346,9 @@
           <div
             class="flex justify-between w-full lg:flex-nowrap flex-wrap lg:gap-4"
           >
-            <div class="w-[480px] lg:pt-8 pt-4">
+            <div class="w-[480px] lg:pb-0 pb-4">
               <button
-                class="flex items-center justify-between w-full lg:pb-8 pb-4 text-left"
+                class="flex items-center justify-between w-full pb-7.5 text-left"
                 onclick="toggleAccordion('accordion5')"
               >
                 <span
@@ -378,9 +377,9 @@
                 </p>
               </div>
             </div>
-            <div class="w-[480px] lg:pt-8 pt-4">
+            <div class="w-[480px]">
               <button
-                class="flex items-center justify-between w-full lg:pb-8 pb-4 text-left"
+                class="flex items-center justify-between w-full pb-7.5 text-left"
                 onclick="toggleAccordion('accordion6')"
               >
                 <span
@@ -415,7 +414,7 @@
     </section>
     <!-- --------our services------ -->
     <section>
-      <div class="max-w-[1240px] mx-auto xl:px-12 lg:px-8 md:px-6 px-4">
+      <div class="max-w-[1240px] mx-auto xl:px-12 px-8">
         <div class="lg:py-20 py-15 max-w-[770px]">
           <h2
             class="lg:text-4xl md:text-3xl text-2xl font-normal text-[#494336] md:pb-7 pb-5"
@@ -442,12 +441,16 @@
     </section>
     <!-- -----card-section------- -->
     <section>
-      <div class="max-w-[1440px] mx-auto xl:px-12 lg:px-8 px-6 relative pb-23">
+      <div
+        class="max-w-[1440px] mx-auto xl:px-12 lg:px-8 px-6 relative lg:pb-23 pb-15"
+      >
         <div>
           <div class="swiper mySwiper pb-30">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <div class="bg-[#494336] max-w-[320px] md:ps-5 p-4 h-[450px]">
+                <div
+                  class="bg-[#494336] max-w-[320px] md:ps-5 p-4 md:h-[450px] h-[359px]"
+                >
                   <div class="max-w-[93px] pt-6 pb-16 font-normal">
                     <img src="./image/sring.png" alt="shring" width="100%" />
                   </div>
@@ -477,7 +480,9 @@
                 </div>
               </div>
               <div class="swiper-slide">
-                <div class="bg-[#494336] max-w-[320px] md:ps-7 p-4 h-[450px]">
+                <div
+                  class="bg-[#494336] max-w-[320px] md:ps-7 p-4 md:h-[450px] h-[359px]"
+                >
                   <div class="max-w-[93px] pt-6 pb-12 font-normal">
                     <img src="./image/curent.png" alt="shring" width="100%" />
                   </div>
@@ -512,7 +517,9 @@
                 </div>
               </div>
               <div class="swiper-slide">
-                <div class="bg-[#494336] max-w-[320px] ps-6 h-[450px]">
+                <div
+                  class="bg-[#494336] max-w-[320px] ps-6 md:h-[450px] h-[359px]"
+                >
                   <div class="max-w-[93px] pt-6 pb-12 font-normal">
                     <img
                       src="./image/Surgery icon.png"
@@ -540,7 +547,9 @@
                 </div>
               </div>
               <div class="swiper-slide">
-                <div class="bg-[#494336] max-w-[320px] ps-7 h-[450px]">
+                <div
+                  class="bg-[#494336] max-w-[320px] ps-7 md:h-[450px] h-[359px]"
+                >
                   <div class="max-w-[93px] pt-6 pb-12 font-normal">
                     <img src="./image/services.png" alt="add" width="100%" />
                   </div>
@@ -571,7 +580,9 @@
                 </div>
               </div>
               <div class="swiper-slide">
-                <div class="bg-[#494336] max-w-[320px] ps-6 h-[450px]">
+                <div
+                  class="bg-[#494336] max-w-[320px] ps-6 md:h-[450px] h-[359px]"
+                >
                   <div class="max-w-[93px] pt-6 pb-12 font-normal">
                     <img
                       src="./image/Surgery icon.png"
@@ -599,7 +610,9 @@
                 </div>
               </div>
               <div class="swiper-slide">
-                <div class="bg-[#494336] max-w-[320px] md:ps-7 p-5 h-[450px]">
+                <div
+                  class="bg-[#494336] max-w-[320px] md:ps-7 p-5 md:h-[450px] h-[359px]"
+                >
                   <div class="max-w-[93px] pt-6 pb-12 font-normal">
                     <img src="./image/curent.png" alt="shring" width="100%" />
                   </div>
@@ -641,9 +654,9 @@
     </section>
     <!-- --------About Nebula Vets ------------- -->
     <section class="bg-gray-100 relative overflow-hidden">
-      <div class="max-w-[1440px] mx-auto xl:px-12 lg:px-8 md:px-6 px-4">
+      <div class="max-w-[1440px] mx-auto xl:px-12 px-8">
         <div
-          class="flex lg:justify-between lg:flex-nowrap flex-wrap justify-center items-center gap-3"
+          class="flex lg:justify-between lg:flex-nowrap flex-wrap justify-center items-center lg:gap-3"
         >
           <div
             class="lg:min-w-[591px] max-w-[591px] xl:pt-20 lg:pt-15 md:pt-12 pt-8 xl:pb-20 pb-15"
@@ -676,16 +689,16 @@
         </div>
       </div>
       <div
-        class="lg:max-w-[611px] max-w-[294px] absolute right-0 lg:top-0 bottom-[-50px] z-0"
+        class="lg:max-w-[611px] max-w-[160px] absolute right-0 lg:top-0 bottom-0 z-0"
       >
         <img src="./image/ringlayer.png" alt="ringlayer" width="100%" />
       </div>
     </section>
     <!-- -------Our Mission---------- -->
     <section class="bg-[#494336]">
-      <div class="max-w-[1240px] mx-auto xl:px-12 lg:px-8 md:px-6 px-4">
+      <div class="max-w-[1240px] mx-auto xl:px-12 px-8">
         <div class="flex lg:flex-nowrap flex-wrap justify-between">
-          <div class="lg:pt-20 pt-15 lg:max-w-[568px] lg:pb-21 pb-7">
+          <div class="lg:pt-20 pt-15 lg:max-w-[568px] lg:pb-21 pb-9">
             <h2
               class="lg:text-4xl md:text-3xl text-2xl font-normal text-[#D7D9DD] md:pb-7 pb-5"
             >
@@ -703,7 +716,7 @@
               >LEARN MORE
             </a>
           </div>
-          <div class="lg:min-w-[584px] lg:ms-0 ms-18">
+          <div class="max-w-[584px] min-w-[288px] lg:ms-0 ms-10">
             <img src="./image/nebula.png" alt="nebula" width="100%" />
           </div>
         </div>
@@ -711,10 +724,10 @@
     </section>
     <!-- ---------footer-section---------- -->
     <footer class="bg-[#494336] border-white border-t">
-      <div
-        class="max-w-[1440px] mx-auto xl:px-12 lg:px-8 md:px-6 px-4 relative"
-      >
-        <div class="flex py-15 justify-between lg:flex-nowrap flex-wrap gap-5">
+      <div class="max-w-[1440px] mx-auto xl:px-12 px-8 relative">
+        <div
+          class="flex md:py-15 pt-15 pb-28 justify-between lg:flex-nowrap flex-wrap gap-5"
+        >
           <div>
             <h2
               class="roboto-mono lg:text-2xl md:text-xl text-base text-[#D7D9DD] leading-[175%] pb-6"
