@@ -147,17 +147,19 @@
       </div>
     </div>
     <!-- --------hero-section----------- -->
-    <section class="relative overflow-hidden hidden lg:block">
-      <div class="bg-[url('./image/hero.png')] bg-no-repeat bg-cover bg-center">
+    <section class="relative overflow-hidden">
+      <div
+        class="md:bg-[url('./image/hero.png')] bg-no-repeat bg-cover bg-center bg-gray-200"
+      >
         <div class="max-w-[1240px] mx-auto xl:px-12 lg:px-8 md:px-6 px-4">
-          <div class="max-w-[511px] pt-50 pb-20">
+          <div class="sm:max-w-[511px] max-w-[280px] md:pt-50 pt-15 pb-20">
             <h1
-              class="xl:text-[70px] lg:text-6xl md:text-5xl text-4xl text-[#D7D9DD] pb-7 font-normal"
+              class="xl:text-[70px] lg:text-6xl md:text-5xl text-4xl md:text-[#D7D9DD] pb-7 font-normal"
             >
               Welcome to Nebula Vets
             </h1>
             <p
-              class="text-[#D7D9DD] roboto-mono lg:text-[28px] md:text-2xl text-base pb-9"
+              class="md:text-[#D7D9DD] roboto-mono lg:text-[28px] md:text-2xl text-base pb-9"
             >
               Reinventing Pet Medicine
             </p>
@@ -169,37 +171,14 @@
           </div>
         </div>
       </div>
-      <div class="max-w-[482px] absolute right-[-100px] top-0 z-0">
-        <img class="" src="./image/shadow-hero.png" alt="shadow" width="100%" />
-      </div>
-    </section>
-    <!-- -------hero-second--------- -->
-    <section class="bg-gray-200 block lg:hidden relative overflow-hidden">
-      <div class="max-w-[1240px] mx-auto xl:px-12 lg:px-8 md:px-6 px-4">
-        <div class="sm:max-w-[511px] max-w-[251px] pt-9 pb-15">
-          <h1
-            class="xl:text-[70px] lg:text-6xl md:text-5xl text-4xl text-[##494336] font-normal pb-6"
-          >
-            Welcome to Nebula Vets
-          </h1>
-          <p
-            class="text-[#494336] roboto-mono lg:text-[28px] md:text-2xl text-base pb-14"
-          >
-            Reinventing Pet Medicine
-          </p>
-          <a
-            class="text-[#494336] md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 shadow hover:shadow-[0px_3px_15px_0px_rgba(228,178,178,0)]"
-            href="#"
-            >BOOK NOW
-          </a>
-        </div>
-      </div>
       <div
-        class="bg-[url('./image/hero.png')] bg-no-repeat bg-cover bg-center p-40"
-      ></div>
-      <div class="max-w-[251px] absolute right-[-100px] top-30 z-0">
+        class="md:max-w-[482px] max-w-[251px] absolute right-[-100px] md:top-0 top-50 z-0"
+      >
         <img src="./image/shadow-hero.png" alt="shadow" width="100%" />
       </div>
+      <div
+        class="bg-[url('./image/hero.png')] bg-no-repeat bg-cover bg-center p-40 md:hidden"
+      ></div>
     </section>
     <!-- --------Our Approach--------- -->
     <section class="bg-gray-200">
@@ -464,120 +443,11 @@
     <!-- -----card-section------- -->
     <section>
       <div class="max-w-[1440px] mx-auto xl:px-12 lg:px-8 px-6 relative pb-23">
-        <!-- <div
-          class="flex lg:justify-between justify-center lg:flex-nowrap flex-wrap gap-4 lg:pb-35 pb-22"
-        >
-          <div class="bg-[#494336] w-[320px] ps-5">
-            <div class="max-w-[93px] pt-6 pb-16 font-normal">
-              <img src="./image/sring.png" alt="shring" width="100%" />
-            </div>
-            <h2
-              class="lg:text-4xl md:text-3xl text-2xl font-normal text-[#D7D9DD] pb-4"
-            >
-              Preventive Care
-            </h2>
-            <div class="flex flex-col gap-1.5">
-              <a class="md:text-lg text-sm underline text-[#D7D9DD]" href="#"
-                >Animal Health Check</a
-              >
-              <a class="md:text-lg text-sm underline text-[#D7D9DD]" href="#">
-                Vaccinations</a
-              >
-              <a class="md:text-lg text-sm underline text-[#D7D9DD]" href="#"
-                >Dental</a
-              >
-            </div>
-          </div>
-          <div class="bg-[#494336] w-[320px] ps-7 pb-18">
-            <div class="max-w-[93px] pt-6 pb-12 font-normal">
-              <img src="./image/curent.png" alt="shring" width="100%" />
-            </div>
-            <h2
-              class="lg:text-4xl md:text-3xl text-2xl font-normal text-[#D7D9DD] pb-4"
-            >
-              Sick Patient Care
-            </h2>
-            <div class="flex flex-col gap-1.5">
-              <a
-                class="md:text-lg text-sm underline text-[#D7D9DD] pb-1.5 max-w-[166px]"
-                href="#"
-                >Urgent & Emergency Care</a
-              >
-              <a
-                class="md:text-lg text-sm underline text-[#D7D9DD] pb-1.5 max-w-[166px]"
-                href="#"
-                >Telemedicine</a
-              >
-              <a
-                class="md:text-lg text-sm underline text-[#D7D9DD] pb-1.5 max-w-[166px]"
-                href="#"
-                >Diagnostics</a
-              >
-              <a
-                class="md:text-lg text-sm underline text-[#D7D9DD] pb-1.5 max-w-[166px]"
-                href="#"
-              >
-                Pharmacy</a
-              >
-            </div>
-          </div>
-          <div class="bg-[#494336] w-[320px] ps-6">
-            <div class="max-w-[93px] pt-6 pb-12 font-normal">
-              <img src="./image/Surgery icon.png" alt="shring" width="100%" />
-            </div>
-            <h2
-              class="lg:text-4xl md:text-3xl text-2xl font-normal text-[#D7D9DD] pb-4"
-            >
-              Surgery
-            </h2>
-            <div class="flex flex-col gap-1.5">
-              <a
-                class="md:text-lg text-sm underline text-[#D7D9DD] pb-1.5"
-                href="#"
-                >Surgeries</a
-              ><a
-                class="md:text-lg text-sm underline text-[#D7D9DD] pb-1.5"
-                href="#"
-              >
-                Spay & Neuter</a
-              >
-            </div>
-          </div>
-          <div class="bg-[#494336] w-[320px] ps-7">
-            <div class="max-w-[93px] pt-6 pb-12 font-normal">
-              <img src="./image/services.png" alt="add" width="100%" />
-            </div>
-            <h2
-              class="lg:text-4xl md:text-3xl text-2xl font-normal text-[#D7D9DD] pb-4"
-            >
-              Additional Services
-            </h2>
-            <div class="flex flex-col gap-1.5">
-              <a
-                class="md:text-lg text-sm underline text-[#D7D9DD] pb-1.5 max-w-[166px]"
-                href="#"
-                >Travel Certificates</a
-              >
-              <a
-                class="md:text-lg text-sm underline text-[#D7D9DD] pb-1.5 max-w-[166px]"
-                href="#"
-              >
-                Skin & Dermatology</a
-              >
-              <a
-                class="md:text-lg text-sm underline text-[#D7D9DD] pb-1.5 max-w-[166px]"
-                href="#"
-              >
-                Euthanasia</a
-              >
-            </div>
-          </div>
-        </div> -->
         <div>
           <div class="swiper mySwiper pb-30">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <div class="bg-[#494336] max-w-[320px] ps-5 h-[450px]">
+                <div class="bg-[#494336] max-w-[320px] md:ps-5 p-4 h-[450px]">
                   <div class="max-w-[93px] pt-6 pb-16 font-normal">
                     <img src="./image/sring.png" alt="shring" width="100%" />
                   </div>
@@ -607,7 +477,7 @@
                 </div>
               </div>
               <div class="swiper-slide">
-                <div class="bg-[#494336] max-w-[320px] ps-7 h-[450px]">
+                <div class="bg-[#494336] max-w-[320px] md:ps-7 p-4 h-[450px]">
                   <div class="max-w-[93px] pt-6 pb-12 font-normal">
                     <img src="./image/curent.png" alt="shring" width="100%" />
                   </div>
@@ -729,7 +599,7 @@
                 </div>
               </div>
               <div class="swiper-slide">
-                <div class="bg-[#494336] max-w-[320px] ps-7 h-[450px]">
+                <div class="bg-[#494336] max-w-[320px] md:ps-7 p-5 h-[450px]">
                   <div class="max-w-[93px] pt-6 pb-12 font-normal">
                     <img src="./image/curent.png" alt="shring" width="100%" />
                   </div>
