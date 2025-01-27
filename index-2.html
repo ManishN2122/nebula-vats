@@ -183,40 +183,26 @@
     </section>
     <!-- --------image---------- -->
     <section class="bg-[#D7D9DD]">
-      <div
-        class="xl:px-12 lg:px-8 px-6 relative xl:py-20 lg:py-15 md:py-12 py-9"
-      >
+      <div class="md:px-0 px-6 relative xl:py-20 lg:py-15 md:py-12 py-9">
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <div>
-                <img src="./image/dog-man.png" alt="dog" width="100%" />
-              </div>
+              <img src="./image/dog-5.png" alt="dog" width="100%" />
             </div>
             <div class="swiper-slide">
-              <div class="">
-                <img src="./image/dog-2.png" alt="dog" width="100%" />
-              </div>
+              <img src="./image/dog-2.png" alt="dog" width="100%" />
             </div>
             <div class="swiper-slide">
-              <div class="max-w-">
-                <img src="./image/dog-3.png" alt="dog" width="100%" />
-              </div>
+              <img src="./image/dog-3.png" alt="dog" width="100%" />
             </div>
             <div class="swiper-slide">
-              <div class="">
-                <img src="./image/dog-4.png" alt="dog" width="100%" />
-              </div>
+              <img src="./image/dog-4.png" alt="dog" width="100%" />
             </div>
             <div class="swiper-slide">
-              <div class="">
-                <img src="./image/dog-man.png" alt="dog" width="100%" />
-              </div>
+              <img src="./image/dog-5.png" alt="dog" width="100%" />
             </div>
             <div class="swiper-slide">
-              <div class="">
-                <img src="./image/dog-3.png" alt="dog" width="100%" />
-              </div>
+              <img src="./image/dog-3.png" alt="dog" width="100%" />
             </div>
           </div>
           <div class="swiper-pagination !relative !bottom-[-6px]"></div>
@@ -961,9 +947,8 @@
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 4,
-        spaceBetween: 30,
         loop: true,
+        centeredSlides: true,
         pagination: {
           el: ".swiper-pagination",
         },
@@ -972,17 +957,16 @@
             slidesPerView: 1,
             spaceBetween: 10,
           },
-          570: { slidesPerView: 2, spaceBetween: 20 },
+          576: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
           976: {
             slidesPerView: 3,
             spaceBetween: 20,
           },
-          1024: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
           1384: {
-            slidesPerView: 4,
+            slidesPerView: 2.4,
             spaceBetween: 30,
           },
         },
