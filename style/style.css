@@ -11,6 +11,19 @@ body {
   width: 100%;
   height: auto !important;
 }
-.swiper-pagination-bullet-active {
-  background-color: #7b7d7e;
+.sidebar {
+  transition: transform 0.3s ease;
+  transform: translateX(100%); /* Initially hidden */
+}
+.sidebar.open {
+  transform: translateX(0); /* Show sidebar */
+}
+.overlay {
+  transition: opacity 0.3s ease;
+  opacity: 0; /* Initially hidden */
+  pointer-events: none; /* Prevent interaction */
+}
+.overlay.visible {
+  opacity: 0.5; /* Show overlay */
+  pointer-events: all; /* Allow interaction */
 }
