@@ -4,12 +4,15 @@ body {
 .roboto-mono {
   font-family: "Roboto Mono", serif;
 }
-.shadow:hover {
-  box-shadow: 0px 3px 15px 0px rgb(228, 178, 178);
-}
 .swiper {
   width: 100%;
   height: auto !important;
+}
+.swiper-slide .img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .sidebar {
   transition: transform 0.3s ease;
@@ -29,5 +32,5 @@ body {
 }
 .swiper-pagination-bullet-active {
   opacity: var(--swiper-pagination-bullet-opacity, 1);
-  background: #ffa280 !important;
+  background: linear-gradient(135deg, #ffa280, #8fd9d9) !important;
 }
