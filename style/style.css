@@ -34,3 +34,9 @@ body {
   opacity: var(--swiper-pagination-bullet-opacity, 1);
   background: linear-gradient(135deg, #ffa280, #8fd9d9) !important;
 }
+.text-gradient {
+  background: linear-gradient(180deg, #ffa280 0%, #8fd9cb 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
