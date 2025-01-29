@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Nebula Vets</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/font.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./image/favicon_io/favicon-16x16.png"
+    />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="bg-[#494336] lg:pb-4.5">
+      <div class="max-w-[1440px] mx-auto xl:px-12 lg:px-8 md:px-6 ps-8 pe-5">
+        <div class="flex items-center justify-between pt-3 pb-4.5 gap-2">
+          <div>
+            <a href="#"
+              ><img src="./image/Logo.png" alt="logo" width="100%"
+            /></a>
+          </div>
+          <button id="openSidebar" class="text-white rounded md:hidden">
+            <img src="./image/toggle.png" alt="toggle" width="100%" />
+          </button>
+          <ul id="menu" class="hidden md:flex xl:gap-16 lg:gap-10 gap-3">
+            <li>
+              <a
+                class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
+                href="#"
+                >SERVICES</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
+                href="#"
+                >ABOUT US</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
+                href="#"
+                >LOCATION</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
+                href="#"
+                >CAREER</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
+                href="#"
+                >PATIENT PORTAL</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[#494336] text-lg font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
+                href="#"
+                >BOOK NOW
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Overlay -->
+        <div id="overlay" class="overlay fixed inset-0 bg-black"></div>
+
+        <!-- Sidebar -->
+        <div
+          id="sidebar"
+          class="sidebar fixed top-0 right-0 w-full sm:w-64 h-full bg-[#494336] absolute z-5 shadow-lg p-4"
+        >
+          <button
+            id="closeSidebar"
+            class="absolute right-4 top-5 text-4xl text-white"
+          >
+            &#10008;
+          </button>
+          <div class="bg-[#494336]">
+            <ul class="flex flex-col justify-center items-center pt-20 gap-5">
+              <li>
+                <a
+                  class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                  href="#"
+                  >SERVICES</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                  href="#"
+                  >ABOUT US</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                  href="#"
+                  >LOCATION</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                  href="#"
+                  >CAREER</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                  href="#"
+                  >PATIENT PORTAL</a
+                >
+              </li>
+              <li class="pb-10">
+                <a
+                  class="text-[#494336] md:text-lg text-sm font-medium uppercase roboto-mono md:py-3 py-2 md:px-9 px-6 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 shadow hover:shadow-[0px_3px_15px_0px_rgba(228,178,178,0)]"
+                  href="#"
+                  >BOOK NOW
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- ---------hero-section-------- -->
+    <section class="bg-[#494336] lg:relative overflow-hidden">
+      <div class="max-w-[1240px] mx-auto xl:px-12 px-8.5">
+        <div class="flex lg:flex-nowrap flex-wrap justify-between">
+          <div
+            class="lg:pt-35 pt-42.5 lg:max-w-[664px] lg:pb-21 pb-15 relative"
+          >
+            <h2
+              class="xl:text-[70px] lg:text-6xl md:text-5xl text-[32px] !md:max-w-[600px] max-w-[280px] sm:max-w-none text-[#D7D9DD] pb-7.5 font-normal md:pb-7 pb-5"
+            >
+              About Nebula Vets
+            </h2>
+            <p
+              class="text-[#D7D9DD] md:leading-[26px] leading-[22px] md:text-xl text-sm lg:pb-10 pb-11"
+            >
+              With a foundation built on values, innovation, and a commitment to
+              excellence, Nebula Vets continues to strive for excellence in
+              veterinary care. Our journey is fueled by the passion to make a
+              difference in the lives of pets and their owners, providing you
+              with a trusted partner in your pet's health and well-being.
+            </p>
+            <a
+              class="text-[#494336] md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
+              href="#"
+              >book now
+            </a>
+            <div
+              class="max-w-[196px] block lg:hidden absolute top-5 sm:right-0 right-[-30px]"
+            >
+              <img src="./image/Euth Icon.png" alt="nebula" width="100%" />
+            </div>
+          </div>
+          <div
+            class="lg:max-w-[457px] lg:ms-0 ms-18 absolute hidden lg:block right-0 bottom-10"
+          >
+            <img src="./image/catuper.png" alt="nebula" width="100%" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------navbar------ -->
+    <script>
+      const openSidebarButton = document.getElementById("openSidebar");
+      const closeSidebarButton = document.getElementById("closeSidebar");
+      const sidebar = document.getElementById("sidebar");
+      const overlay = document.getElementById("overlay");
+
+      openSidebarButton.addEventListener("click", () => {
+        sidebar.classList.add("open");
+        overlay.classList.add("visible");
+      });
+
+      closeSidebarButton.addEventListener("click", () => {
+        sidebar.classList.remove("open");
+        overlay.classList.remove("visible");
+      });
+
+      // Close sidebar when clicking on the overlay
+      overlay.addEventListener("click", () => {
+        sidebar.classList.remove("open");
+        overlay.classList.remove("visible");
+      });
+    </script>
+  </body>
+</html>
