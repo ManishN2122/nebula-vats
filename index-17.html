@@ -19,7 +19,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="bg-[#494336] lg:pb-4.5">
+    <nav class="bg-[#494336]">
       <div class="max-w-[1440px] mx-auto xl:px-12 lg:px-8 md:px-6 ps-8 pe-5">
         <div class="flex items-center justify-between pt-3 pb-4.5 gap-2">
           <div>
@@ -141,18 +141,24 @@
     </nav>
     <!-- ---------hero-section-------- -->
     <section class="bg-[#494336] lg:relative overflow-hidden">
-      <div class="max-w-[1240px] mx-auto xl:px-12 px-8.5">
+      <div class="max-w-[1240px] mx-auto xl:px-12 lg:px-8">
         <div class="flex lg:flex-nowrap flex-wrap justify-between">
-          <div
-            class="lg:pt-35 pt-42.5 lg:max-w-[664px] lg:pb-21 pb-15 relative"
-          >
+          <div class="xl:pt-35 lg:pt-25 pt-10 lg:pb-21 pb-15 relative">
             <h2
-              class="xl:text-[70px] lg:text-6xl md:text-5xl text-[32px] !md:max-w-[600px] max-w-[280px] sm:max-w-none text-[#D7D9DD] pb-7.5 font-normal md:pb-7 pb-5"
+              class="xl:text-[70px] lg:ps-0 ps-8 lg:text-6xl md:text-5xl !leading-[110%] text-[32px] lg:max-w-[400px] md:max-w-[300px] max-w-[200px] z-5 relative text-[#D7D9DD] lg:pb-7.5 pb-15 font-normal"
             >
               About Nebula Vets
             </h2>
+            <div class="relative block lg:hidden pb-11">
+              <div class="w-full">
+                <img src="./image/catuper.png" alt="nebula" width="100%" />
+              </div>
+              <div class="absolute top-[-100px] left-0 right-0 w-full">
+                <img src="./image/NBL.png" alt="nbl" width="100%" />
+              </div>
+            </div>
             <p
-              class="text-[#D7D9DD] md:leading-[26px] leading-[22px] md:text-xl text-sm lg:pb-10 pb-11"
+              class="text-[#D7D9DD] md:leading-[26px] leading-[22px] lg:max-w-[560px] md:text-xl text-sm lg:pb-10 pb-11 lg:ps-0 px-8 relative z-5"
             >
               With a foundation built on values, innovation, and a commitment to
               excellence, Nebula Vets continues to strive for excellence in
@@ -161,25 +167,151 @@
               with a trusted partner in your pet's health and well-being.
             </p>
             <a
-              class="text-[#494336] md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
+              class="text-[#494336] ms-8 lg:ms-0 md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
               href="#"
               >book now
             </a>
-            <div
-              class="max-w-[196px] block lg:hidden absolute top-5 sm:right-0 right-[-30px]"
-            >
-              <img src="./image/Euth Icon.png" alt="nebula" width="100%" />
-            </div>
           </div>
           <div
-            class="lg:max-w-[457px] lg:ms-0 ms-18 absolute hidden lg:block right-0 bottom-10"
+            class="lg:max-w-[636px] absolute hidden lg:block right-10 bottom-10"
           >
             <img src="./image/catuper.png" alt="nebula" width="100%" />
           </div>
         </div>
       </div>
     </section>
-
+    <!-- -------Inspiration and Vision----------  -->
+    <section>
+      <div class="max-w-[1420px] mx-auto xl:ps-12 px-8 xl:pe-30">
+        <div
+          class="lg:py-20 py-15 flex justify-between lg:flex-nowrap flex-wrap lg:gap-5"
+        >
+          <div class="max-w-[600px] lg:min-w-[500px] lg:pb-0 pb-15">
+            <img src="./image/daniel.png" alt="daniel" width="100%" />
+          </div>
+          <div class="lg:max-w-[570px]">
+            <h2
+              class="lg:text-2xl text-xl text-[#494336] pb-6 font-normal roboto-mono"
+            >
+              Inspiration and Vision
+            </h2>
+            <p
+              class="md:text-xl text-sm md:leading-[26px] font-normal leading-[22px] text-[#494336] lg:pb-10 pb-8"
+            >
+              Daniel's journey began with a profound inspiration to make a
+              positive impact on the lives of pets and their owners. He
+              envisioned a veterinary practice that would go beyond the
+              conventional norms, offering exceptional care, innovative
+              treatments, and a compassionate approach.
+            </p>
+            <h2
+              class="lg:text-2xl text-xl text-[#494336] pb-6 font-normal roboto-mono"
+            >
+              Elevating the Standard of Care
+            </h2>
+            <p
+              class="md:text-xl text-sm md:leading-[26px] font-normal leading-[22px] text-[#494336]"
+            >
+              Determined to raise the standard of care, Daniel assembled a team
+              of like-minded professionals who shared his vision and
+              values.Together, they worked tirelessly to create a veterinary
+              practice that would exceed expectations and set new benchmarks in
+              veterinary medicine.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ------Innovation and Cutting-Edge----- -->
+    <section class="bg-gray-200 relative overflow-hidden">
+      <div class="max-w-[1340px] mx-auto xl:px-12 px-8">
+        <div
+          class="lg:pt-20 pt-15 lg:pb-35 pb-26 relative z-4 flex justify-between gap-4 lg:flex-row flex-col-reverse"
+        >
+          <div class="lg:max-w-[545px]">
+            <h2
+              class="text-2xl font-normal roboto-mono text-[#494336] md:pb-8 pb-6"
+            >
+              Innovation and Cutting-Edge Technology
+            </h2>
+            <p
+              class="lg:text-lg md:text-base text-sm text-[#494336] lg:leading-[26px] leading-[22px] md:pb-8 pb-6"
+            >
+              Nebula Vets embraced the power of innovation and embraced
+              cutting-edge technology to enhance their diagnostic capabilities,
+              treatment options, and overall patient care. From advanced imaging
+              techniques to state-of-the-art surgical equipment, Nebula Vets
+              ensures that their veterinarians have access to the latest tools
+              and techniques to deliver optimal outcomes.
+            </p>
+            <h3
+              class="text-2xl font-normal roboto-mono text-[#494336] md:pb-8 pb-6"
+            >
+              Compassionate Care  & Client Relationships
+            </h3>
+            <p
+              class="lg:text-lg md:text-base text-sm text-[#494336] lg:leading-[26px] leading-[22px] md:pb-8 pb-6"
+            >
+              Nebula Vets prides itself on providing compassionate care not only
+              to the pets but also to their owners. We understand the deep bond
+              between humans and animals and strive to create a nurturing and
+              supportive environment for both. Building strong client
+              relationships based on trust, open communication, and empathy is
+              at the heart of their practice.
+            </p>
+          </div>
+          <div class="max-w-[600px] lg:min-w-[500px] lg:pb-0 pb-15">
+            <img src="./image/dog practice.png" alt="dog" width="100%" />
+          </div>
+        </div>
+      </div>
+      <div class="absolute sm:bottom-4 bottom-2 right-0 left-0">
+        <img src="./image/nbl-2.png" alt="nbl" width="100%" />
+      </div>
+    </section>
+    <!-- -------Community Engagement and Education----------  -->
+    <section>
+      <div class="max-w-[1420px] mx-auto xl:ps-12 px-8 xl:pe-30">
+        <div
+          class="lg:py-20 py-15 flex justify-between lg:flex-nowrap flex-wrap lg:gap-5"
+        >
+          <div class="max-w-[600px] lg:min-w-[500px] lg:pb-0 pb-15">
+            <img src="./image/unsplash.png" alt="daniel" width="100%" />
+          </div>
+          <div class="lg:max-w-[570px]">
+            <h2
+              class="lg:text-2xl text-xl text-[#494336] pb-6 font-normal roboto-mono"
+            >
+              Community Engagement and Education
+            </h2>
+            <p
+              class="md:text-xl text-sm md:leading-[26px] font-normal leading-[22px] text-[#494336] lg:pb-10 pb-8"
+            >
+              Nebula Vets is committed to being an active and integral part of
+              the community we serve. We actively engage in educational
+              initiatives, organizing workshops, seminars, and community events
+              to spread awareness about pet care, responsible ownership, and the
+              importance of preventive medicine.
+            </p>
+            <h2
+              class="lg:text-2xl text-xl text-[#494336] pb-6 font-normal roboto-mono"
+            >
+              Sustainability  & Environmental Responsibility
+            </h2>
+            <p
+              class="md:text-xl text-sm md:leading-[26px] font-normal leading-[22px] text-[#494336]"
+            >
+              Recognizing the impact of the veterinary field on the environment,
+              Nebula Vets is dedicated to promoting sustainability and
+              environmental responsibility. We have implemented eco-friendly
+              practices within our facility, reduced waste, and actively
+              participate in initiatives that support a greener future for
+              veterinary medicine.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- -------navbar------ -->
     <script>
       const openSidebarButton = document.getElementById("openSidebar");
