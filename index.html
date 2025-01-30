@@ -23,125 +23,127 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="bg-[#494336]">
-      <div class="max-w-[1440px] mx-auto xl:px-12 lg:px-8 md:px-6 ps-8 pe-5">
-        <div class="flex items-center justify-between pt-3 pb-4.5 gap-2">
-          <div>
-            <a href="/"
-              ><img src="./image/Logo.png" alt="logo" width="100%"
-            /></a>
-          </div>
-          <button
-            id="openSidebar"
-            class="text-white rounded md:hidden max-w-[114px]"
-          >
-            <img src="./image/toggle.png" alt="toggle" width="100%" />
-          </button>
-          <ul id="menu" class="hidden md:flex xl:gap-16 lg:gap-10 gap-3">
-            <li>
-              <a
-                class="text-white text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
-                href="./veterinary-services.html"
-                >SERVICES</a
-              >
-            </li>
-            <li>
-              <a
-                class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
-                href="./about-nebula-vets.html"
-                >ABOUT US</a
-              >
-            </li>
-            <li>
-              <a
-                class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
-                href="./washington-dc.html"
-                >LOCATION</a
-              >
-            </li>
-            <li>
-              <a
-                class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
-                href="./career.html"
-                >CAREER</a
-              >
-            </li>
-            <li>
-              <a
-                class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
-                href="/"
-                >PATIENT PORTAL</a
-              >
-            </li>
-            <li>
-              <a
-                class="text-[#494336] text-lg font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
-                href="#"
-                >BOOK NOW
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Overlay -->
-        <div id="overlay" class="overlay fixed inset-0 bg-black"></div>
-
-        <!-- Sidebar -->
-        <div
-          id="sidebar"
-          class="sidebar fixed top-0 right-0 w-full sm:w-64 h-full bg-[#494336] absolute z-5 shadow-lg p-4"
-        >
-          <button
-            id="closeSidebar"
-            class="absolute right-4 top-5 text-4xl text-white"
-          >
-            &#10008;
-          </button>
-          <div class="bg-[#494336]">
-            <ul class="flex flex-col justify-center items-center pt-20 gap-5">
+    <nav>
+      <div class="bg-[#494336]">
+        <div class="max-w-[1440px] mx-auto xl:px-12 lg:px-8 md:px-6 ps-8 pe-5">
+          <div class="flex items-center justify-between pt-3 pb-4.5 gap-2">
+            <div>
+              <a href="/"
+                ><img src="./image/Logo.png" alt="logo" width="100%"
+              /></a>
+            </div>
+            <button
+              id="openSidebar"
+              class="text-white rounded md:hidden max-w-[114px]"
+            >
+              <img src="./image/toggle.png" alt="toggle" width="100%" />
+            </button>
+            <ul id="menu" class="hidden md:flex xl:gap-16 lg:gap-10 gap-3">
               <li>
                 <a
-                  class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                  class="text-white text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
                   href="./veterinary-services.html"
                   >SERVICES</a
                 >
               </li>
               <li>
                 <a
-                  class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                  class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
                   href="./about-nebula-vets.html"
                   >ABOUT US</a
                 >
               </li>
               <li>
                 <a
-                  class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                  class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
                   href="./washington-dc.html"
                   >LOCATION</a
                 >
               </li>
               <li>
                 <a
-                  class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                  class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
                   href="./career.html"
                   >CAREER</a
                 >
               </li>
               <li>
                 <a
-                  class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                  class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
                   href="/"
                   >PATIENT PORTAL</a
                 >
               </li>
-              <li class="pb-10">
+              <li>
                 <a
-                  class="text-[#494336] md:text-lg text-sm font-medium uppercase roboto-mono md:py-3 py-2 md:px-9 px-6 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 shadow hover:shadow-[0px_3px_15px_0px_rgba(228,178,178,0)]"
+                  class="text-[#494336] text-lg font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
                   href="#"
                   >BOOK NOW
                 </a>
               </li>
             </ul>
+          </div>
+
+          <!-- Overlay -->
+          <div id="overlay" class="overlay fixed inset-0 bg-black"></div>
+
+          <!-- Sidebar -->
+          <div
+            id="sidebar"
+            class="sidebar fixed top-0 right-0 w-full sm:w-64 h-full bg-[#494336] absolute z-5 shadow-lg p-4"
+          >
+            <button
+              id="closeSidebar"
+              class="absolute right-4 top-5 text-4xl text-white"
+            >
+              &#10008;
+            </button>
+            <div class="bg-[#494336]">
+              <ul class="flex flex-col justify-center items-center pt-20 gap-5">
+                <li>
+                  <a
+                    class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                    href="./veterinary-services.html"
+                    >SERVICES</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                    href="./about-nebula-vets.html"
+                    >ABOUT US</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                    href="./washington-dc.html"
+                    >LOCATION</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                    href="./career.html"
+                    >CAREER</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                    href="/"
+                    >PATIENT PORTAL</a
+                  >
+                </li>
+                <li class="pb-10">
+                  <a
+                    class="text-[#494336] md:text-lg text-sm font-medium uppercase roboto-mono md:py-3 py-2 md:px-9 px-6 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 shadow hover:shadow-[0px_3px_15px_0px_rgba(228,178,178,0)]"
+                    href="#"
+                    >BOOK NOW
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -185,232 +187,236 @@
       </div>
     </section>
     <!-- --------Our Approach--------- -->
-    <section class="bg-gray-200">
-      <div class="max-w-[1240px] mx-auto xl:px-12 lg:px-8 md:px-6 px-8">
-        <div
-          class="flex justify-between gap-3 lg:flex-nowrap flex-wrap lg:py-20 py-15"
-        >
-          <h2
-            class="lg:text-4xl md:text-3xl text-2xl font-normal text-[#494336] lg:max-w-[166px]"
+    <section>
+      <div class="bg-gray-200">
+        <div class="max-w-[1240px] mx-auto xl:px-12 lg:px-8 md:px-6 px-8">
+          <div
+            class="flex justify-between gap-3 lg:flex-nowrap flex-wrap lg:py-20 py-15"
           >
-            Our Approach
-          </h2>
-          <p
-            class="text-[#494336] lg:max-w-[843px] leading-[130%] md:text-xl text-sm"
-          >
-            At our independent veterinary hospital, we combine compassion,
-            advanced expertise, and a commitment to exceptional care. From
-            routine check-ups to urgent and emergency situations, we are here to
-            provide your beloved pets with the highest level of service and
-            support they deserve.
-          </p>
+            <h2
+              class="lg:text-4xl md:text-3xl text-2xl font-normal text-[#494336] lg:max-w-[166px]"
+            >
+              Our Approach
+            </h2>
+            <p
+              class="text-[#494336] lg:max-w-[843px] leading-[130%] md:text-xl text-sm"
+            >
+              At our independent veterinary hospital, we combine compassion,
+              advanced expertise, and a commitment to exceptional care. From
+              routine check-ups to urgent and emergency situations, we are here
+              to provide your beloved pets with the highest level of service and
+              support they deserve.
+            </p>
+          </div>
         </div>
       </div>
     </section>
     <!-- ------Why choose Nebula Vets?--------- -->
-    <section class="bg-[#494336]">
-      <div class="max-w-[1240px] mx-auto xl:px-12 lg:px-8 px-8">
-        <h2
-          class="xl:text-5xl lg:text-4xl md:text-3xl text-2xl text-[#D7D9DD] lg:pt-20 pt-15 lg:pb-15 pb-10"
-        >
-          Why choose Nebula Vets?
-        </h2>
-        <div class="lg:pb-20 pb-15">
-          <div
-            class="flex justify-between w-full lg:flex-nowrap flex-wrap lg:gap-4"
+    <section>
+      <div class="bg-[#494336]">
+        <div class="max-w-[1240px] mx-auto xl:px-12 lg:px-8 px-8">
+          <h2
+            class="xl:text-5xl lg:text-4xl md:text-3xl text-2xl text-[#D7D9DD] lg:pt-20 pt-15 lg:pb-15 pb-10"
           >
-            <div class="w-[480px] lg:pb-8 pb-4">
-              <button
-                class="flex items-center justify-between w-full pb-7.5 text-left"
-                onclick="toggleAccordion('accordion1')"
-              >
-                <span
-                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#D7D9DD]"
+            Why choose Nebula Vets?
+          </h2>
+          <div class="lg:pb-20 pb-15">
+            <div
+              class="flex justify-between w-full lg:flex-nowrap flex-wrap lg:gap-4"
+            >
+              <div class="w-[480px] lg:pb-8 pb-4">
+                <button
+                  class="flex items-center justify-between w-full pb-7.5 text-left"
+                  onclick="toggleAccordion('accordion1')"
                 >
-                  Cutting-Edge Technology</span
-                >
-                <div>
-                  <img
-                    id="icon-accordion1"
-                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                    src="./image/plus.png"
-                    alt="plus"
-                    width="100%"
-                  />
+                  <span
+                    class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#D7D9DD]"
+                  >
+                    Cutting-Edge Technology</span
+                  >
+                  <div>
+                    <img
+                      id="icon-accordion1"
+                      class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                      src="./image/plus.png"
+                      alt="plus"
+                      width="100%"
+                    />
+                  </div>
+                </button>
+                <div
+                  class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+                ></div>
+                <div id="accordion1" class="hidden pt-2">
+                  <p class="text-[#D7D9DD]">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Harum minima dolore quisquam quaerat sunt laudantium. Omnis
+                    aspernatur aliquid minima explicabo?
+                  </p>
                 </div>
-              </button>
-              <div
-                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-              ></div>
-              <div id="accordion1" class="hidden pt-2">
-                <p class="text-[#D7D9DD]">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Harum minima dolore quisquam quaerat sunt laudantium. Omnis
-                  aspernatur aliquid minima explicabo?
-                </p>
+              </div>
+              <div class="w-[480px] lg:pb-8 pb-4">
+                <button
+                  class="flex items-center justify-between w-full pb-7.5 text-left"
+                  onclick="toggleAccordion('accordion2')"
+                >
+                  <span
+                    class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#D7D9DD]"
+                  >
+                    Environmentally conscious​</span
+                  >
+                  <div>
+                    <img
+                      id="icon-accordion2"
+                      class="lg:w-7 w-5 lg:h-7 h-5transform rotate-0 transition-transform cursor-pointer"
+                      src="./image/plus.png"
+                      alt="plus"
+                      width="100%"
+                    />
+                  </div>
+                </button>
+                <div
+                  class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+                ></div>
+                <div id="accordion2" class="hidden pt-2">
+                  <p class="text-[#D7D9DD]">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Harum minima dolore quisquam quaerat sunt laudantium. Omnis
+                    aspernatur aliquid minima explicabo?
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="w-[480px] lg:pb-8 pb-4">
-              <button
-                class="flex items-center justify-between w-full pb-7.5 text-left"
-                onclick="toggleAccordion('accordion2')"
-              >
-                <span
-                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#D7D9DD]"
+            <div
+              class="flex justify-between w-full lg:flex-nowrap flex-wrap lg:gap-4"
+            >
+              <div class="w-[480px] lg:pb-8 pb-4">
+                <button
+                  class="flex items-center justify-between w-full pb-7.5 text-left"
+                  onclick="toggleAccordion('accordion3')"
                 >
-                  Environmentally conscious​</span
-                >
-                <div>
-                  <img
-                    id="icon-accordion2"
-                    class="lg:w-7 w-5 lg:h-7 h-5transform rotate-0 transition-transform cursor-pointer"
-                    src="./image/plus.png"
-                    alt="plus"
-                    width="100%"
-                  />
+                  <span
+                    class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#D7D9DD]"
+                  >
+                    Independant​</span
+                  >
+                  <div>
+                    <img
+                      id="icon-accordion3"
+                      class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                      src="./image/plus.png"
+                      alt="plus"
+                      width="100%"
+                    />
+                  </div>
+                </button>
+                <div
+                  class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+                ></div>
+                <div id="accordion3" class="hidden pt-2">
+                  <p class="text-[#D7D9DD]">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Harum minima dolore quisquam quaerat sunt laudantium. Omnis
+                    aspernatur aliquid minima explicabo?
+                  </p>
                 </div>
-              </button>
-              <div
-                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-              ></div>
-              <div id="accordion2" class="hidden pt-2">
-                <p class="text-[#D7D9DD]">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Harum minima dolore quisquam quaerat sunt laudantium. Omnis
-                  aspernatur aliquid minima explicabo?
-                </p>
+              </div>
+              <div class="w-[480px] lg:pb-8 pb-4">
+                <button
+                  class="flex items-center justify-between w-full pb-7.5 text-left"
+                  onclick="toggleAccordion('accordion4')"
+                >
+                  <span
+                    class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#D7D9DD]"
+                  >
+                    Expert Team​</span
+                  >
+                  <div>
+                    <img
+                      id="icon-accordion4"
+                      class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                      src="./image/plus.png"
+                      alt="plus"
+                      width="100%"
+                    />
+                  </div>
+                </button>
+                <div
+                  class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+                ></div>
+                <div id="accordion4" class="hidden pt-2">
+                  <p class="text-[#D7D9DD]">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Harum minima dolore quisquam quaerat sunt laudantium. Omnis
+                    aspernatur aliquid minima explicabo?
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div
-            class="flex justify-between w-full lg:flex-nowrap flex-wrap lg:gap-4"
-          >
-            <div class="w-[480px] lg:pb-8 pb-4">
-              <button
-                class="flex items-center justify-between w-full pb-7.5 text-left"
-                onclick="toggleAccordion('accordion3')"
-              >
-                <span
-                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#D7D9DD]"
+            <div
+              class="flex justify-between w-full lg:flex-nowrap flex-wrap lg:gap-4"
+            >
+              <div class="w-[480px] lg:pb-0 pb-4">
+                <button
+                  class="flex items-center justify-between w-full pb-7.5 text-left"
+                  onclick="toggleAccordion('accordion5')"
                 >
-                  Independant​</span
-                >
-                <div>
-                  <img
-                    id="icon-accordion3"
-                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                    src="./image/plus.png"
-                    alt="plus"
-                    width="100%"
-                  />
+                  <span
+                    class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#D7D9DD]"
+                  >
+                    Progressive Medicine​</span
+                  >
+                  <div>
+                    <img
+                      id="icon-accordion5"
+                      class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                      src="./image/plus.png"
+                      alt="plus"
+                      width="100%"
+                    />
+                  </div>
+                </button>
+                <div
+                  class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+                ></div>
+                <div id="accordion5" class="hidden pt-2">
+                  <p class="text-[#D7D9DD]">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Harum minima dolore quisquam quaerat sunt laudantium. Omnis
+                    aspernatur aliquid minima explicabo?
+                  </p>
                 </div>
-              </button>
-              <div
-                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-              ></div>
-              <div id="accordion3" class="hidden pt-2">
-                <p class="text-[#D7D9DD]">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Harum minima dolore quisquam quaerat sunt laudantium. Omnis
-                  aspernatur aliquid minima explicabo?
-                </p>
               </div>
-            </div>
-            <div class="w-[480px] lg:pb-8 pb-4">
-              <button
-                class="flex items-center justify-between w-full pb-7.5 text-left"
-                onclick="toggleAccordion('accordion4')"
-              >
-                <span
-                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#D7D9DD]"
+              <div class="w-[480px]">
+                <button
+                  class="flex items-center justify-between w-full pb-7.5 text-left"
+                  onclick="toggleAccordion('accordion6')"
                 >
-                  Expert Team​</span
-                >
-                <div>
-                  <img
-                    id="icon-accordion4"
-                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                    src="./image/plus.png"
-                    alt="plus"
-                    width="100%"
-                  />
+                  <span
+                    class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#D7D9DD]"
+                  >
+                    Education​</span
+                  >
+                  <div>
+                    <img
+                      id="icon-accordion6"
+                      class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                      src="./image/plus.png"
+                      alt="plus"
+                      width="100%"
+                    />
+                  </div>
+                </button>
+                <div
+                  class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+                ></div>
+                <div id="accordion6" class="hidden pt-2">
+                  <p class="text-[#D7D9DD]">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Harum minima dolore quisquam quaerat sunt laudantium. Omnis
+                    aspernatur aliquid minima explicabo?
+                  </p>
                 </div>
-              </button>
-              <div
-                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-              ></div>
-              <div id="accordion4" class="hidden pt-2">
-                <p class="text-[#D7D9DD]">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Harum minima dolore quisquam quaerat sunt laudantium. Omnis
-                  aspernatur aliquid minima explicabo?
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="flex justify-between w-full lg:flex-nowrap flex-wrap lg:gap-4"
-          >
-            <div class="w-[480px] lg:pb-0 pb-4">
-              <button
-                class="flex items-center justify-between w-full pb-7.5 text-left"
-                onclick="toggleAccordion('accordion5')"
-              >
-                <span
-                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#D7D9DD]"
-                >
-                  Progressive Medicine​</span
-                >
-                <div>
-                  <img
-                    id="icon-accordion5"
-                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                    src="./image/plus.png"
-                    alt="plus"
-                    width="100%"
-                  />
-                </div>
-              </button>
-              <div
-                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-              ></div>
-              <div id="accordion5" class="hidden pt-2">
-                <p class="text-[#D7D9DD]">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Harum minima dolore quisquam quaerat sunt laudantium. Omnis
-                  aspernatur aliquid minima explicabo?
-                </p>
-              </div>
-            </div>
-            <div class="w-[480px]">
-              <button
-                class="flex items-center justify-between w-full pb-7.5 text-left"
-                onclick="toggleAccordion('accordion6')"
-              >
-                <span
-                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#D7D9DD]"
-                >
-                  Education​</span
-                >
-                <div>
-                  <img
-                    id="icon-accordion6"
-                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                    src="./image/plus.png"
-                    alt="plus"
-                    width="100%"
-                  />
-                </div>
-              </button>
-              <div
-                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-              ></div>
-              <div id="accordion6" class="hidden pt-2">
-                <p class="text-[#D7D9DD]">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Harum minima dolore quisquam quaerat sunt laudantium. Omnis
-                  aspernatur aliquid minima explicabo?
-                </p>
               </div>
             </div>
           </div>
@@ -635,31 +641,33 @@
       </div>
     </section>
     <!-- -------Our Mission---------- -->
-    <section class="bg-[#494336]">
-      <div class="max-w-[1240px] mx-auto xl:px-12 px-8">
-        <div class="flex lg:flex-nowrap flex-wrap justify-between">
-          <div class="lg:pt-20 pt-15 lg:max-w-[568px] lg:pb-21 pb-9">
-            <h2
-              class="lg:text-4xl md:text-3xl text-2xl font-normal text-[#D7D9DD] md:pb-7 pb-5"
+    <section>
+      <div class="bg-[#494336]">
+        <div class="max-w-[1240px] mx-auto xl:px-12 px-8">
+          <div class="flex lg:flex-nowrap flex-wrap justify-between">
+            <div class="lg:pt-20 pt-15 lg:max-w-[568px] lg:pb-21 pb-9">
+              <h2
+                class="lg:text-4xl md:text-3xl text-2xl font-normal text-[#D7D9DD] md:pb-7 pb-5"
+              >
+                Our Mission
+              </h2>
+              <p
+                class="text-[#D7D9DD] md:leading-[26px] leading-[22px] md:text-xl text-sm lg:pb-10 pb-11"
+              >
+                Our Mission is to establish a new standard of excellence in
+                veterinary care, driven by an unwavering ethical conscience.
+              </p>
+              <a
+                class="text-[#494336] md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
+                href="#"
+                >LEARN MORE
+              </a>
+            </div>
+            <div
+              class="max-w-[584px] min-w-[288px] lg:ms-0 ms-10 flex justify-baseline"
             >
-              Our Mission
-            </h2>
-            <p
-              class="text-[#D7D9DD] md:leading-[26px] leading-[22px] md:text-xl text-sm lg:pb-10 pb-11"
-            >
-              Our Mission is to establish a new standard of excellence in
-              veterinary care, driven by an unwavering ethical conscience.
-            </p>
-            <a
-              class="text-[#494336] md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
-              href="#"
-              >LEARN MORE
-            </a>
-          </div>
-          <div
-            class="max-w-[584px] min-w-[288px] lg:ms-0 ms-10 flex justify-baseline"
-          >
-            <img src="./image/nebula.png" alt="nebula" width="100%" />
+              <img src="./image/nebula.png" alt="nebula" width="100%" />
+            </div>
           </div>
         </div>
       </div>
