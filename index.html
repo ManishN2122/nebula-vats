@@ -28,28 +28,34 @@
       <div class="bg-[#494336]">
         <div class="max-w-[1440px] mx-auto xl:px-12 lg:px-8 md:px-6 ps-8 pe-5">
           <div class="flex items-center justify-between pt-3 pb-4.5 gap-2">
-            <div>
+            <div
+              class="max-w-[114px]"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               <a href="/"
                 ><img src="./image/Logo.png" alt="logo" width="100%"
               /></a>
             </div>
-            <button
-              id="openSidebar"
-              class="text-white rounded md:hidden max-w-[114px]"
-            >
+            <button id="openSidebar" class="text-white rounded md:hidden">
               <img src="./image/toggle.png" alt="toggle" width="100%" />
             </button>
-            <ul id="menu" class="hidden md:flex xl:gap-16 lg:gap-10 gap-3">
+            <ul
+              id="menu"
+              class="hidden md:flex xl:gap-16 lg:gap-10 gap-3"
+              data-aos="flip-up"
+              data-aos-duration="1500"
+            >
               <li>
                 <a
-                  class="text-white text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
+                  class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
                   href="./veterinary-services.html"
                   >SERVICES</a
                 >
               </li>
               <li>
                 <a
-                  class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
+                  class="text-white text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
                   href="./about-nebula-vets.html"
                   >ABOUT US</a
                 >
@@ -76,11 +82,17 @@
                 >
               </li>
               <li>
-                <a
-                  class="text-[#494336] text-lg font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
-                  href="#"
-                  >BOOK NOW
-                </a>
+                <div
+                  class="text-[#494336]"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                >
+                  <a
+                    class="text-[#494336] text-lg font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
+                    href="#"
+                    >BOOK NOW
+                  </a>
+                </div>
               </li>
             </ul>
           </div>
@@ -161,19 +173,31 @@
             >
               <h1
                 class="xl:text-[70px] lg:text-6xl md:text-5xl text-4xl text-[#494336] md:text-[#D7D9DD] pb-7 font-normal"
+                data-aos="flip-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000"
               >
                 Welcome to Nebula Vets
               </h1>
               <p
                 class="md:text-[#D7D9DD] text-[#494336] roboto-mono lg:text-[28px] md:text-2xl text-base mb-11"
+                data-aos="flip-right"
+                data-aos-easing="ease-in-cubic"
+                data-aos-duration="1500"
               >
                 Reinventing Pet Medicine
               </p>
-              <a
-                class="text-[#494336] md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
-                href="#"
-                >BOOK NOW
-              </a>
+              <div
+                class="text-[#494336]"
+                data-aos="flip-right"
+                data-aos-duration="2000"
+              >
+                <a
+                  class="md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
+                  href="#"
+                  >BOOK NOW
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -196,11 +220,17 @@
           >
             <h2
               class="lg:text-4xl md:text-3xl text-2xl font-normal text-[#494336] lg:max-w-[166px]"
+              data-aos="fade-right"
+              data-aos-easing="ease-in-cubic"
+              data-aos-duration="1000"
             >
               Our Approach
             </h2>
             <p
               class="text-[#494336] lg:max-w-[843px] leading-[130%] md:text-xl text-sm"
+              data-aos="fade-left"
+              data-aos-easing="ease-in-cubic"
+              data-aos-duration="1500"
             >
               At our independent veterinary hospital, we combine compassion,
               advanced expertise, and a commitment to exceptional care. From
@@ -218,6 +248,9 @@
         <div class="max-w-[1240px] mx-auto xl:px-12 lg:px-8 px-8">
           <h2
             class="xl:text-5xl lg:text-4xl md:text-3xl text-2xl text-[#D7D9DD] lg:pt-20 pt-15 lg:pb-15 pb-10"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-cubic"
+            data-aos-duration="1000"
           >
             Why choose Nebula Vets?
           </h2>
@@ -225,7 +258,12 @@
             <div
               class="flex justify-between w-full lg:flex-nowrap flex-wrap lg:gap-4"
             >
-              <div class="w-[480px] lg:pb-8 pb-4">
+              <div
+                class="w-[480px] lg:pb-8 pb-4"
+                data-aos="fade-right"
+                data-aos-easing="ease-in-cubic"
+                data-aos-duration="1500"
+              >
                 <button
                   class="flex items-center justify-between w-full pb-7.5 text-left"
                   onclick="toggleAccordion('accordion1')"
@@ -256,7 +294,12 @@
                   </p>
                 </div>
               </div>
-              <div class="w-[480px] lg:pb-8 pb-4">
+              <div
+                class="w-[480px] lg:pb-8 pb-4"
+                data-aos="fade-left"
+                data-aos-easing="ease-in-cubic"
+                data-aos-duration="1500"
+              >
                 <button
                   class="flex items-center justify-between w-full pb-7.5 text-left"
                   onclick="toggleAccordion('accordion2')"
@@ -291,7 +334,12 @@
             <div
               class="flex justify-between w-full lg:flex-nowrap flex-wrap lg:gap-4"
             >
-              <div class="w-[480px] lg:pb-8 pb-4">
+              <div
+                class="w-[480px] lg:pb-8 pb-4"
+                data-aos="fade-left"
+                data-aos-easing="ease-in-cubic"
+                data-aos-duration="1500"
+              >
                 <button
                   class="flex items-center justify-between w-full pb-7.5 text-left"
                   onclick="toggleAccordion('accordion3')"
@@ -322,7 +370,12 @@
                   </p>
                 </div>
               </div>
-              <div class="w-[480px] lg:pb-8 pb-4">
+              <div
+                class="w-[480px] lg:pb-8 pb-4"
+                data-aos="fade-right"
+                data-aos-easing="ease-in-cubic"
+                data-aos-duration="1500"
+              >
                 <button
                   class="flex items-center justify-between w-full pb-7.5 text-left"
                   onclick="toggleAccordion('accordion4')"
@@ -357,7 +410,12 @@
             <div
               class="flex justify-between w-full lg:flex-nowrap flex-wrap lg:gap-4"
             >
-              <div class="w-[480px] lg:pb-0 pb-4">
+              <div
+                class="w-[480px] lg:pb-0 pb-4"
+                data-aos="fade-right"
+                data-aos-easing="ease-in-cubic"
+                data-aos-duration="1500"
+              >
                 <button
                   class="flex items-center justify-between w-full pb-7.5 text-left"
                   onclick="toggleAccordion('accordion5')"
@@ -388,7 +446,12 @@
                   </p>
                 </div>
               </div>
-              <div class="w-[480px]">
+              <div
+                class="w-[480px]"
+                data-aos="fade-left"
+                data-aos-easing="ease-in-cubic"
+                data-aos-duration="1500"
+              >
                 <button
                   class="flex items-center justify-between w-full pb-7.5 text-left"
                   onclick="toggleAccordion('accordion6')"
@@ -430,11 +493,17 @@
         <div class="lg:py-20 py-15 max-w-[770px]">
           <h2
             class="lg:text-4xl md:text-3xl text-2xl font-normal text-[#494336] md:pb-7 pb-5"
+            data-aos="flip-right"
+            data-aos-easing="ease-in-cubic"
+            data-aos-duration="1000"
           >
             Our Services
           </h2>
           <p
             class="text-[#494336] leading-[130%] md:text-xl text-sm lg:pb-10 pb-11"
+            data-aos="flip-up"
+            data-aos-easing="ease-in-cubic"
+            data-aos-duration="1500"
           >
             We are proud to offer a comprehensive range of exceptional clinical
             services to cater to all your pet's needs. From routine wellness
@@ -443,11 +512,18 @@
             to be there for you and your beloved companion every step of the
             way.
           </p>
-          <a
-            class="text-[#494336] md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
-            href="#"
-            >LEARN MORE
-          </a>
+          <div
+            class="text-[#494336]"
+            data-aos="zoom-out"
+            data-aos-easing="ease-in-cubic"
+            data-aos-duration="1500"
+          >
+            <a
+              class="md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
+              href="#"
+              >LEARN MORE
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -462,6 +538,9 @@
               <div class="swiper-slide">
                 <div
                   class="bg-[#494336] max-w-[320px] md:ps-5 p-4 md:h-[450px] h-[359px]"
+                  data-aos="flip-up"
+                  data-aos-easing="ease-in-cubic"
+                  data-aos-duration="1000"
                 >
                   <div class="max-w-[93px] pt-6 pb-16 font-normal">
                     <img src="./image/sring.png" alt="shring" width="100%" />
@@ -494,6 +573,9 @@
               <div class="swiper-slide">
                 <div
                   class="bg-[#494336] max-w-[320px] md:ps-5 p-4 md:h-[450px] h-[359px]"
+                  data-aos="flip-down"
+                  data-aos-easing="ease-in-cubic"
+                  data-aos-duration="1500"
                 >
                   <div class="max-w-[93px] pt-6 pb-12 font-normal">
                     <img src="./image/curent.png" alt="shring" width="100%" />
@@ -531,6 +613,9 @@
               <div class="swiper-slide">
                 <div
                   class="bg-[#494336] max-w-[320px] ps-6 md:h-[450px] h-[359px]"
+                  data-aos="flip-up"
+                  data-aos-easing="ease-in-cubic"
+                  data-aos-duration="2000"
                 >
                   <div class="max-w-[93px] pt-6 pb-12 font-normal">
                     <img
@@ -561,6 +646,9 @@
               <div class="swiper-slide">
                 <div
                   class="bg-[#494336] max-w-[320px] ps-7 md:h-[450px] h-[359px]"
+                  data-aos="flip-down"
+                  data-aos-easing="ease-in-cubic"
+                  data-aos-duration="2500"
                 >
                   <div class="max-w-[93px] pt-6 pb-12 font-normal">
                     <img src="./image/services.png" alt="add" width="100%" />
@@ -606,17 +694,26 @@
           >
             <div
               class="lg:min-w-[591px] max-w-[591px] xl:pt-20 lg:pt-15 md:pt-12 pt-8 xl:pb-20 pb-15"
+              data-aos="zoom-in-right"
+              data-aos-easing="ease-in-cubic"
+              data-aos-duration="1000"
             >
               <img src="./image/dog.png" alt="dog" width="100%" />
             </div>
             <div class="lg:pb-0 pb-15 lg:max-w-[639px] relative z-5">
               <h2
                 class="lg:text-4xl md:text-3xl text-2xl font-normal text-[#494336] md:pb-7 pb-5"
+                data-aos="fade-up"
+                data-aos-easing="ease-in-cubic"
+                data-aos-duration="1000"
               >
                 About Nebula Vets ?
               </h2>
               <p
                 class="text-[#494336] md:leading-[26px] leading-[22px] md:text-xl text-sm lg:pb-10 pb-11"
+                data-aos="flip-right"
+                data-aos-easing="ease-in-cubic"
+                data-aos-duration="1500"
               >
                 Founded on a strong set of core values, the story of Nebula Vets
                 began with Daniel Hodnett-Lewis, a visionary veterinary surgeon
@@ -626,11 +723,18 @@
                 the way pets are treated and cared for. Here's the story of
                 Nebula Vets:
               </p>
-              <a
-                class="text-[#494336] md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
-                href="#"
-                >LEARN MORE
-              </a>
+              <div
+                class="text-[#494336]"
+                data-aos="fade-down"
+                data-aos-easing="ease-in-cubic"
+                data-aos-duration="2000"
+              >
+                <a
+                  class="md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
+                  href="#"
+                  >LEARN MORE
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -649,20 +753,33 @@
             <div class="lg:pt-20 pt-15 lg:max-w-[568px] lg:pb-21 pb-9">
               <h2
                 class="lg:text-4xl md:text-3xl text-2xl font-normal text-[#D7D9DD] md:pb-7 pb-5"
+                data-aos="zoom-out"
+                data-aos-easing="ease-in-cubic"
+                data-aos-duration="1000"
               >
                 Our Mission
               </h2>
               <p
                 class="text-[#D7D9DD] md:leading-[26px] leading-[22px] md:text-xl text-sm lg:pb-10 pb-11"
+                data-aos="zoom-in"
+                data-aos-easing="ease-in-cubic"
+                data-aos-duration="1500"
               >
                 Our Mission is to establish a new standard of excellence in
                 veterinary care, driven by an unwavering ethical conscience.
               </p>
-              <a
-                class="text-[#494336] md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
-                href="#"
-                >LEARN MORE
-              </a>
+              <div
+                class="text-[#494336]"
+                data-aos="fade-up"
+                data-aos-easing="ease-in-cubic"
+                data-aos-duration="2000"
+              >
+                <a
+                  class="md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
+                  href="#"
+                  >LEARN MORE
+                </a>
+              </div>
             </div>
             <div
               class="max-w-[584px] min-w-[288px] lg:ms-0 ms-10 flex justify-baseline"
@@ -683,11 +800,15 @@
             <div>
               <h2
                 class="roboto-mono lg:text-2xl md:text-xl text-base text-[#D7D9DD] leading-[175%] pb-6"
+                data-aos="fade-right"
+                data-aos-duration="1000"
               >
                 Stay in touch:
               </h2>
               <input
                 class="text-[#D7D9DD] border text-lg py-1.5 ps-3.5 max-w-[309px] md:pe-24 pe-16"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
                 type="email"
                 name="email"
                 id="2"
@@ -697,6 +818,9 @@
                 <div class="flex pt-5.5 gap-5">
                   <a
                     class="group duration-1000"
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
                     href="https://www.facebook.com/login/"
                     target="_blank"
                     ><svg
@@ -727,7 +851,12 @@
                       </defs>
                     </svg>
                   </a>
-                  <a href="https://www.linkedin.com/login/in" target="_blank"
+                  <a
+                    href="https://www.linkedin.com/login/in"
+                    target="_blank"
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="2000"
                     ><svg
                       class="group duration-1000 hover:rotate-[360deg]"
                       width="50"
@@ -757,6 +886,9 @@
                   </a>
                   <a
                     href="https://www.instagram.com/accounts/login/?hl=en"
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="2500"
                     target="_blank"
                     ><svg
                       class="group duration-1000 hover:rotate-[360deg]"
@@ -788,7 +920,11 @@
                 </div>
               </div>
             </div>
-            <div class="w-full sm:w-auto">
+            <div
+              class="w-full sm:w-auto"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <h2
                 class="roboto-mono lg:text-2xl md:text-lg text-base text-[#D7D9DD] lg:pb-8 md:pb-6 pb-2.5"
               >
@@ -814,7 +950,11 @@
                 >
               </div>
             </div>
-            <div class="w-full sm:w-auto">
+            <div
+              class="w-full sm:w-auto"
+              data-aos="fade-down"
+              data-aos-duration="2000"
+            >
               <h2
                 class="roboto-mono lg:text-2xl md:text-lg text-base text-[#D7D9DD] lg:pb-8 md:pb-6 pb-2.5"
               >
@@ -832,7 +972,11 @@
                 >
               </div>
             </div>
-            <div class="w-full sm:w-auto">
+            <div
+              class="w-full sm:w-auto"
+              data-aos="fade-left"
+              data-aos-duration="2500"
+            >
               <h2
                 class="roboto-mono lg:text-2xl md:text-lg text-base text-[#D7D9DD] lg:pb-8 md:pb-6 pb-2.5"
               >
