@@ -16,6 +16,7 @@
       href="https://cdn.jsdelivr.net/npm/dist/tailwind.min.css"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Navbar -->
@@ -161,7 +162,7 @@
                 </div>
               </div>
               <p
-                class="text-[#D7D9DD] md:leading-[26px] leading-[22px] lg:max-w-[560px] md:text-xl text-sm lg:pb-10 pb-11 lg:ps-0 px-8 relative z-5"
+                class="text-[#D7D9DD] md:leading-[26px] leading-[22px] lg:max-w-[535px] md:text-xl text-sm lg:pb-10 pb-11 lg:px-0 px-8 relative z-5"
               >
                 With a foundation built on values, innovation, and a commitment
                 to excellence, Nebula Vets continues to strive for excellence in
@@ -176,7 +177,7 @@
               </a>
             </div>
             <div
-              class="lg:max-w-[636px] absolute hidden lg:block right-10 top-20"
+              class="lg:max-w-[636px] absolute hidden lg:block right-5 top-20"
             >
               <img src="./image/catuper.png" alt="nebula" width="100%" />
             </div>
@@ -608,6 +609,12 @@
         sidebar.classList.remove("open");
         overlay.classList.remove("visible");
       });
+    </script>
+    <!-- ------aos animation-------- -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- -------intalization------- -->
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
