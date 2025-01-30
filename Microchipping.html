@@ -21,10 +21,14 @@
   <body>
     <!-- Navbar -->
     <nav>
-      <div class="bg-[#494336]">
+      <div class="bg-[#494336] lg:pb-4.5">
         <div class="max-w-[1440px] mx-auto xl:px-12 lg:px-8 md:px-6 ps-8 pe-5">
           <div class="flex items-center justify-between pt-3 pb-4.5 gap-2">
-            <div>
+            <div
+              class="max-w-[114px]"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               <a href="/"
                 ><img src="./image/Logo.png" alt="logo" width="100%"
               /></a>
@@ -32,10 +36,15 @@
             <button id="openSidebar" class="text-white rounded md:hidden">
               <img src="./image/toggle.png" alt="toggle" width="100%" />
             </button>
-            <ul id="menu" class="hidden md:flex xl:gap-16 lg:gap-10 gap-3">
+            <ul
+              id="menu"
+              class="hidden md:flex xl:gap-16 lg:gap-10 gap-3"
+              data-aos="flip-up"
+              data-aos-duration="1500"
+            >
               <li>
                 <a
-                  class="text-white text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
+                  class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
                   href="./veterinary-services.html"
                   >SERVICES</a
                 >
@@ -69,11 +78,17 @@
                 >
               </li>
               <li>
-                <a
-                  class="text-[#494336] text-lg font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
-                  href="#"
-                  >BOOK NOW
-                </a>
+                <div
+                  class="text-[#494336]"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                >
+                  <a
+                    class="text-[#494336] text-lg font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
+                    href="#"
+                    >BOOK NOW
+                  </a>
+                </div>
               </li>
             </ul>
           </div>
@@ -150,13 +165,17 @@
             <div
               class="lg:pt-35 pt-42.5 lg:max-w-[664px] lg:pb-21 pb-15 relative"
             >
-              <h2
+              <h1
                 class="xl:text-[70px] lg:text-6xl md:text-5xl text-[32px] !md:max-w-[600px] max-w-[280px] sm:max-w-none text-[#D7D9DD] pb-7.5 font-normal md:pb-7 pb-5"
+                data-aos="fade-up"
+                data-aos-duration="1000"
               >
                 Microchipping
-              </h2>
+              </h1>
               <p
                 class="text-[#D7D9DD] md:leading-[26px] leading-[22px] md:text-xl text-sm lg:pb-10 pb-11"
+                data-aos="fade-down"
+                data-aos-duration="1500"
               >
                 A microchip, resembling a tiny grain of rice in size and shape,
                 is delicately inserted beneath your pet's skin, specifically
@@ -165,11 +184,17 @@
                 possesses a distinct identification code, crucial for storing
                 essential information about your beloved pet.
               </p>
-              <a
-                class="text-[#494336] md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
-                href="#"
-                >book now
-              </a>
+              <div
+                class="text-[#494336]"
+                data-aos="flip-right"
+                data-aos-duration="1500"
+              >
+                <a
+                  class="md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
+                  href="#"
+                  >book now
+                </a>
+              </div>
               <div
                 class="max-w-[309px] block lg:hidden absolute top-5 sm:right-0 right-[-30px]"
               >
@@ -198,17 +223,23 @@
           >
             <h2
               class="lg:text-[28px] roboto-mono md:text-2xl text-base font-normal text-[#494336] md:pb-15 pb-8 leading-[28px]"
+              data-aos="zoom-out"
+              data-aos-duration="1000"
             >
               Here are a few compelling reasons why microchipping is a wise
               choice:
             </h2>
-            <h2
+            <h3
               class="xl:text-4xl lg:text-3xl text-2xl font-normal text-[#494336] md:pb-6 pb-4"
+              data-aos="fade-left"
+              data-aos-duration="1500"
             >
               Identification and Reunification
-            </h2>
+            </h3>
             <p
               class="lg:text-lg md:text-base text-sm text-[#494336] lg:leading-[26px] leading-[22px] md:pb-8 pb-6"
+              data-aos="fade-right"
+              data-aos-duration="2000"
             >
               Pets can sometimes wander or accidentally get lost, causing
               distress to both the pet and their owners. A microchip provides a
@@ -219,12 +250,16 @@
             </p>
             <h3
               class="xl:text-4xl lg:text-3xl text-2xl font-normal text-[#494336] md:pb-6 pb-4 sm:max-w-none"
+              data-aos="fade-left"
+              data-aos-duration="1500"
             >
               Increased Chance of Recovery
             </h3>
 
             <p
               class="lg:text-lg md:text-base text-sm text-[#494336] lg:leading-[26px] leading-[22px] md:pb-8 pb-6"
+              data-aos="fade-right"
+              data-aos-duration="2000"
             >
               Studies have shown that pets with microchips have a significantly
               higher chance of being reunited with their owners compared to
@@ -235,11 +270,15 @@
 
             <h4
               class="xl:text-4xl lg:text-3xl text-2xl font-normal text-[#494336] md:pb-6 pb-4 sm:max-w-none"
+              data-aos="fade-left"
+              data-aos-duration="1500"
             >
               Secure and Permanent
             </h4>
             <p
               class="lg:text-lg md:text-base text-sm text-[#494336] lg:leading-[26px] leading-[22px] md:pb-8 pb-6"
+              data-aos="fade-right"
+              data-aos-duration="2000"
             >
               Unlike collars or tags, which can break or be removed, a microchip
               is a tiny, implantable device that is safely and painlessly
@@ -249,11 +288,15 @@
             </p>
             <h5
               class="xl:text-4xl lg:text-3xl text-2xl font-normal text-[#494336] md:pb-6 pb-4 sm:max-w-none"
+              data-aos="fade-left"
+              data-aos-duration="1500"
             >
               Universal Recognition
             </h5>
             <p
               class="lg:text-lg md:text-base text-sm text-[#494336] lg:leading-[26px] leading-[22px] md:pb-8 pb-6"
+              data-aos="fade-right"
+              data-aos-duration="2000"
             >
               Microchips are recognized and read by most veterinary clinics,
               animal shelters, and animal control agencies worldwide. This means
@@ -263,11 +306,15 @@
             </p>
             <h6
               class="xl:text-4xl lg:text-3xl text-2xl font-normal text-[#494336] md:pb-6 pb-4 sm:max-w-none"
+              data-aos="fade-left"
+              data-aos-duration="1500"
             >
               Medical Information Access
             </h6>
             <p
               class="lg:text-lg md:text-base text-sm text-[#494336] lg:leading-[26px] leading-[22px]"
+              data-aos="fade-right"
+              data-aos-duration="2000"
             >
               Advanced microchips can store additional medical information about
               your pet, such as vaccinations, allergies, or any ongoing medical
@@ -292,15 +339,23 @@
           <div class="max-w-[530px] lg:pt-20 pt-15 lg:pb-21 pb-40">
             <h2
               class="xl:text-4xl lg:text-3xl text-2xl font-normal text-[#D7D9DD] pb-10"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
             >
               We look forward to seeing you and your pet soon!
             </h2>
 
-            <a
-              class="text-[#494336] md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
-              href="#"
-              >book now
-            </a>
+            <div
+              class="text-[#494336]"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
+              <a
+                class="md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
+                href="#"
+                >book now
+              </a>
+            </div>
           </div>
           <div
             class="max-w-[603px] flex lg:hidden absolute right-0 sm:bottom-0 bottom-[-20px]"
@@ -325,11 +380,15 @@
             <div>
               <h2
                 class="roboto-mono lg:text-2xl md:text-xl text-base text-[#D7D9DD] leading-[175%] pb-6"
+                data-aos="fade-right"
+                data-aos-duration="1000"
               >
                 Stay in touch:
               </h2>
               <input
                 class="text-[#D7D9DD] border text-lg py-1.5 ps-3.5 max-w-[309px] md:pe-24 pe-16"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
                 type="email"
                 name="email"
                 id="2"
@@ -339,6 +398,9 @@
                 <div class="flex pt-5.5 gap-5">
                   <a
                     class="group duration-1000"
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
                     href="https://www.facebook.com/login/"
                     target="_blank"
                     ><svg
@@ -369,7 +431,12 @@
                       </defs>
                     </svg>
                   </a>
-                  <a href="https://www.linkedin.com/login/in" target="_blank"
+                  <a
+                    href="https://www.linkedin.com/login/in"
+                    target="_blank"
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="2000"
                     ><svg
                       class="group duration-1000 hover:rotate-[360deg]"
                       width="50"
@@ -399,6 +466,9 @@
                   </a>
                   <a
                     href="https://www.instagram.com/accounts/login/?hl=en"
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="2500"
                     target="_blank"
                     ><svg
                       class="group duration-1000 hover:rotate-[360deg]"
@@ -430,7 +500,11 @@
                 </div>
               </div>
             </div>
-            <div class="w-full sm:w-auto">
+            <div
+              class="w-full sm:w-auto"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <h2
                 class="roboto-mono lg:text-2xl md:text-lg text-base text-[#D7D9DD] lg:pb-8 md:pb-6 pb-2.5"
               >
@@ -456,7 +530,11 @@
                 >
               </div>
             </div>
-            <div class="w-full sm:w-auto">
+            <div
+              class="w-full sm:w-auto"
+              data-aos="fade-down"
+              data-aos-duration="2000"
+            >
               <h2
                 class="roboto-mono lg:text-2xl md:text-lg text-base text-[#D7D9DD] lg:pb-8 md:pb-6 pb-2.5"
               >
@@ -474,7 +552,11 @@
                 >
               </div>
             </div>
-            <div class="w-full sm:w-auto">
+            <div
+              class="w-full sm:w-auto"
+              data-aos="fade-left"
+              data-aos-duration="2500"
+            >
               <h2
                 class="roboto-mono lg:text-2xl md:text-lg text-base text-[#D7D9DD] lg:pb-8 md:pb-6 pb-2.5"
               >
