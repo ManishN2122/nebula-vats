@@ -17,7 +17,7 @@
   <body>
     <!-- Navbar -->
     <nav>
-      <div class="bg-[#494336]">
+      <div class="bg-[#494336] overflow-hidden relative">
         <div class="max-w-[1440px] mx-auto xl:px-12 lg:px-8 md:px-6 ps-8 pe-5">
           <div class="flex items-center justify-between pt-3 pb-4.5 gap-2">
             <div
@@ -155,7 +155,7 @@
     </nav>
     <!-- ---------hero-section-------- -->
     <section>
-      <div class="bg-[#494336] lg:relative overflow-hidden">
+      <div class="bg-[#494336] relative overflow-hidden">
         <div class="max-w-[1240px] mx-auto xl:px-12 px-8.5">
           <div class="flex lg:flex-nowrap flex-wrap justify-between">
             <div
@@ -164,7 +164,7 @@
               <h1
                 class="xl:text-[70px] lg:text-6xl md:text-5xl text-[32px] max-w-[220px] sm:max-w-none text-[#D7D9DD] pb-7.5 font-normal md:pb-7 pb-5"
                 data-aos="fade-right"
-                data-aos-offset="700"
+                data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
                 data-aos-duration="1000"
               >
@@ -173,7 +173,7 @@
               <p
                 class="text-[#D7D9DD] md:leading-[26px] leading-[22px] md:text-xl text-sm lg:pb-10 pb-11"
                 data-aos="fade-left"
-                data-aos-offset="600"
+                data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
                 data-aos-duration="1500"
               >
@@ -271,309 +271,311 @@
     </section>
     <!-- ----------Why Animal Health Checks Matter:---------- -->
     <section>
-      <div class="max-w-[1240px] mx-auto xl:px-12 px-8">
-        <div class="lg:py-20 py-15">
-          <h2
-            class="xl:text-4xl lg:text-3xl text-2xl font-normal text-[#494336] pb-10"
-            data-aos="zoom-out"
-            data-aos-easing="linear"
-            data-aos-duration="500"
-          >
-            Animal Health Check Exam
-          </h2>
-          <div
-            class="max-w-[1080px] pb-8"
-            data-aos="fade-left"
-            data-aos-easing="linear"
-            data-aos-duration="1000"
-          >
-            <button
-              class="flex items-center justify-between w-full pb-8 text-left"
-              onclick="toggleAccordion('accordion1')"
+      <div class="overflow-hidden relative">
+        <div class="max-w-[1240px] mx-auto xl:px-12 px-8">
+          <div class="lg:py-20 py-15">
+            <h2
+              class="xl:text-4xl lg:text-3xl text-2xl font-normal text-[#494336] pb-10"
+              data-aos="zoom-out"
+              data-aos-easing="linear"
+              data-aos-duration="500"
             >
-              <span
-                class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[178px] sm:max-w-none"
+              Animal Health Check Exam
+            </h2>
+            <div
+              class="max-w-[1080px] pb-8"
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
+              <button
+                class="flex items-center justify-between w-full pb-8 text-left"
+                onclick="toggleAccordion('accordion1')"
               >
-                Early Detection and Prevention</span
-              >
-              <div>
-                <img
-                  id="icon-accordion1"
-                  class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                  src="./image/plus.png"
-                  alt="plus"
-                  width="100%"
-                />
-              </div>
-            </button>
+                <span
+                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[178px] sm:max-w-none"
+                >
+                  Early Detection and Prevention</span
+                >
+                <div>
+                  <img
+                    id="icon-accordion1"
+                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                    src="./image/plus.png"
+                    alt="plus"
+                    width="100%"
+                  />
+                </div>
+              </button>
 
-            <div id="accordion1" class="hidden pt-2">
-              <p
-                class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8"
-              >
-                Regular health checks are essential for detecting and preventing
-                potential health issues before they become more serious. By
-                identifying subtle changes in your pet's health, we can address
-                them promptly, potentially saving them from discomfort, pain,
-                and costly treatments in the long run.
-              </p>
+              <div id="accordion1" class="hidden pt-2">
+                <p
+                  class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8"
+                >
+                  Regular health checks are essential for detecting and
+                  preventing potential health issues before they become more
+                  serious. By identifying subtle changes in your pet's health,
+                  we can address them promptly, potentially saving them from
+                  discomfort, pain, and costly treatments in the long run.
+                </p>
+              </div>
+              <div
+                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+              ></div>
             </div>
             <div
-              class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-            ></div>
-          </div>
-          <div
-            class="max-w-[1080px] pb-8"
-            data-aos="fade-right"
-            data-aos-easing="linear"
-            data-aos-duration="1000"
-          >
-            <button
-              class="flex items-center justify-between w-full pb-8 text-left"
-              onclick="toggleAccordion('accordion7')"
+              class="max-w-[1080px] pb-8"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
             >
-              <span
-                class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+              <button
+                class="flex items-center justify-between w-full pb-8 text-left"
+                onclick="toggleAccordion('accordion7')"
               >
-                Tailored Care for Different Life Stages</span
-              >
-              <div>
-                <img
-                  id="icon-accordion7"
-                  class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                  src="./image/plus.png"
-                  alt="plus"
-                  width="100%"
-                />
-              </div>
-            </button>
+                <span
+                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+                >
+                  Tailored Care for Different Life Stages</span
+                >
+                <div>
+                  <img
+                    id="icon-accordion7"
+                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                    src="./image/plus.png"
+                    alt="plus"
+                    width="100%"
+                  />
+                </div>
+              </button>
 
-            <div id="accordion7" class="hidden pt-2">
-              <p
-                class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8"
-              >
-                Regular health checks are essential for detecting and preventing
-                potential health issues before they become more serious. By
-                identifying subtle changes in your pet's health, we can address
-                them promptly, potentially saving them from discomfort, pain,
-                and costly treatments in the long run.
-              </p>
+              <div id="accordion7" class="hidden pt-2">
+                <p
+                  class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8"
+                >
+                  Regular health checks are essential for detecting and
+                  preventing potential health issues before they become more
+                  serious. By identifying subtle changes in your pet's health,
+                  we can address them promptly, potentially saving them from
+                  discomfort, pain, and costly treatments in the long run.
+                </p>
+              </div>
+              <div
+                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+              ></div>
             </div>
             <div
-              class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-            ></div>
-          </div>
-          <div
-            class="max-w-[1080px] pb-8"
-            data-aos="fade-left"
-            data-aos-easing="linear"
-            data-aos-duration="1000"
-          >
-            <button
-              class="flex items-center justify-between w-full pb-8 text-left"
-              onclick="toggleAccordion('accordion8')"
+              class="max-w-[1080px] pb-8"
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
             >
-              <span
-                class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+              <button
+                class="flex items-center justify-between w-full pb-8 text-left"
+                onclick="toggleAccordion('accordion8')"
               >
-                Comprehensive Physical Examinations</span
-              >
-              <div>
-                <img
-                  id="icon-accordion8"
-                  class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                  src="./image/plus.png"
-                  alt="plus"
-                  width="100%"
-                />
-              </div>
-            </button>
+                <span
+                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+                >
+                  Comprehensive Physical Examinations</span
+                >
+                <div>
+                  <img
+                    id="icon-accordion8"
+                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                    src="./image/plus.png"
+                    alt="plus"
+                    width="100%"
+                  />
+                </div>
+              </button>
 
-            <div id="accordion8" class="hidden pt-2">
-              <p
-                class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8"
-              >
-                Regular health checks are essential for detecting and preventing
-                potential health issues before they become more serious. By
-                identifying subtle changes in your pet's health, we can address
-                them promptly, potentially saving them from discomfort, pain,
-                and costly treatments in the long run.
-              </p>
+              <div id="accordion8" class="hidden pt-2">
+                <p
+                  class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8"
+                >
+                  Regular health checks are essential for detecting and
+                  preventing potential health issues before they become more
+                  serious. By identifying subtle changes in your pet's health,
+                  we can address them promptly, potentially saving them from
+                  discomfort, pain, and costly treatments in the long run.
+                </p>
+              </div>
+              <div
+                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+              ></div>
             </div>
             <div
-              class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-            ></div>
-          </div>
-          <div
-            class="max-w-[1080px] pb-8"
-            data-aos="fade-right"
-            data-aos-easing="linear"
-            data-aos-duration="1000"
-          >
-            <button
-              class="flex items-center justify-between w-full pb-8 text-left"
-              onclick="toggleAccordion('accordion9')"
+              class="max-w-[1080px] pb-8"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
             >
-              <span
-                class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+              <button
+                class="flex items-center justify-between w-full pb-8 text-left"
+                onclick="toggleAccordion('accordion9')"
               >
-                Vaccinations and Preventive Care</span
-              >
-              <div>
-                <img
-                  id="icon-accordion9"
-                  class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                  src="./image/plus.png"
-                  alt="plus"
-                  width="100%"
-                />
-              </div>
-            </button>
+                <span
+                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+                >
+                  Vaccinations and Preventive Care</span
+                >
+                <div>
+                  <img
+                    id="icon-accordion9"
+                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                    src="./image/plus.png"
+                    alt="plus"
+                    width="100%"
+                  />
+                </div>
+              </button>
 
-            <div id="accordion9" class="hidden pt-2">
-              <p
-                class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8"
-              >
-                Regular health checks are essential for detecting and preventing
-                potential health issues before they become more serious. By
-                identifying subtle changes in your pet's health, we can address
-                them promptly, potentially saving them from discomfort, pain,
-                and costly treatments in the long run.
-              </p>
+              <div id="accordion9" class="hidden pt-2">
+                <p
+                  class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8"
+                >
+                  Regular health checks are essential for detecting and
+                  preventing potential health issues before they become more
+                  serious. By identifying subtle changes in your pet's health,
+                  we can address them promptly, potentially saving them from
+                  discomfort, pain, and costly treatments in the long run.
+                </p>
+              </div>
+              <div
+                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+              ></div>
             </div>
             <div
-              class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-            ></div>
-          </div>
-          <div
-            class="max-w-[1080px] pb-8"
-            data-aos="fade-left"
-            data-aos-easing="linear"
-            data-aos-duration="1000"
-          >
-            <button
-              class="flex items-center justify-between w-full pb-8 text-left"
-              onclick="toggleAccordion('accordion2')"
+              class="max-w-[1080px] pb-8"
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
             >
-              <span
-                class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+              <button
+                class="flex items-center justify-between w-full pb-8 text-left"
+                onclick="toggleAccordion('accordion2')"
               >
-                Diagnostic Screenings</span
-              >
-              <div>
-                <img
-                  id="icon-accordion2"
-                  class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                  src="./image/plus.png"
-                  alt="plus"
-                  width="100%"
-                />
-              </div>
-            </button>
+                <span
+                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+                >
+                  Diagnostic Screenings</span
+                >
+                <div>
+                  <img
+                    id="icon-accordion2"
+                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                    src="./image/plus.png"
+                    alt="plus"
+                    width="100%"
+                  />
+                </div>
+              </button>
 
-            <div id="accordion2" class="hidden pt-2">
-              <p
-                class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8"
-              >
-                Regular health checks are essential for detecting and preventing
-                potential health issues before they become more serious. By
-                identifying subtle changes in your pet's health, we can address
-                them promptly, potentially saving them from discomfort, pain,
-                and costly treatments in the long run.
-              </p>
+              <div id="accordion2" class="hidden pt-2">
+                <p
+                  class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8"
+                >
+                  Regular health checks are essential for detecting and
+                  preventing potential health issues before they become more
+                  serious. By identifying subtle changes in your pet's health,
+                  we can address them promptly, potentially saving them from
+                  discomfort, pain, and costly treatments in the long run.
+                </p>
+              </div>
+              <div
+                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+              ></div>
             </div>
             <div
-              class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-            ></div>
-          </div>
-          <div
-            class="max-w-[1080px] pb-8"
-            data-aos="fade-right"
-            data-aos-easing="linear"
-            data-aos-duration="1000"
-          >
-            <button
-              class="flex items-center justify-between w-full pb-8 text-left"
-              onclick="toggleAccordion('accordion3')"
+              class="max-w-[1080px] pb-8"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
             >
-              <span
-                class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+              <button
+                class="flex items-center justify-between w-full pb-8 text-left"
+                onclick="toggleAccordion('accordion3')"
               >
-                Nutritional and Behavioral Guidance</span
-              >
-              <div>
-                <img
-                  id="icon-accordion3"
-                  class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                  src="./image/plus.png"
-                  alt="plus"
-                  width="100%"
-                />
-              </div>
-            </button>
+                <span
+                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+                >
+                  Nutritional and Behavioral Guidance</span
+                >
+                <div>
+                  <img
+                    id="icon-accordion3"
+                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                    src="./image/plus.png"
+                    alt="plus"
+                    width="100%"
+                  />
+                </div>
+              </button>
 
-            <div id="accordion3" class="hidden pt-2">
-              <p
-                class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8"
-              >
-                Regular health checks are essential for detecting and preventing
-                potential health issues before they become more serious. By
-                identifying subtle changes in your pet's health, we can address
-                them promptly, potentially saving them from discomfort, pain,
-                and costly treatments in the long run.
-              </p>
+              <div id="accordion3" class="hidden pt-2">
+                <p
+                  class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8"
+                >
+                  Regular health checks are essential for detecting and
+                  preventing potential health issues before they become more
+                  serious. By identifying subtle changes in your pet's health,
+                  we can address them promptly, potentially saving them from
+                  discomfort, pain, and costly treatments in the long run.
+                </p>
+              </div>
+              <div
+                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+              ></div>
             </div>
             <div
-              class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-            ></div>
-          </div>
-          <div
-            class="max-w-[1080px]"
-            data-aos="fade-left"
-            data-aos-easing="linear"
-            data-aos-duration="1000"
-          >
-            <button
-              class="flex items-center justify-between w-full pb-8 text-left"
-              onclick="toggleAccordion('accordion4')"
+              class="max-w-[1080px]"
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
             >
-              <span
-                class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+              <button
+                class="flex items-center justify-between w-full pb-8 text-left"
+                onclick="toggleAccordion('accordion4')"
               >
-                Client Education and Support</span
-              >
-              <div>
-                <img
-                  id="icon-accordion4"
-                  class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                  src="./image/plus.png"
-                  alt="plus"
-                  width="100%"
-                />
-              </div>
-            </button>
+                <span
+                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+                >
+                  Client Education and Support</span
+                >
+                <div>
+                  <img
+                    id="icon-accordion4"
+                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                    src="./image/plus.png"
+                    alt="plus"
+                    width="100%"
+                  />
+                </div>
+              </button>
 
-            <div id="accordion4" class="hidden pt-2">
-              <p
-                class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8"
-              >
-                Regular health checks are essential for detecting and preventing
-                potential health issues before they become more serious. By
-                identifying subtle changes in your pet's health, we can address
-                them promptly, potentially saving them from discomfort, pain,
-                and costly treatments in the long run.
-              </p>
+              <div id="accordion4" class="hidden pt-2">
+                <p
+                  class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8"
+                >
+                  Regular health checks are essential for detecting and
+                  preventing potential health issues before they become more
+                  serious. By identifying subtle changes in your pet's health,
+                  we can address them promptly, potentially saving them from
+                  discomfort, pain, and costly treatments in the long run.
+                </p>
+              </div>
+              <div
+                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+              ></div>
             </div>
-            <div
-              class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-            ></div>
           </div>
         </div>
       </div>
     </section>
     <!-- ----------Experience Exceptional Animal Health--------- -->
     <section>
-      <div class="bg-gray-200">
+      <div class="bg-gray-200 overflow-hidden relative">
         <div class="max-w-[1240px] mx-auto xl:px-12 px-8">
           <div class="lg:py-20 py-15 max-w-[1080px]">
             <h2
@@ -600,7 +602,7 @@
     </section>
     <!-- ----------We look forward to seeing you and your--------- -->
     <section>
-      <div class="bg-[#494336] lg:relative overflow-hidden">
+      <div class="bg-[#494336] relative overflow-hidden">
         <div
           class="max-w-[1240px] mx-auto xl:px-12 px-8 relative overflow-hidden"
         >
@@ -649,7 +651,7 @@
     </section>
     <!-- ---------footer-section---------- -->
     <footer>
-      <div class="bg-[#494336] border-white border-t">
+      <div class="bg-[#494336] border-white border-t overflow-hidden relative">
         <div class="max-w-[1440px] mx-auto xl:px-12 px-8 relative">
           <div
             class="flex md:py-15 pt-15 pb-28 justify-between lg:flex-nowrap flex-wrap gap-5"

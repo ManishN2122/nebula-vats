@@ -21,10 +21,14 @@
   <body>
     <!-- Navbar -->
     <nav>
-      <div class="bg-[#494336] lg:pb-4.5">
+      <div class="bg-[#494336] overflow-hidden relative lg:pb-4.5">
         <div class="max-w-[1440px] mx-auto xl:px-12 lg:px-8 md:px-6 ps-8 pe-5">
           <div class="flex items-center justify-between pt-3 pb-4.5 gap-2">
-            <div>
+            <div
+              class="max-w-[114px]"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               <a href="/"
                 ><img src="./image/Logo.png" alt="logo" width="100%"
               /></a>
@@ -32,10 +36,15 @@
             <button id="openSidebar" class="text-white rounded md:hidden">
               <img src="./image/toggle.png" alt="toggle" width="100%" />
             </button>
-            <ul id="menu" class="hidden md:flex xl:gap-16 lg:gap-10 gap-3">
+            <ul
+              id="menu"
+              class="hidden md:flex xl:gap-16 lg:gap-10 gap-3"
+              data-aos="flip-up"
+              data-aos-duration="1500"
+            >
               <li>
                 <a
-                  class="text-white text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
+                  class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
                   href="./veterinary-services.html"
                   >SERVICES</a
                 >
@@ -69,11 +78,17 @@
                 >
               </li>
               <li>
-                <a
-                  class="text-[#494336] text-lg font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
-                  href="#"
-                  >BOOK NOW
-                </a>
+                <div
+                  class="text-[#494336]"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                >
+                  <a
+                    class="text-[#494336] text-lg font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
+                    href="#"
+                    >BOOK NOW
+                  </a>
+                </div>
               </li>
             </ul>
           </div>
@@ -144,19 +159,25 @@
     </nav>
     <!-- ---------hero-section-------- -->
     <section>
-      <div class="bg-[#494336] lg:relative overflow-hidden">
+      <div class="bg-[#494336] relative overflow-hidden">
         <div class="max-w-[1240px] mx-auto xl:px-12 px-8.5">
           <div class="flex lg:flex-nowrap flex-wrap justify-between">
             <div
               class="lg:pt-35 pt-42.5 lg:max-w-[664px] lg:pb-21 pb-15 relative"
             >
-              <h2
+              <h1
                 class="xl:text-[70px] lg:text-6xl md:text-5xl text-[32px] !md:max-w-[600px] max-w-[280px] sm:max-w-none text-[#D7D9DD] pb-7.5 font-normal md:pb-7 pb-5"
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000"
               >
                 Spay & Neuter
-              </h2>
+              </h1>
               <p
                 class="text-[#D7D9DD] md:leading-[26px] leading-[22px] md:text-xl text-sm pb-6"
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1500"
               >
                 Spaying, also known as ovariohysterectomy, is a surgical
                 procedure performed on female animals to render them infertile.
@@ -165,17 +186,27 @@
               </p>
               <p
                 class="text-[#D7D9DD] md:leading-[26px] leading-[22px] md:text-xl text-sm lg:pb-10 pb-11"
+                data-aos="flip-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
               >
                 Neutering is a safe and effective surgical procedure designed to
                 ensure that your male pet cannot reproduce. This important
                 procedure involves the careful removal of your pet's testicles
                 while they are comfortably under general anesthesia.
               </p>
-              <a
-                class="text-[#494336] md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
-                href="#"
-                >book now
-              </a>
+              <div
+                class="text-[#494336]"
+                data-aos="fade-right"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+              >
+                <a
+                  class="md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
+                  href="#"
+                  >book now
+                </a>
+              </div>
               <div
                 class="max-w-[213px] block lg:hidden absolute top-0 sm:right-0 right-[-40px]"
               >
@@ -200,11 +231,15 @@
           >
             <h2
               class="xl:text-4xl lg:text-3xl text-2xl font-normal text-[#494336] md:pb-6 pb-4 max-w-[188px] sm:max-w-none"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
             >
               Why spay or neuter?
             </h2>
             <p
               class="lg:text-lg md:text-base text-sm text-[#494336] lg:leading-[26px] leading-[22px] md:pb-4 pb-4"
+              data-aos="zoom-out"
+              data-aos-duration="1500"
             >
               Spaying and neutering has many health and behavioral benefits for
               your cat or dog. Spaying at a young age has been shown to reduce
@@ -214,6 +249,8 @@
             </p>
             <p
               class="lg:text-lg md:text-base text-sm text-[#494336] lg:leading-[26px] leading-[22px] md:pb-8 pb-6"
+              data-aos="fade-right"
+              data-aos-duration="2000"
             >
               Neutering has been proven to prevent testicular cancer and may
               prevent different forms of prostate diseases, and both spaying and
@@ -224,11 +261,15 @@
 
             <h3
               class="xl:text-4xl lg:text-3xl text-2xl font-normal text-[#494336] md:pb-6 pb-4 max-w-[188px] sm:max-w-none"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
             >
               When to spay or neuter?
             </h3>
             <p
               class="lg:text-lg md:text-base text-sm text-[#494336] lg:leading-[26px] leading-[22px] md:pb-6 pb-4"
+              data-aos="zoom-out"
+              data-aos-duration="1500"
             >
               Dog spays and neuters are performed between the ages of 6 and 9
               months of age. Large breed dogs, it is advised to wait until
@@ -237,12 +278,16 @@
             </p>
             <p
               class="lg:text-lg md:text-base text-sm text-[#494336] lg:leading-[26px] leading-[22px] md:pb-6 pb-4"
+              data-aos="fade-right"
+              data-aos-duration="2000"
             >
               Cat spays and neuters should typically be carried out around 6
               months of age.
             </p>
             <p
               class="lg:text-lg md:text-base text-sm text-[#494336] lg:leading-[26px] leading-[22px] md:pb-8 pb-6"
+              data-aos="fade-left"
+              data-aos-duration="2500"
             >
               In older pets who are no spayed or neutered, we’ll discuss all of
               your options at your first wellness visit and advise on the best
@@ -251,11 +296,15 @@
 
             <h4
               class="xl:text-4xl lg:text-3xl text-2xl font-normal text-[#494336] md:pb-6 pb-4 max-w-[188px] sm:max-w-none"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
             >
               Long-Term Cost Savings
             </h4>
             <p
               class="lg:text-lg md:text-base text-sm text-[#494336] lg:leading-[26px] leading-[22px]"
+              data-aos="zoom-out"
+              data-aos-duration="1500"
             >
               Spaying or neutering your pet can save you money in the long run.
               The cost of the procedure is typically less than the expenses
@@ -271,249 +320,291 @@
     </section>
     <!-- ----------Why Choose Nebula Vets for Spay and Neuter-------- -->
     <section>
-      <div class="max-w-[1240px] mx-auto xl:px-12 ps-8.5 pe-8">
-        <div class="lg:pt-21.5 lg:pb-20 py-15">
-          <div class="max-w-[1080px] pb-8">
+      <div class="relative overflow-hidden">
+        <div class="max-w-[1240px] mx-auto xl:px-12 ps-8.5 pe-8">
+          <div class="lg:pt-21.5 lg:pb-20 py-15">
             <h2
               class="xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-normal text-[#494336] lg:pb-10 pb-6 lg:block hidden"
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
             >
               Why Choose Nebula Vets for Spay and Neuter
             </h2>
-            <button
-              class="flex items-center justify-between w-full pb-8 text-left"
-              onclick="toggleAccordion('accordion1')"
+            <div
+              class="max-w-[1080px] pb-8"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
             >
-              <span
-                class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[178px] sm:max-w-none"
+              <button
+                class="flex items-center justify-between w-full pb-8 text-left"
+                onclick="toggleAccordion('accordion1')"
               >
-                Experienced Surgical Team</span
-              >
-              <div>
-                <img
-                  id="icon-accordion1"
-                  class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                  src="./image/plus.png"
-                  alt="plus"
-                  width="100%"
-                />
-              </div>
-            </button>
+                <span
+                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[178px] sm:max-w-none"
+                >
+                  Experienced Surgical Team</span
+                >
+                <div>
+                  <img
+                    id="icon-accordion1"
+                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                    src="./image/plus.png"
+                    alt="plus"
+                    width="100%"
+                  />
+                </div>
+              </button>
 
-            <div id="accordion1" class="hidden pt-2">
-              <p
-                class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
-              >
-                At Nebula Vets, our veterinarians have extensive experience in
-                performing spay and neuter surgeries. They possess the expertise
-                to perform these procedures efficiently and safely, ensuring the
-                best possible outcome for your pet.
-              </p>
+              <div id="accordion1" class="hidden pt-2">
+                <p
+                  class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
+                >
+                  At Nebula Vets, our veterinarians have extensive experience in
+                  performing spay and neuter surgeries. They possess the
+                  expertise to perform these procedures efficiently and safely,
+                  ensuring the best possible outcome for your pet.
+                </p>
+              </div>
+              <div
+                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+              ></div>
             </div>
             <div
-              class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-            ></div>
-          </div>
-          <div class="max-w-[1080px] pb-8">
-            <button
-              class="flex items-center justify-between w-full pb-8 text-left"
-              onclick="toggleAccordion('accordion2')"
+              class="max-w-[1080px] pb-8"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
             >
-              <span
-                class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+              <button
+                class="flex items-center justify-between w-full pb-8 text-left"
+                onclick="toggleAccordion('accordion2')"
               >
-                Health Benefits</span
-              >
-              <div>
-                <img
-                  id="icon-accordion2"
-                  class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                  src="./image/plus.png"
-                  alt="plus"
-                  width="100%"
-                />
-              </div>
-            </button>
+                <span
+                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+                >
+                  Health Benefits</span
+                >
+                <div>
+                  <img
+                    id="icon-accordion2"
+                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                    src="./image/plus.png"
+                    alt="plus"
+                    width="100%"
+                  />
+                </div>
+              </button>
 
-            <div id="accordion2" class="hidden pt-2">
-              <p
-                class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
-              >
-                Spaying (for females) and neutering (for males) offer numerous
-                health benefits for your pets. Spaying helps prevent uterine
-                infections and reduces the risk of mammary tumors and ovarian
-                cancers, while neutering eliminates the risk of testicular
-                cancer and reduces the incidence of prostate problems. These
-                procedures can also help in curbing certain behavioral issues
-                related to mating instincts.
-              </p>
+              <div id="accordion2" class="hidden pt-2">
+                <p
+                  class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
+                >
+                  Spaying (for females) and neutering (for males) offer numerous
+                  health benefits for your pets. Spaying helps prevent uterine
+                  infections and reduces the risk of mammary tumors and ovarian
+                  cancers, while neutering eliminates the risk of testicular
+                  cancer and reduces the incidence of prostate problems. These
+                  procedures can also help in curbing certain behavioral issues
+                  related to mating instincts.
+                </p>
+              </div>
+              <div
+                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+              ></div>
             </div>
             <div
-              class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-            ></div>
-          </div>
-          <div class="max-w-[1080px] pb-8">
-            <button
-              class="flex items-center justify-between w-full pb-8 text-left"
-              onclick="toggleAccordion('accordion3')"
+              class="max-w-[1080px] pb-8"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
             >
-              <span
-                class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+              <button
+                class="flex items-center justify-between w-full pb-8 text-left"
+                onclick="toggleAccordion('accordion3')"
               >
-                Surgical Expertise</span
-              >
-              <div>
-                <img
-                  id="icon-accordion3"
-                  class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                  src="./image/plus.png"
-                  alt="plus"
-                  width="100%"
-                />
+                <span
+                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+                >
+                  Surgical Expertise</span
+                >
+                <div>
+                  <img
+                    id="icon-accordion3"
+                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                    src="./image/plus.png"
+                    alt="plus"
+                    width="100%"
+                  />
+                </div>
+              </button>
+              <div id="accordion3" class="hidden pt-2">
+                <p
+                  class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
+                >
+                  Our veterinary hospital is equipped with state-of-the-art
+                  surgical facilities and advanced monitoring equipment. We
+                  utilize modern anesthetic protocols and closely monitor your
+                  pet's vital signs during the procedure, ensuring their safety
+                  and well-being. Our surgical team adheres to the highest
+                  standards of precision and sterilization to minimize the risk
+                  of complications.
+                </p>
               </div>
-            </button>
-            <div id="accordion3" class="hidden pt-2">
-              <p
-                class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
-              >
-                Our veterinary hospital is equipped with state-of-the-art
-                surgical facilities and advanced monitoring equipment. We
-                utilize modern anesthetic protocols and closely monitor your
-                pet's vital signs during the procedure, ensuring their safety
-                and well-being. Our surgical team adheres to the highest
-                standards of precision and sterilization to minimize the risk of
-                complications.
-              </p>
+              <div
+                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+              ></div>
             </div>
             <div
-              class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-            ></div>
-          </div>
-          <div class="max-w-[1080px] pb-8">
-            <button
-              class="flex items-center justify-between w-full pb-8 text-left"
-              onclick="toggleAccordion('accordion4')"
+              class="max-w-[1080px] pb-8"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
             >
-              <span
-                class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[178px] sm:max-w-none"
+              <button
+                class="flex items-center justify-between w-full pb-8 text-left"
+                onclick="toggleAccordion('accordion4')"
               >
-                Personalized Care</span
-              >
-              <div>
-                <img
-                  id="icon-accordion4"
-                  class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                  src="./image/plus.png"
-                  alt="plus"
-                  width="100%"
-                />
-              </div>
-            </button>
+                <span
+                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[178px] sm:max-w-none"
+                >
+                  Personalized Care</span
+                >
+                <div>
+                  <img
+                    id="icon-accordion4"
+                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                    src="./image/plus.png"
+                    alt="plus"
+                    width="100%"
+                  />
+                </div>
+              </button>
 
-            <div id="accordion4" class="hidden pt-2">
-              <p
-                class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
-              >
-                At Nebula Vets, we believe in providing personalized care for
-                each pet. Our veterinarians will evaluate your pet's overall
-                health and discuss the appropriate timing and procedure options
-                based on their age, breed, and individual needs. We prioritize
-                open communication and are here to answer any questions or
-                address any concerns you may have.
-              </p>
-            </div>
-            <div
-              class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-            ></div>
-          </div>
-          <div class="max-w-[1080px] pb-8">
-            <button
-              class="flex items-center justify-between w-full pb-8 text-left"
-              onclick="toggleAccordion('accordion6')"
-            >
-              <span
-                class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
-              >
-                Compassionate Post-Surgical Care</span
-              >
-              <div>
-                <img
-                  id="icon-accordion6"
-                  class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                  src="./image/plus.png"
-                  alt="plus"
-                  width="100%"
-                />
+              <div id="accordion4" class="hidden pt-2">
+                <p
+                  class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
+                >
+                  At Nebula Vets, we believe in providing personalized care for
+                  each pet. Our veterinarians will evaluate your pet's overall
+                  health and discuss the appropriate timing and procedure
+                  options based on their age, breed, and individual needs. We
+                  prioritize open communication and are here to answer any
+                  questions or address any concerns you may have.
+                </p>
               </div>
-            </button>
-
-            <div id="accordion6" class="hidden pt-2">
-              <p
-                class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
-              >
-                After the spay or neuter procedure, our dedicated staff provides
-                compassionate post-operative care to support your pet's
-                recovery. We provide detailed instructions on pain management,
-                incision care, and follow-up appointments to ensure a smooth
-                healing process. Our team is available to address any concerns
-                and provide guidance throughout your pet's recovery journey.
-              </p>
+              <div
+                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+              ></div>
             </div>
             <div
-              class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-            ></div>
-          </div>
-          <div class="max-w-[1080px] pb-8">
-            <button
-              class="flex items-center justify-between w-full pb-8 text-left"
-              onclick="toggleAccordion('accordion5')"
+              class="max-w-[1080px] pb-8"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
             >
-              <span
-                class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+              <button
+                class="flex items-center justify-between w-full pb-8 text-left"
+                onclick="toggleAccordion('accordion6')"
               >
-                Overpopulation Control</span
-              >
-              <div>
-                <img
-                  id="icon-accordion5"
-                  class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                  src="./image/plus.png"
-                  alt="plus"
-                  width="100%"
-                />
-              </div>
-            </button>
+                <span
+                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+                >
+                  Compassionate Post-Surgical Care</span
+                >
+                <div>
+                  <img
+                    id="icon-accordion6"
+                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                    src="./image/plus.png"
+                    alt="plus"
+                    width="100%"
+                  />
+                </div>
+              </button>
 
-            <div id="accordion5" class="hidden pt-2">
-              <p
-                class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
-              >
-                By choosing to spay or neuter your pet, you contribute to
-                controlling the overpopulation of animals. Countless unwanted
-                animals end up in shelters or face a life on the streets.
-                Spaying and neutering are responsible choices that help reduce
-                the number of homeless pets and ensure a healthier pet
-                population overall.
-              </p>
+              <div id="accordion6" class="hidden pt-2">
+                <p
+                  class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
+                >
+                  After the spay or neuter procedure, our dedicated staff
+                  provides compassionate post-operative care to support your
+                  pet's recovery. We provide detailed instructions on pain
+                  management, incision care, and follow-up appointments to
+                  ensure a smooth healing process. Our team is available to
+                  address any concerns and provide guidance throughout your
+                  pet's recovery journey.
+                </p>
+              </div>
+              <div
+                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+              ></div>
             </div>
             <div
-              class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-            ></div>
+              class="max-w-[1080px] pb-8"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <button
+                class="flex items-center justify-between w-full pb-8 text-left"
+                onclick="toggleAccordion('accordion5')"
+              >
+                <span
+                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+                >
+                  Overpopulation Control</span
+                >
+                <div>
+                  <img
+                    id="icon-accordion5"
+                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                    src="./image/plus.png"
+                    alt="plus"
+                    width="100%"
+                  />
+                </div>
+              </button>
+
+              <div id="accordion5" class="hidden pt-2">
+                <p
+                  class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
+                >
+                  By choosing to spay or neuter your pet, you contribute to
+                  controlling the overpopulation of animals. Countless unwanted
+                  animals end up in shelters or face a life on the streets.
+                  Spaying and neutering are responsible choices that help reduce
+                  the number of homeless pets and ensure a healthier pet
+                  population overall.
+                </p>
+              </div>
+              <div
+                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+              ></div>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!-- --------Choose Nebula Vets for Exceptional Surgical Care:-------- -->
     <section>
-      <div class="bg-gray-200">
+      <div class="bg-gray-200 relative overflow-hidden">
         <div class="max-w-[1240px] mx-auto xl:px-12 px-8">
           <div class="lg:py-20 py-15 max-w-[1080px]">
             <h2
               class="xl:text-4xl lg:text-3xl text-2xl font-normal text-[#494336] pb-10"
+              data-aos="zoom-out"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
             >
               Choose Nebula Vets for Exceptional Spay and Neuter Services:
             </h2>
             <p
               class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
             >
               When it comes to spaying and neutering, Nebula Vets is your
               trusted partner. We offer exceptional surgical care with
@@ -528,29 +619,42 @@
     </section>
     <!-- ----------We look forward to seeing you and your--------- -->
     <section>
-      <div class="bg-[#494336] lg:relative overflow-hidden">
+      <div class="bg-[#494336] relative overflow-hidden">
         <div
           class="max-w-[1240px] mx-auto xl:px-12 px-8 relative overflow-hidden"
         >
           <div class="max-w-[867px] lg:pt-20 pt-15 lg:pb-21 pb-40">
             <h2
               class="xl:text-4xl lg:text-3xl text-2xl font-normal text-[#D7D9DD] pb-10"
+              data-aos="fade-right"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1000"
             >
               We look forward to seeing you and your pet soon!
             </h2>
             <p
               class="text-[#D7D9DD] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-11"
+              data-aos="fade-up"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1500"
             >
               Schedule an animal health check at Nebula Vets today, and let us
               embark on a journey of comprehensive care for your cherished
               companion. Together, we will nurture their health and happiness,
               one check-up at a time.
             </p>
-            <a
-              class="text-[#494336] md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
-              href="#"
-              >book now
-            </a>
+            <div
+              class="text-[#494336]"
+              data-aos="flip-right"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="2000"
+            >
+              <a
+                class="md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
+                href="#"
+                >book now
+              </a>
+            </div>
           </div>
           <div
             class="max-w-[603px] block lg:hidden absolute right-0 sm:bottom-0 bottom-[-20px]"
@@ -567,7 +671,7 @@
     </section>
     <!-- ---------footer-section---------- -->
     <footer>
-      <div class="bg-[#494336] border-white border-t">
+      <div class="bg-[#494336] border-white border-t overflow-hidden relative">
         <div class="max-w-[1440px] mx-auto xl:px-12 px-8 relative">
           <div
             class="flex md:py-15 pt-15 pb-28 justify-between lg:flex-nowrap flex-wrap gap-5"
@@ -575,11 +679,15 @@
             <div>
               <h2
                 class="roboto-mono lg:text-2xl md:text-xl text-base text-[#D7D9DD] leading-[175%] pb-6"
+                data-aos="fade-right"
+                data-aos-duration="1000"
               >
                 Stay in touch:
               </h2>
               <input
                 class="text-[#D7D9DD] border text-lg py-1.5 ps-3.5 max-w-[309px] md:pe-24 pe-16"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
                 type="email"
                 name="email"
                 id="2"
@@ -589,6 +697,9 @@
                 <div class="flex pt-5.5 gap-5">
                   <a
                     class="group duration-1000"
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
                     href="https://www.facebook.com/login/"
                     target="_blank"
                     ><svg
@@ -619,7 +730,12 @@
                       </defs>
                     </svg>
                   </a>
-                  <a href="https://www.linkedin.com/login/in" target="_blank"
+                  <a
+                    href="https://www.linkedin.com/login/in"
+                    target="_blank"
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="2000"
                     ><svg
                       class="group duration-1000 hover:rotate-[360deg]"
                       width="50"
@@ -649,6 +765,9 @@
                   </a>
                   <a
                     href="https://www.instagram.com/accounts/login/?hl=en"
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="2500"
                     target="_blank"
                     ><svg
                       class="group duration-1000 hover:rotate-[360deg]"
@@ -680,7 +799,11 @@
                 </div>
               </div>
             </div>
-            <div class="w-full sm:w-auto">
+            <div
+              class="w-full sm:w-auto"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <h2
                 class="roboto-mono lg:text-2xl md:text-lg text-base text-[#D7D9DD] lg:pb-8 md:pb-6 pb-2.5"
               >
@@ -706,7 +829,11 @@
                 >
               </div>
             </div>
-            <div class="w-full sm:w-auto">
+            <div
+              class="w-full sm:w-auto"
+              data-aos="fade-down"
+              data-aos-duration="2000"
+            >
               <h2
                 class="roboto-mono lg:text-2xl md:text-lg text-base text-[#D7D9DD] lg:pb-8 md:pb-6 pb-2.5"
               >
@@ -724,7 +851,11 @@
                 >
               </div>
             </div>
-            <div class="w-full sm:w-auto">
+            <div
+              class="w-full sm:w-auto"
+              data-aos="fade-left"
+              data-aos-duration="2500"
+            >
               <h2
                 class="roboto-mono lg:text-2xl md:text-lg text-base text-[#D7D9DD] lg:pb-8 md:pb-6 pb-2.5"
               >

@@ -25,12 +25,14 @@
   <body>
     <!-- Navbar -->
     <nav>
-      <div class="bg-[#494336] relative pb-8">
-        <div
-          class="max-w-[1440px] mx-auto xl:px-12 lg:px-8 md:px-6 ps-8 pe-5 !sticky"
-        >
+      <div class="bg-[#494336] overflow-hidden relative lg:pb-4.5">
+        <div class="max-w-[1440px] mx-auto xl:px-12 lg:px-8 md:px-6 ps-8 pe-5">
           <div class="flex items-center justify-between pt-3 pb-4.5 gap-2">
-            <div>
+            <div
+              class="max-w-[114px]"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               <a href="/"
                 ><img src="./image/Logo.png" alt="logo" width="100%"
               /></a>
@@ -38,10 +40,15 @@
             <button id="openSidebar" class="text-white rounded md:hidden">
               <img src="./image/toggle.png" alt="toggle" width="100%" />
             </button>
-            <ul id="menu" class="hidden md:flex xl:gap-16 lg:gap-10 gap-3">
+            <ul
+              id="menu"
+              class="hidden md:flex xl:gap-16 lg:gap-10 gap-3"
+              data-aos="flip-up"
+              data-aos-duration="1500"
+            >
               <li>
                 <a
-                  class="text-white text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
+                  class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:opacity-[0.3]"
                   href="./veterinary-services.html"
                   >SERVICES</a
                 >
@@ -75,11 +82,17 @@
                 >
               </li>
               <li>
-                <a
-                  class="text-[#494336] text-lg font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
-                  href="#"
-                  >BOOK NOW
-                </a>
+                <div
+                  class="text-[#494336]"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                >
+                  <a
+                    class="text-[#494336] text-lg font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
+                    href="#"
+                    >BOOK NOW
+                  </a>
+                </div>
               </li>
             </ul>
           </div>
@@ -150,19 +163,23 @@
     </nav>
     <!-- ---------hero-section-------- -->
     <section>
-      <div class="bg-[#494336] lg:relative overflow-hidden">
+      <div class="bg-[#494336] relative overflow-hidden">
         <div class="max-w-[1240px] mx-auto xl:px-12 px-8.5">
           <div class="flex lg:flex-nowrap flex-wrap justify-between">
             <div
               class="lg:pt-35 pt-42.5 lg:max-w-[664px] lg:pb-21 pb-15 relative"
             >
-              <h2
+              <h1
                 class="xl:text-[70px] lg:text-6xl md:text-5xl text-[32px] !md:max-w-[600px] max-w-[280px] sm:max-w-none text-[#D7D9DD] pb-7.5 font-normal md:pb-7 pb-5"
+                data-aos="fade-up"
+                data-aos-duration="1000"
               >
                 Telemedicine
-              </h2>
+              </h1>
               <p
                 class="text-[#D7D9DD] md:leading-[26px] leading-[22px] md:text-xl text-sm lg:pb-10 pb-11"
+                data-aos="fade-down"
+                data-aos-duration="1500"
               >
                 Nebula Vets' online telemedicine service is a convenient and
                 innovative way to connect with our veterinary doctors from the
@@ -171,11 +188,17 @@
                 allowing you to receive timely and expert advice for your pet's
                 health concerns without the need to physically visit our clinic.
               </p>
-              <a
-                class="text-[#494336] md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
-                href="#"
-                >book now
-              </a>
+              <div
+                class="text-[#494336]"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <a
+                  class="md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
+                  href="#"
+                  >book now
+                </a>
+              </div>
               <div
                 class="max-w-[253px] block lg:hidden absolute top-2 sm:right-0 right-[-50px]"
               >
@@ -208,11 +231,15 @@
           >
             <h2
               class="xl:text-4xl lg:text-3xl text-2xl font-normal text-[#494336] md:pb-8 pb-4 sm:max-w-none"
+              data-aos="flip-right"
+              data-aos-duration="1000"
             >
               Why use Telemedicine
             </h2>
             <p
               class="lg:text-xl md:text-base text-sm pb-8 text-[#494336] lg:leading-[26px] leading-[22px]"
+              data-aos="fade-down"
+              data-aos-duration="1500"
             >
               Nebula Vets' online telemedicine service is designed to provide
               immediate advice and guidance for various veterinary issues.
@@ -223,16 +250,22 @@
             </p>
             <h3
               class="xl:text-4xl lg:text-3xl text-2xl font-normal text-[#494336] md:pb-8 pb-4 sm:max-w-none lg:flex hidden"
+              data-aos="flip-right"
+              data-aos-duration="1000"
             >
               During the online consultation
             </h3>
             <h3
               class="xl:text-4xl lg:text-3xl text-2xl font-normal text-[#494336] md:pb-8 pb-4 sm:max-w-none lg:hidden"
+              data-aos="flip-right"
+              data-aos-duration="1000"
             >
               What happens during the online consultation:
             </h3>
             <p
               class="lg:text-xl md:text-base text-sm text-[#494336] flex flex-col lg:leading-[26px] leading-[22px] md:pb-8 pb-4"
+              data-aos="fade-right"
+              data-aos-duration="1500"
             >
               Our veterinarians will carefully assess the information you
               provide and ask relevant questions to better understand your pet's
@@ -242,6 +275,8 @@
             </p>
             <p
               class="lg:text-xl md:text-base text-sm text-[#494336] flex flex-col lg:leading-[26px] leading-[22px] md:pb-8 pb-4"
+              data-aos="fade-left"
+              data-aos-duration="1500"
             >
               This immediate access to professional veterinary advice can be
               particularly valuable in situations where you're unsure if a
@@ -252,6 +287,8 @@
 
             <p
               class="lg:text-xl md:text-base text-sm text-[#494336] lg:leading-[26px] leading-[22px]"
+              data-aos="fade-right"
+              data-aos-duration="1500"
             >
               However, it's important to note that there are limitations to
               telemedicine, and certain cases may still require an in-person
@@ -269,149 +306,182 @@
     </section>
     <!-- -----1234------ -->
     <section>
-      <div class="max-w-[1440px] mx-auto xl:px-12 px-8">
-        <div class="relative xl:py-20 py-15 pb-10 overflow-hidden">
-          <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="bg-[#494336]">
+      <div class="relative overflow-hidden">
+        <div class="max-w-[1440px] mx-auto xl:px-12 px-8">
+          <div class="relative xl:py-20 py-15 pb-10 overflow-hidden">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
                   <div
-                    class="pt-8 md:ps-8 px-6 pb-2.5 flex flex-col justify-between"
+                    class="bg-[#494336]"
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
                   >
-                    <h3
-                      class="text-[138px] !leading-25 pb-5 font-normal bg-gradient-to-r from-[#ffa280] to-[#8fd9d9] bg-clip-text text-transparent"
+                    <div
+                      class="pt-8 md:ps-8 px-6 pb-2.5 flex flex-col justify-between"
                     >
-                      1.
-                    </h3>
+                      <h3
+                        class="text-[138px] !leading-25 pb-5 font-normal bg-gradient-to-r from-[#ffa280] to-[#8fd9d9] bg-clip-text text-transparent"
+                      >
+                        1.
+                      </h3>
 
-                    <div class="max-w-[242px]">
-                      <h4
-                        class="text-[#D7D9DD] xl:text-[32px] lg:text-3xl text-2xl pb-7 lg:max-w-[201px]"
-                      >
-                        Book a telemedicine  consult
-                      </h4>
-                      <p
-                        class="text-[#D7D9DD] md:text-xl text-sm lg:leading-[26px] leading-[22px] lg:pb-10.5 pb-8"
-                      >
-                        Click the "chat with vet" button below to join a que for
-                        a telemedicine online visit.
-                      </p>
+                      <div class="max-w-[242px]">
+                        <h4
+                          class="text-[#D7D9DD] xl:text-[32px] lg:text-3xl text-2xl pb-7 lg:max-w-[201px]"
+                        >
+                          Book a telemedicine  consult
+                        </h4>
+                        <p
+                          class="text-[#D7D9DD] md:text-xl text-sm lg:leading-[26px] leading-[22px] lg:pb-10.5 pb-8"
+                        >
+                          Click the "chat with vet" button below to join a que
+                          for a telemedicine online visit.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="bg-[#494336]">
+                <div class="swiper-slide">
                   <div
-                    class="pt-8 md:ps-8 px-6 lg:pb-35 md:pb-21 pb-21.5 flex flex-col justify-between"
+                    class="bg-[#494336]"
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="2000"
                   >
-                    <h3
-                      class="text-[138px] !leading-25 pb-5 font-normal bg-gradient-to-r from-[#ffa280] to-[#8fd9d9] bg-clip-text text-transparent"
+                    <div
+                      class="pt-8 md:ps-8 px-6 lg:pb-35 md:pb-21 pb-21.5 flex flex-col justify-between"
                     >
-                      2.
-                    </h3>
+                      <h3
+                        class="text-[138px] !leading-25 pb-5 font-normal bg-gradient-to-r from-[#ffa280] to-[#8fd9d9] bg-clip-text text-transparent"
+                      >
+                        2.
+                      </h3>
 
-                    <div class="max-w-[242px]">
-                      <h4
-                        class="text-[#D7D9DD] xl:text-[32px] lg:text-3xl text-2xl pb-7"
-                      >
-                        Join with the link
-                      </h4>
-                      <p
-                        class="text-[#D7D9DD] md:text-xl text-sm lg:leading-[26px] leading-[22px] lg:pb-10.5 pb-8"
-                      >
-                        A custom link will be sent to your email
-                      </p>
+                      <div class="max-w-[242px]">
+                        <h4
+                          class="text-[#D7D9DD] xl:text-[32px] lg:text-3xl text-2xl pb-7"
+                        >
+                          Join with the link
+                        </h4>
+                        <p
+                          class="text-[#D7D9DD] md:text-xl text-sm lg:leading-[26px] leading-[22px] lg:pb-10.5 pb-8"
+                        >
+                          A custom link will be sent to your email
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="bg-[#494336]">
+                <div class="swiper-slide">
                   <div
-                    class="pt-8 md:ps-8 px-6 lg:pb-28.5 pb-16 flex flex-col justify-between"
+                    class="bg-[#494336]"
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="2500"
                   >
-                    <h3
-                      class="text-[138px] !leading-25 pb-5 font-normal bg-gradient-to-r from-[#ffa280] to-[#8fd9d9] bg-clip-text text-transparent"
+                    <div
+                      class="pt-8 md:ps-8 px-6 lg:pb-28.5 pb-18.5 flex flex-col justify-between"
                     >
-                      3.
-                    </h3>
+                      <h3
+                        class="text-[138px] !leading-25 pb-5 font-normal bg-gradient-to-r from-[#ffa280] to-[#8fd9d9] bg-clip-text text-transparent"
+                      >
+                        3.
+                      </h3>
 
-                    <div class="max-w-[242px]">
-                      <h4
-                        class="text-[#D7D9DD] xl:text-[32px] lg:text-3xl text-2xl pb-7"
-                      >
-                        Video chat
-                      </h4>
-                      <p
-                        class="text-[#D7D9DD] md:text-xl text-sm lg:leading-[26px] leading-[22px] lg:pb-10.5 pb-8"
-                      >
-                        In a real-time online visit, share with the vet your
-                        pet’s current issues.
-                      </p>
+                      <div class="max-w-[242px]">
+                        <h4
+                          class="text-[#D7D9DD] xl:text-[32px] lg:text-3xl text-2xl pb-7"
+                        >
+                          Video chat
+                        </h4>
+                        <p
+                          class="text-[#D7D9DD] md:text-xl text-sm lg:leading-[26px] leading-[22px] lg:pb-10.5 pb-8"
+                        >
+                          In a real-time online visit, share with the vet your
+                          pet’s current issues.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="bg-[#494336]">
+                <div class="swiper-slide">
                   <div
-                    class="pt-8 lg:ps-8 px-6 xl:pb-21 lg:pb-23 pb-19.5 flex flex-col justify-between"
+                    class="bg-[#494336]"
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="3000"
                   >
-                    <h3
-                      class="text-[138px] !leading-25 pb-5 font-normal bg-gradient-to-r from-[#ffa280] to-[#8fd9d9] bg-clip-text text-transparent"
+                    <div
+                      class="pt-8 lg:ps-8 px-6 xl:pb-21 lg:pb-23 pb-21 flex flex-col justify-between"
                     >
-                      4.
-                    </h3>
-                    <div class="max-w-[242px]">
-                      <h4
-                        class="text-[#D7D9DD] xl:text-[32px] lg:text-3xl text-2xl pb-7"
+                      <h3
+                        class="text-[138px] !leading-25 pb-5 font-normal bg-gradient-to-r from-[#ffa280] to-[#8fd9d9] bg-clip-text text-transparent"
                       >
-                        Treatment
-                      </h4>
-                      <p
-                        class="text-[#D7D9DD] md:text-xl text-sm lg:leading-[26px] leading-[22px] lg:pb-10.5"
-                      >
-                        Our veterinarian will evaluate your pet and discuss next
-                        steps, which may include medication.
-                      </p>
+                        4.
+                      </h3>
+                      <div class="max-w-[242px]">
+                        <h4
+                          class="text-[#D7D9DD] xl:text-[32px] lg:text-3xl text-2xl pb-7"
+                        >
+                          Treatment
+                        </h4>
+                        <p
+                          class="text-[#D7D9DD] md:text-xl text-sm lg:leading-[26px] leading-[22px] lg:pb-10.5"
+                        >
+                          Our veterinarian will evaluate your pet and discuss
+                          next steps, which may include medication.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
+              <div class="swiper-pagination !relative !bottom-[-6px]"></div>
             </div>
-            <div class="swiper-pagination !relative !bottom-[-6px]"></div>
           </div>
-        </div>
-        <div
-          class="lg:pb-20 pt-6 lg:pt-0 pb-15 flex items-center justify-center"
-        >
-          <a
-            class="text-[#494336] md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
-            href="#"
-            >CHAT WITH A VET
-          </a>
+          <div
+            class="lg:pb-20 pt-6 lg:pt-0 pb-15 flex items-center justify-center"
+            data-aos="flip-right"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
+            <a
+              class="text-[#494336] md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
+              href="#"
+              >CHAT WITH A VET
+            </a>
+          </div>
         </div>
       </div>
     </section>
     <!-- ----------We look forward to seeing you and your pet soon!--------- -->
     <section>
-      <div class="bg-[#494336] lg:relative overflow-hidden">
+      <div class="bg-[#494336] relative overflow-hidden">
         <div
           class="max-w-[1240px] mx-auto xl:px-12 px-8 relative overflow-hidden"
         >
           <div class="max-w-[530px] lg:pt-20 pt-15 lg:pb-21 pb-40">
             <h2
               class="xl:text-4xl lg:text-3xl text-2xl font-normal text-[#D7D9DD] lg:pb-10 pb-13"
+              data-aos="fade-up"
+              data-aos-duration="1500"
             >
               We look forward to seeing you and your pet soon!
             </h2>
 
-            <a
-              class="text-[#494336] md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
-              href="#"
-              >book now
-            </a>
+            <div
+              class="text-[#494336]"
+              data-aos="flip-right"
+              data-aos-duration="2000"
+            >
+              <a
+                class="md:text-lg text-base font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
+                href="#"
+                >book now
+              </a>
+            </div>
           </div>
           <div
             class="max-w-[603px] flex lg:hidden absolute right-0 sm:bottom-0 bottom-[-20px]"
@@ -428,7 +498,7 @@
     </section>
     <!-- ---------footer-section---------- -->
     <footer>
-      <div class="bg-[#494336] border-white border-t">
+      <div class="bg-[#494336] border-white border-t overflow-hidden relative">
         <div class="max-w-[1440px] mx-auto xl:px-12 px-8 relative">
           <div
             class="flex md:py-15 pt-15 pb-28 justify-between lg:flex-nowrap flex-wrap gap-5"
@@ -436,11 +506,15 @@
             <div>
               <h2
                 class="roboto-mono lg:text-2xl md:text-xl text-base text-[#D7D9DD] leading-[175%] pb-6"
+                data-aos="fade-right"
+                data-aos-duration="1000"
               >
                 Stay in touch:
               </h2>
               <input
                 class="text-[#D7D9DD] border text-lg py-1.5 ps-3.5 max-w-[309px] md:pe-24 pe-16"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
                 type="email"
                 name="email"
                 id="2"
@@ -450,6 +524,9 @@
                 <div class="flex pt-5.5 gap-5">
                   <a
                     class="group duration-1000"
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
                     href="https://www.facebook.com/login/"
                     target="_blank"
                     ><svg
@@ -480,7 +557,12 @@
                       </defs>
                     </svg>
                   </a>
-                  <a href="https://www.linkedin.com/login/in" target="_blank"
+                  <a
+                    href="https://www.linkedin.com/login/in"
+                    target="_blank"
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="2000"
                     ><svg
                       class="group duration-1000 hover:rotate-[360deg]"
                       width="50"
@@ -510,6 +592,9 @@
                   </a>
                   <a
                     href="https://www.instagram.com/accounts/login/?hl=en"
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="2500"
                     target="_blank"
                     ><svg
                       class="group duration-1000 hover:rotate-[360deg]"
@@ -541,7 +626,11 @@
                 </div>
               </div>
             </div>
-            <div class="w-full sm:w-auto">
+            <div
+              class="w-full sm:w-auto"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <h2
                 class="roboto-mono lg:text-2xl md:text-lg text-base text-[#D7D9DD] lg:pb-8 md:pb-6 pb-2.5"
               >
@@ -567,7 +656,11 @@
                 >
               </div>
             </div>
-            <div class="w-full sm:w-auto">
+            <div
+              class="w-full sm:w-auto"
+              data-aos="fade-down"
+              data-aos-duration="2000"
+            >
               <h2
                 class="roboto-mono lg:text-2xl md:text-lg text-base text-[#D7D9DD] lg:pb-8 md:pb-6 pb-2.5"
               >
@@ -585,7 +678,11 @@
                 >
               </div>
             </div>
-            <div class="w-full sm:w-auto">
+            <div
+              class="w-full sm:w-auto"
+              data-aos="fade-left"
+              data-aos-duration="2500"
+            >
               <h2
                 class="roboto-mono lg:text-2xl md:text-lg text-base text-[#D7D9DD] lg:pb-8 md:pb-6 pb-2.5"
               >

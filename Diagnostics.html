@@ -25,7 +25,7 @@
   <body>
     <!-- Navbar -->
     <nav>
-      <div class="bg-[#494336] lg:pb-4.5">
+      <div class="bg-[#494336] lg:pb-4.5 relative overflow-hidden">
         <div class="max-w-[1440px] mx-auto xl:px-12 lg:px-8 md:px-6 ps-8 pe-5">
           <div class="flex items-center justify-between pt-3 pb-4.5 gap-2">
             <div
@@ -163,7 +163,7 @@
     </nav>
     <!-- ---------hero-section-------- -->
     <section>
-      <div class="bg-[#494336] lg:relative overflow-hidden">
+      <div class="bg-[#494336] relative overflow-hidden">
         <div class="max-w-[1240px] mx-auto xl:px-12 px-8.5">
           <div class="flex lg:flex-nowrap flex-wrap justify-between">
             <div
@@ -269,301 +269,304 @@
     </section>
     <!-- --------Blood Panel--------- -->
     <section>
-      <div class="max-w-[1240px] mx-auto xl:px-12 ps-8.5 pe-8">
-        <div class="lg:pt-21.5 lg:pb-20 py-15">
-          <div
-            class="max-w-[1080px] pb-8"
-            data-aos="zoom-out"
-            data-aos-duration="1500"
-          >
-            <button
-              class="flex items-center justify-between w-full pb-8 text-left"
-              onclick="toggleAccordion('accordion1')"
+      <div class="relative overflow-hidden">
+        <div class="max-w-[1240px] mx-auto xl:px-12 ps-8.5 pe-8">
+          <div class="lg:pt-21.5 lg:pb-20 py-15">
+            <div
+              class="max-w-[1080px] pb-8"
+              data-aos="zoom-out"
+              data-aos-duration="1500"
             >
-              <span
-                class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[178px] sm:max-w-none"
+              <button
+                class="flex items-center justify-between w-full pb-8 text-left"
+                onclick="toggleAccordion('accordion1')"
               >
-                Blood Panel
-              </span>
-              <div>
-                <img
-                  id="icon-accordion1"
-                  class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                  src="./image/plus.png"
-                  alt="plus"
-                  width="100%"
-                />
-              </div>
-            </button>
+                <span
+                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[178px] sm:max-w-none"
+                >
+                  Blood Panel
+                </span>
+                <div>
+                  <img
+                    id="icon-accordion1"
+                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                    src="./image/plus.png"
+                    alt="plus"
+                    width="100%"
+                  />
+                </div>
+              </button>
 
-            <div id="accordion1" class="hidden pt-2">
-              <p
-                class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
-              >
-                Blood Panel: Our in-house laboratory enables us to perform a
-                variety of blood tests, including complete blood counts (CBC),
-                blood chemistry profiles, thyroid hormone levels, and infectious
-                disease screenings. These tests provide valuable information
-                about your pet's overall health, organ function, blood cell
-                counts, and help detect potential underlying health issues.
-              </p>
+              <div id="accordion1" class="hidden pt-2">
+                <p
+                  class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
+                >
+                  Blood Panel: Our in-house laboratory enables us to perform a
+                  variety of blood tests, including complete blood counts (CBC),
+                  blood chemistry profiles, thyroid hormone levels, and
+                  infectious disease screenings. These tests provide valuable
+                  information about your pet's overall health, organ function,
+                  blood cell counts, and help detect potential underlying health
+                  issues.
+                </p>
+              </div>
+              <div
+                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+              ></div>
             </div>
             <div
-              class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-            ></div>
-          </div>
-          <div
-            class="max-w-[1080px] pb-8"
-            data-aos="zoom-in"
-            data-aos-duration="1500"
-          >
-            <button
-              class="flex items-center justify-between w-full pb-8 text-left"
-              onclick="toggleAccordion('accordion2')"
+              class="max-w-[1080px] pb-8"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
             >
-              <span
-                class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+              <button
+                class="flex items-center justify-between w-full pb-8 text-left"
+                onclick="toggleAccordion('accordion2')"
               >
-                Urinalysis</span
-              >
-              <div>
-                <img
-                  id="icon-accordion2"
-                  class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                  src="./image/plus.png"
-                  alt="plus"
-                  width="100%"
-                />
-              </div>
-            </button>
+                <span
+                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+                >
+                  Urinalysis</span
+                >
+                <div>
+                  <img
+                    id="icon-accordion2"
+                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                    src="./image/plus.png"
+                    alt="plus"
+                    width="100%"
+                  />
+                </div>
+              </button>
 
-            <div id="accordion2" class="hidden pt-2">
-              <p
-                class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
-              >
-                Urinalysis is important in diagnosing and monitoring various
-                conditions that can affect your pet's urinary system and overall
-                health. Urine samples provide valuable insights into your pet's
-                well-being, allowing us to detect and address issues such as
-                urinary tract infections (UTIs), kidney diseases, bladder
-                problems, and even diabetes.
-              </p>
+              <div id="accordion2" class="hidden pt-2">
+                <p
+                  class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
+                >
+                  Urinalysis is important in diagnosing and monitoring various
+                  conditions that can affect your pet's urinary system and
+                  overall health. Urine samples provide valuable insights into
+                  your pet's well-being, allowing us to detect and address
+                  issues such as urinary tract infections (UTIs), kidney
+                  diseases, bladder problems, and even diabetes.
+                </p>
+              </div>
+              <div
+                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+              ></div>
             </div>
             <div
-              class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-            ></div>
-          </div>
-          <div
-            class="max-w-[1080px] pb-8"
-            data-aos="zoom-out"
-            data-aos-duration="1500"
-          >
-            <button
-              class="flex items-center justify-between w-full pb-8 text-left"
-              onclick="toggleAccordion('accordion3')"
+              class="max-w-[1080px] pb-8"
+              data-aos="zoom-out"
+              data-aos-duration="1500"
             >
-              <span
-                class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+              <button
+                class="flex items-center justify-between w-full pb-8 text-left"
+                onclick="toggleAccordion('accordion3')"
               >
-                Fecal Testing</span
-              >
-              <div>
-                <img
-                  id="icon-accordion3"
-                  class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                  src="./image/plus.png"
-                  alt="plus"
-                  width="100%"
-                />
+                <span
+                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+                >
+                  Fecal Testing</span
+                >
+                <div>
+                  <img
+                    id="icon-accordion3"
+                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                    src="./image/plus.png"
+                    alt="plus"
+                    width="100%"
+                  />
+                </div>
+              </button>
+              <div id="accordion3" class="hidden pt-2">
+                <p
+                  class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
+                >
+                  Fecal testing is significant in identifying and treating
+                  parasites that can affect the health of your pet and
+                  potentially pose a risk to your family members. Fecal testing
+                  is a vital diagnostic tool that allows us to detect the
+                  presence of various parasites, including worms and Giardia,
+                  even when your pet may not display any symptoms of disease.
+                </p>
               </div>
-            </button>
-            <div id="accordion3" class="hidden pt-2">
-              <p
-                class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
-              >
-                Fecal testing is significant in identifying and treating
-                parasites that can affect the health of your pet and potentially
-                pose a risk to your family members. Fecal testing is a vital
-                diagnostic tool that allows us to detect the presence of various
-                parasites, including worms and Giardia, even when your pet may
-                not display any symptoms of disease.
-              </p>
+              <div
+                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+              ></div>
             </div>
             <div
-              class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-            ></div>
-          </div>
-          <div
-            class="max-w-[1080px] pb-8"
-            data-aos="zoom-in"
-            data-aos-duration="1500"
-          >
-            <button
-              class="flex items-center justify-between w-full pb-8 text-left"
-              onclick="toggleAccordion('accordion4')"
+              class="max-w-[1080px] pb-8"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
             >
-              <span
-                class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[178px] sm:max-w-none"
+              <button
+                class="flex items-center justify-between w-full pb-8 text-left"
+                onclick="toggleAccordion('accordion4')"
               >
-                Cytology</span
-              >
-              <div>
-                <img
-                  id="icon-accordion4"
-                  class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                  src="./image/plus.png"
-                  alt="plus"
-                  width="100%"
-                />
-              </div>
-            </button>
+                <span
+                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[178px] sm:max-w-none"
+                >
+                  Cytology</span
+                >
+                <div>
+                  <img
+                    id="icon-accordion4"
+                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                    src="./image/plus.png"
+                    alt="plus"
+                    width="100%"
+                  />
+                </div>
+              </button>
 
-            <div id="accordion4" class="hidden pt-2">
-              <p
-                class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
-              >
-                Cytology is used for diagnosing and evaluating various
-                conditions that may affect your pet's health. Cytology involves
-                the analysis of cells obtained from different sources, such as
-                skin, ears, or masses, and it provides valuable insights into
-                identifying infections, parasites, and abnormalities, including
-                cancerous or abnormal cells.
-              </p>
-            </div>
-            <div
-              class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-            ></div>
-          </div>
-          <div
-            class="max-w-[1080px] pb-8"
-            data-aos="zoom-out"
-            data-aos-duration="1500"
-          >
-            <button
-              class="flex items-center justify-between w-full pb-8 text-left"
-              onclick="toggleAccordion('accordion6')"
-            >
-              <span
-                class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
-              >
-                Histopathology</span
-              >
-              <div>
-                <img
-                  id="icon-accordion6"
-                  class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                  src="./image/plus.png"
-                  alt="plus"
-                  width="100%"
-                />
+              <div id="accordion4" class="hidden pt-2">
+                <p
+                  class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
+                >
+                  Cytology is used for diagnosing and evaluating various
+                  conditions that may affect your pet's health. Cytology
+                  involves the analysis of cells obtained from different
+                  sources, such as skin, ears, or masses, and it provides
+                  valuable insights into identifying infections, parasites, and
+                  abnormalities, including cancerous or abnormal cells.
+                </p>
               </div>
-            </button>
-
-            <div id="accordion6" class="hidden pt-2">
-              <p
-                class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
-              >
-                For a more in-depth analysis of tissues, we offer histopathology
-                services. Tissue samples obtained through biopsies or surgical
-                procedures are examined under a microscope, allowing us to
-                diagnose and characterize diseases, identify tumors, and guide
-                treatment strategies.
-              </p>
+              <div
+                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+              ></div>
             </div>
             <div
-              class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-            ></div>
-          </div>
-          <div
-            class="max-w-[1080px] pb-8"
-            data-aos="zoom-in"
-            data-aos-duration="1500"
-          >
-            <button
-              class="flex items-center justify-between w-full pb-8 text-left"
-              onclick="toggleAccordion('accordion5')"
+              class="max-w-[1080px] pb-8"
+              data-aos="zoom-out"
+              data-aos-duration="1500"
             >
-              <span
-                class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+              <button
+                class="flex items-center justify-between w-full pb-8 text-left"
+                onclick="toggleAccordion('accordion6')"
               >
-                Tick & Heartworm testing</span
-              >
-              <div>
-                <img
-                  id="icon-accordion5"
-                  class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                  src="./image/plus.png"
-                  alt="plus"
-                  width="100%"
-                />
-              </div>
-            </button>
+                <span
+                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+                >
+                  Histopathology</span
+                >
+                <div>
+                  <img
+                    id="icon-accordion6"
+                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                    src="./image/plus.png"
+                    alt="plus"
+                    width="100%"
+                  />
+                </div>
+              </button>
 
-            <div id="accordion5" class="hidden pt-2">
-              <p
-                class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
-              >
-                At Nebula Vets, we place a strong emphasis on preventive care
-                and recommend annual tick and heartworm testing for your pet's
-                overall well-being. Tick-borne diseases and heartworm disease
-                are significant health concerns that can have severe
-                consequences if left untreated. Regular testing, in conjunction
-                with monthly preventatives, allows us to detect these conditions
-                early and provide timely treatment to ensure your pet's optimal
-                health.
-              </p>
+              <div id="accordion6" class="hidden pt-2">
+                <p
+                  class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
+                >
+                  For a more in-depth analysis of tissues, we offer
+                  histopathology services. Tissue samples obtained through
+                  biopsies or surgical procedures are examined under a
+                  microscope, allowing us to diagnose and characterize diseases,
+                  identify tumors, and guide treatment strategies.
+                </p>
+              </div>
+              <div
+                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+              ></div>
             </div>
             <div
-              class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-            ></div>
-          </div>
-          <div
-            class="max-w-[1080px]"
-            data-aos="zoom-out"
-            data-aos-duration="1500"
-          >
-            <button
-              class="flex items-center justify-between w-full pb-8 text-left"
-              onclick="toggleAccordion('accordion7')"
+              class="max-w-[1080px] pb-8"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
             >
-              <span
-                class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+              <button
+                class="flex items-center justify-between w-full pb-8 text-left"
+                onclick="toggleAccordion('accordion5')"
               >
-                Allergy Testing</span
-              >
-              <div>
-                <img
-                  id="icon-accordion7"
-                  class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                  src="./image/plus.png"
-                  alt="plus"
-                  width="100%"
-                />
-              </div>
-            </button>
+                <span
+                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+                >
+                  Tick & Heartworm testing</span
+                >
+                <div>
+                  <img
+                    id="icon-accordion5"
+                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                    src="./image/plus.png"
+                    alt="plus"
+                    width="100%"
+                  />
+                </div>
+              </button>
 
-            <div id="accordion7" class="hidden pt-2">
-              <p
-                class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
-              >
-                Allergy Testing: Nebula Vets offers comprehensive allergy
-                testing to identify the specific allergens that trigger your
-                pet's allergic reactions. Through intradermal or blood-based
-                allergy tests, we determine environmental and food allergies,
-                allowing us to develop tailored treatment plans and improve your
-                pet's quality of life.
-              </p>
+              <div id="accordion5" class="hidden pt-2">
+                <p
+                  class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
+                >
+                  At Nebula Vets, we place a strong emphasis on preventive care
+                  and recommend annual tick and heartworm testing for your pet's
+                  overall well-being. Tick-borne diseases and heartworm disease
+                  are significant health concerns that can have severe
+                  consequences if left untreated. Regular testing, in
+                  conjunction with monthly preventatives, allows us to detect
+                  these conditions early and provide timely treatment to ensure
+                  your pet's optimal health.
+                </p>
+              </div>
+              <div
+                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+              ></div>
             </div>
             <div
-              class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-            ></div>
+              class="max-w-[1080px]"
+              data-aos="zoom-out"
+              data-aos-duration="1500"
+            >
+              <button
+                class="flex items-center justify-between w-full pb-8 text-left"
+                onclick="toggleAccordion('accordion7')"
+              >
+                <span
+                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+                >
+                  Allergy Testing</span
+                >
+                <div>
+                  <img
+                    id="icon-accordion7"
+                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                    src="./image/plus.png"
+                    alt="plus"
+                    width="100%"
+                  />
+                </div>
+              </button>
+
+              <div id="accordion7" class="hidden pt-2">
+                <p
+                  class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
+                >
+                  Allergy Testing: Nebula Vets offers comprehensive allergy
+                  testing to identify the specific allergens that trigger your
+                  pet's allergic reactions. Through intradermal or blood-based
+                  allergy tests, we determine environmental and food allergies,
+                  allowing us to develop tailored treatment plans and improve
+                  your pet's quality of life.
+                </p>
+              </div>
+              <div
+                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+              ></div>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!-- --------Available Imaging--------------- -->
     <section>
-      <div class="bg-gray-200">
+      <div class="bg-gray-200 relative overflow-hidden">
         <div class="max-w-[1240px] mx-auto xl:px-12 px-8">
           <div class="lg:py-20 py-15 max-w-[1080px]">
             <h2
@@ -591,134 +594,137 @@
     </section>
     <!-- ------Digital Radiography--------- -->
     <section>
-      <div class="max-w-[1240px] mx-auto xl:px-12 ps-8.5 pe-8">
-        <div class="lg:pt-21.5 lg:pb-20 py-15">
-          <div
-            class="max-w-[1080px] pb-8"
-            data-aos="fade-right"
-            data-aos-duration="1500"
-          >
-            <button
-              class="flex items-center justify-between w-full pb-8 text-left"
-              onclick="toggleAccordion('accordion8')"
+      <div class="relative overflow-hidden">
+        <div class="max-w-[1240px] mx-auto xl:px-12 ps-8.5 pe-8">
+          <div class="lg:pt-21.5 lg:pb-20 py-15">
+            <div
+              class="max-w-[1080px] pb-8"
+              data-aos="fade-right"
+              data-aos-duration="1500"
             >
-              <span
-                class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336]"
+              <button
+                class="flex items-center justify-between w-full pb-8 text-left"
+                onclick="toggleAccordion('accordion8')"
               >
-                Digital Radiography
-              </span>
-              <div>
-                <img
-                  id="icon-accordion8"
-                  class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                  src="./image/plus.png"
-                  alt="plus"
-                  width="100%"
-                />
-              </div>
-            </button>
+                <span
+                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336]"
+                >
+                  Digital Radiography
+                </span>
+                <div>
+                  <img
+                    id="icon-accordion8"
+                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                    src="./image/plus.png"
+                    alt="plus"
+                    width="100%"
+                  />
+                </div>
+              </button>
 
-            <div id="accordion8" class="hidden pt-2">
-              <p
-                class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
-              >
-                Our advanced digital radiography system allows us to capture
-                high-resolution images of your pet's bones, organs, and soft
-                tissues. Radiographs are particularly useful in diagnosing
-                fractures, assessing the condition of internal organs,
-                identifying tumors or foreign objects, and evaluating the
-                skeletal system.
-              </p>
+              <div id="accordion8" class="hidden pt-2">
+                <p
+                  class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
+                >
+                  Our advanced digital radiography system allows us to capture
+                  high-resolution images of your pet's bones, organs, and soft
+                  tissues. Radiographs are particularly useful in diagnosing
+                  fractures, assessing the condition of internal organs,
+                  identifying tumors or foreign objects, and evaluating the
+                  skeletal system.
+                </p>
+              </div>
+              <div
+                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+              ></div>
             </div>
             <div
-              class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-            ></div>
-          </div>
-          <div
-            class="max-w-[1080px] pb-8"
-            data-aos="fade-left"
-            data-aos-duration="1500"
-          >
-            <button
-              class="flex items-center justify-between w-full pb-8 text-left"
-              onclick="toggleAccordion('accordion9')"
+              class="max-w-[1080px] pb-8"
+              data-aos="fade-left"
+              data-aos-duration="1500"
             >
-              <span
-                class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+              <button
+                class="flex items-center justify-between w-full pb-8 text-left"
+                onclick="toggleAccordion('accordion9')"
               >
-                Ultrasound</span
-              >
-              <div>
-                <img
-                  id="icon-accordion9"
-                  class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                  src="./image/plus.png"
-                  alt="plus"
-                  width="100%"
-                />
-              </div>
-            </button>
+                <span
+                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+                >
+                  Ultrasound</span
+                >
+                <div>
+                  <img
+                    id="icon-accordion9"
+                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                    src="./image/plus.png"
+                    alt="plus"
+                    width="100%"
+                  />
+                </div>
+              </button>
 
-            <div id="accordion9" class="hidden pt-2">
-              <p
-                class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
-              >
-                With our cutting-edge ultrasound technology, we can visualize
-                and assess the internal structures of your pet's body in real
-                time. Ultrasounds help us examine the heart, abdomen,
-                reproductive system, and identify abnormalities or potential
-                health concerns. This non-invasive imaging technique aids in
-                diagnosing conditions and guiding treatment decisions.
-              </p>
-            </div>
-            <div
-              class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-            ></div>
-          </div>
-          <div
-            class="max-w-[1080px]"
-            data-aos="fade-right"
-            data-aos-duration="1500"
-          >
-            <button
-              class="flex items-center justify-between w-full pb-8 text-left"
-              onclick="toggleAccordion('accordion10')"
-            >
-              <span
-                class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
-              >
-                Echocardiograms</span
-              >
-              <div>
-                <img
-                  id="icon-accordion10"
-                  class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
-                  src="./image/plus.png"
-                  alt="plus"
-                  width="100%"
-                />
+              <div id="accordion9" class="hidden pt-2">
+                <p
+                  class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
+                >
+                  With our cutting-edge ultrasound technology, we can visualize
+                  and assess the internal structures of your pet's body in real
+                  time. Ultrasounds help us examine the heart, abdomen,
+                  reproductive system, and identify abnormalities or potential
+                  health concerns. This non-invasive imaging technique aids in
+                  diagnosing conditions and guiding treatment decisions.
+                </p>
               </div>
-            </button>
-            <div id="accordion10" class="hidden pt-2">
-              <p
-                class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
-              >
-                Echocardiogram services to assess the health and function of
-                your pet's heart. An echocardiogram, also known as a cardiac
-                ultrasound, is a non-invasive and painless procedure that
-                provides detailed images of the heart's structures and function.
-              </p>
+              <div
+                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+              ></div>
             </div>
             <div
-              class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
-            ></div>
+              class="max-w-[1080px]"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            >
+              <button
+                class="flex items-center justify-between w-full pb-8 text-left"
+                onclick="toggleAccordion('accordion10')"
+              >
+                <span
+                  class="lg:text-2xl md:text-xl text-base roboto-mono leading-[150%] text-[#494336] max-w-[234px] sm:max-w-none"
+                >
+                  Echocardiograms</span
+                >
+                <div>
+                  <img
+                    id="icon-accordion10"
+                    class="lg:w-7 w-5 lg:h-7 h-5 transform rotate-0 transition-transform cursor-pointer"
+                    src="./image/plus.png"
+                    alt="plus"
+                    width="100%"
+                  />
+                </div>
+              </button>
+              <div id="accordion10" class="hidden pt-2">
+                <p
+                  class="text-[#494336] lg:leading-[26px] leading-[22px] lg:text-xl md:text-base text-sm pb-8 max-w-[1026px]"
+                >
+                  Echocardiogram services to assess the health and function of
+                  your pet's heart. An echocardiogram, also known as a cardiac
+                  ultrasound, is a non-invasive and painless procedure that
+                  provides detailed images of the heart's structures and
+                  function.
+                </p>
+              </div>
+              <div
+                class="bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] h-[2px]"
+              ></div>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!-- --------card Imaging--------------- -->
     <section>
-      <div class="bg-gray-200">
+      <div class="bg-gray-200 relative overflow-hidden">
         <div class="max-w-[1240px] mx-auto xl:px-12 px-8">
           <div class="relative xl:py-20 py-15 overflow-hidden">
             <h2
@@ -809,7 +815,7 @@
     </section>
     <!-- ----------We look forward to seeing you and your pet soon!--------- -->
     <section>
-      <div class="bg-[#494336] lg:relative overflow-hidden">
+      <div class="bg-[#494336] relative overflow-hidden">
         <div
           class="max-w-[1240px] mx-auto xl:px-12 px-8 relative overflow-hidden"
         >
@@ -848,7 +854,7 @@
     </section>
     <!-- ---------footer-section---------- -->
     <footer>
-      <div class="bg-[#494336] border-white border-t">
+      <div class="bg-[#494336] border-white border-t relative overflow-hidden">
         <div class="max-w-[1440px] mx-auto xl:px-12 px-8 relative">
           <div
             class="flex md:py-15 pt-15 pb-28 justify-between lg:flex-nowrap flex-wrap gap-5"
