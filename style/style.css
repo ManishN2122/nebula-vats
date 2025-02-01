@@ -8,6 +8,9 @@ body {
   width: 100%;
   height: auto !important;
 }
+.active {
+  color: white !important;
+}
 .swiper-slide .img {
   display: block;
   width: 100%;
