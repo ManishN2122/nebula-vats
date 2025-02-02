@@ -37,7 +37,7 @@ body {
   opacity: var(--swiper-pagination-bullet-opacity, 1);
   background: linear-gradient(135deg, #ffa280, #8fd9d9) !important;
 }
-.swiper-pagination-bullet {
+.swiper-pagination-bullet-disabled {
   opacity: var(--swiper-pagination-bullet-opacity, 1);
-  background: linear-gradient(135deg, #ffa280, #8fd9d9) !important;
+  background: #0e0c09 !important;
 }
