@@ -1,5 +1,6 @@
 body {
   font-family: AvanttTRIAL-Regular;
+  scroll-behavior: smooth !important;
 }
 .roboto-mono {
   font-family: "Roboto Mono", serif;
