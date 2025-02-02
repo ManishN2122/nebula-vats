@@ -28,6 +28,7 @@
               class="max-w-[114px]"
               data-aos="fade-right"
               data-aos-duration="1000"
+              data-aos-once="true"
             >
               <a href="./index.html"
                 ><img src="./image/Logo.png" alt="logo" width="100%"
@@ -41,6 +42,7 @@
               class="hidden md:flex xl:gap-16 lg:gap-10 gap-3"
               data-aos="flip-up"
               data-aos-duration="1500"
+              data-aos-once="true"
             >
               <li>
                 <a
@@ -82,6 +84,7 @@
                   class="text-[#494336]"
                   data-aos="fade-left"
                   data-aos-duration="1000"
+                  data-aos-once="true"
                 >
                   <a
                     class="text-[#494336] text-lg font-medium uppercase roboto-mono py-3 px-9 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
@@ -93,65 +96,68 @@
             </ul>
           </div>
 
-          <!-- Overlay -->
-          <div id="overlay" class="overlay fixed inset-0 bg-black"></div>
-
-          <!-- Sidebar -->
-          <div
-            id="sidebar"
-            class="sidebar fixed top-0 right-0 w-full sm:w-64 h-full bg-[#494336] absolute z-5 shadow-lg p-4 overflow-y-auto"
-          >
-            <button
-              id="closeSidebar"
-              class="absolute right-4 top-5 text-4xl text-white"
+          <div class="flex">
+            <!-- Overlay -->
+            <div id="overlay" class="overlay fixed inset-0 bg-black z-4"></div>
+            <!-- Sidebar -->
+            <div
+              id="sidebar"
+              class="sidebar fixed top-0 right-0 w-full sm:w-64 h-full bg-[#494336] absolute z-5 shadow-lg p-4 overflow-y-auto"
             >
-              &#10005;
-            </button>
-            <div class="bg-[#494336]">
-              <ul class="flex flex-col justify-center items-center pt-20 gap-5">
-                <li>
-                  <a
-                    class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
-                    href="./veterinary-services.html"
-                    >SERVICES</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
-                    href="./about-nebula-vets.html"
-                    >ABOUT US</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="text-[#D7D9DD] active text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
-                    href="./washington-dc.html"
-                    >LOCATION</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
-                    href="./career.html"
-                    >CAREER</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
-                    href="/"
-                    >PATIENT PORTAL</a
-                  >
-                </li>
-                <li class="pb-10">
-                  <a
-                    class="text-[#494336] md:text-lg text-sm font-medium uppercase roboto-mono md:py-3 md:px-9 py-1.5 px-5.5rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 shadow hover:shadow-[0px_3px_15px_0px_rgba(228,178,178,0)]"
-                    href="#"
-                    >BOOK NOW
-                  </a>
-                </li>
-              </ul>
+              <button
+                id="closeSidebar"
+                class="absolute right-4 top-5 text-4xl text-white"
+              >
+                &#10005;
+              </button>
+              <div class="bg-[#494336]">
+                <ul
+                  class="flex flex-col justify-center items-center pt-20 gap-5"
+                >
+                  <li>
+                    <a
+                      class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                      href="./veterinary-services.html"
+                      >SERVICES</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                      href="./about-nebula-vets.html"
+                      >ABOUT US</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-[#D7D9DD] active text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                      href="./washington-dc.html"
+                      >LOCATION</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                      href="./career.html"
+                      >CAREER</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                      href="/"
+                      >PATIENT PORTAL</a
+                    >
+                  </li>
+                  <li class="pb-10">
+                    <a
+                      class="text-[#494336] md:text-lg text-sm font-medium uppercase roboto-mono md:py-3 py-1.5 md:px-9 px-5.5 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 shadow hover:shadow-[0px_3px_15px_0px_rgba(228,178,178,0)]"
+                      href="#"
+                      >BOOK NOW
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -176,6 +182,7 @@
                 class="xl:text-[70px] block md:hidden lg:text-6xl md:text-5xl text-[32px] !md:max-w-[600px] max-w-[280px] sm:max-w-none text-[#D7D9DD] pb-7.5 font-normal md:pb-7 pb-5"
                 data-aos="fade-down"
                 data-aos-duration="1000"
+                data-aos-once="true"
               >
                 Washington DC
               </h1>
@@ -183,6 +190,7 @@
                 class="text-[#D7D9DD] md:leading-[26px] leading-[22px] md:text-xl text-sm lg:pb-10 pb-11"
                 data-aos="fade-up"
                 data-aos-duration="1500"
+                data-aos-once="true"
               >
                 We take great pride in our state-of-the-art, AAHA-accredited
                 facilities that are meticulously designed to provide a
@@ -194,6 +202,7 @@
                 class="text-[#494336]"
                 data-aos="flip-right"
                 data-aos-duration="2000"
+                data-aos-once="true"
               >
                 <a
                   class="md:text-lg text-base font-medium uppercase roboto-mono md:py-3 md:px-9 py-1.5 px-5.5 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
@@ -206,6 +215,7 @@
               class="xl:max-w-[580px] lg:max-w-[390px] max-w-[240px] lg:ms-0 ms-18 absolute z-0 right-0 lg:top-25 top-28"
               data-aos="flip-right"
               data-aos-duration="1000"
+              data-aos-once="true"
             >
               <img src="./image/Location Icon.png" alt="nebula" width="100%" />
             </div>
@@ -226,6 +236,7 @@
                   class="lg:text-4xl md:text-3xl text-2xl text-[#494336] pb-8"
                   data-aos="fade-down"
                   data-aos-duration="1000"
+                  data-aos-once="true"
                 >
                   Downtown 2468
                 </h2>
@@ -233,6 +244,7 @@
                   class="lg:text-2xl max-w-[350px] lg:leading-[36px] leading-[28px] md:text-base text-sm text-[#494336] lg:pb-10 pb-8 roboto-mono"
                   data-aos="flip-up"
                   data-aos-duration="2000"
+                  data-aos-once="true"
                 >
                   18th Street, SW Washington DC, 20003
                 </p>
@@ -240,12 +252,14 @@
                   class="lg:text-4xl md:text-3xl text-2xl text-[#494336] pb-8"
                   data-aos="fade-up"
                   data-aos-duration="1000"
+                  data-aos-once="true"
                 >
                   Opening Hours
                 </h3>
                 <p
                   class="lg:text-2xl max-w-[489px] lg:leading-[36px] leading-[28px] md:text-base text-sm text-[#494336] lg:pb-10 pb-8 roboto-mono"
                   data-aos="fade-left"
+                  data-aos-once="true"
                   data-aos-duration="2000"
                 >
                   Monday - Friday: 8AM - 6PM Saturday: 9AM - 5PM <br />
@@ -255,10 +269,16 @@
                   class="lg:text-4xl md:text-3xl text-2xl text-[#494336] pb-8"
                   data-aos="zoom-in-up"
                   data-aos-duration="1000"
+                  data-aos-once="true"
                 >
                   Contact
                 </h4>
-                <div class="pb-2" data-aos="zoom-out" data-aos-duration="2000">
+                <div
+                  class="pb-2"
+                  data-aos="zoom-out"
+                  data-aos-duration="2000"
+                  data-aos-once="true"
+                >
                   <a
                     class="lg:text-2xl max-w-[389px] lg:leading-[36px] leading-[28px] md:text-base text-sm text-[#494336] roboto-mono"
                     href="tel:(212) 123-4567"
@@ -270,6 +290,7 @@
                   class="pb-8"
                   data-aos="zoom-out-down"
                   data-aos-duration="2000"
+                  data-aos-once="true"
                 >
                   <a
                     class="lg:text-2xl max-w-[389px] lg:leading-[36px] leading-[28px] md:text-base text-sm text-[#494336] roboto-mono"
@@ -282,6 +303,7 @@
                 class="relative text-right w-full pb-10 lg:right-[-150px]"
                 data-aos="zoom-out-up"
                 data-aos-duration="1000"
+                data-aos-once="true"
               >
                 <div class="overflow-hidden !bg-none w-full">
                   <iframe
@@ -316,6 +338,7 @@
                 class="xl:text-[5xl] lg:text-4xl md:text-3xl text-2xl font-normal text-[#D7D9DD] xl:pb-18 lg:pb-15 pb-10"
                 data-aos="fade-right"
                 data-aos-duration="1500"
+                data-aos-once="true"
               >
                 Come visit us!
               </h2>
@@ -324,6 +347,7 @@
                 class="text-[#494336]"
                 data-aos="fade-up"
                 data-aos-duration="2000"
+                data-aos-once="true"
               >
                 <a
                   class="md:text-lg text-base font-medium uppercase roboto-mono md:py-3 md:px-9 py-1.5 px-5.5 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
@@ -336,6 +360,7 @@
               class="max-w-[584px] min-w-[288px] lg:ms-0 md:ms-10 ms-8"
               data-aos="fade-left"
               data-aos-duration="1500"
+              data-aos-once="true"
             >
               <img src="./image/nebula.png" alt="nebula" width="100%" />
             </div>
@@ -354,6 +379,7 @@
               <h2
                 class="roboto-mono lg:text-2xl md:text-xl text-base text-[#D7D9DD] leading-[175%] pb-6"
                 data-aos="fade-right"
+                data-aos-once="true"
                 data-aos-duration="1000"
               >
                 Stay in touch:
@@ -362,6 +388,7 @@
                 class="text-[#D7D9DD] border text-lg py-1.5 ps-3.5 max-w-[309px] md:pe-24 pe-16"
                 data-aos="zoom-in"
                 data-aos-duration="1500"
+                data-aos-once="true"
                 type="email"
                 name="email"
                 id="2"
@@ -373,6 +400,7 @@
                     class="group duration-1000"
                     data-aos="fade-right"
                     data-aos-easing="linear"
+                    data-aos-once="true"
                     data-aos-duration="1500"
                     href="https://www.facebook.com/login/"
                     target="_blank"
@@ -407,6 +435,7 @@
                     target="_blank"
                     data-aos="fade-right"
                     data-aos-easing="linear"
+                    data-aos-once="true"
                     data-aos-duration="2000"
                     ><svg
                       class="group duration-1000 hover:rotate-[360deg] lg:w-[51px] w-[39px]"
@@ -437,6 +466,7 @@
                     href="https://www.instagram.com/accounts/login/?hl=en"
                     data-aos="fade-right"
                     data-aos-easing="linear"
+                    data-aos-once="true"
                     data-aos-duration="2500"
                     target="_blank"
                     ><svg
@@ -471,6 +501,7 @@
               class="w-full sm:w-auto"
               data-aos="fade-up"
               data-aos-duration="1500"
+              data-aos-once="true"
             >
               <h2
                 class="roboto-mono lg:text-2xl md:text-lg text-base text-[#D7D9DD] lg:pb-8 md:pb-6 pb-2.5"
@@ -501,6 +532,7 @@
               class="w-full sm:w-auto"
               data-aos="fade-down"
               data-aos-duration="2000"
+              data-aos-once="true"
             >
               <h2
                 class="roboto-mono lg:text-2xl md:text-lg text-base text-[#D7D9DD] lg:pb-8 md:pb-6 pb-2.5"
@@ -522,6 +554,7 @@
             <div
               class="w-full sm:w-auto"
               data-aos="fade-left"
+              data-aos-once="true"
               data-aos-duration="2500"
             >
               <h2

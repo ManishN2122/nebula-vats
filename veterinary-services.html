@@ -97,65 +97,68 @@
             </ul>
           </div>
 
-          <!-- Overlay -->
-          <div id="overlay" class="overlay fixed inset-0 bg-black"></div>
-
-          <!-- Sidebar -->
-          <div
-            id="sidebar"
-            class="sidebar fixed top-0 right-0 w-full sm:w-64 h-full bg-[#494336] absolute z-5 shadow-lg p-4 overflow-y-auto"
-          >
-            <button
-              id="closeSidebar"
-              class="absolute right-4 top-5 text-4xl text-white"
+          <div class="flex">
+            <!-- Overlay -->
+            <div id="overlay" class="overlay fixed inset-0 bg-black z-4"></div>
+            <!-- Sidebar -->
+            <div
+              id="sidebar"
+              class="sidebar fixed top-0 right-0 w-full sm:w-64 h-full bg-[#494336] absolute z-5 shadow-lg p-4 overflow-y-auto"
             >
-              &#10005;
-            </button>
-            <div class="bg-[#494336]">
-              <ul class="flex flex-col justify-center items-center pt-20 gap-5">
-                <li>
-                  <a
-                    class="text-[#D7D9DD] active text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
-                    href="./veterinary-services.html"
-                    >SERVICES</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
-                    href="./about-nebula-vets.html"
-                    >ABOUT US</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
-                    href="./washington-dc.html"
-                    >LOCATION</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
-                    href="./career.html"
-                    >CAREER</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
-                    href="/"
-                    >PATIENT PORTAL</a
-                  >
-                </li>
-                <li class="pb-10">
-                  <a
-                    class="text-[#494336] md:text-lg text-sm font-medium uppercase roboto-mono md:py-3 md:px-9 py-1.5 px-5.5 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 shadow hover:shadow-[0px_3px_15px_0px_rgba(228,178,178,0)]"
-                    href="#"
-                    >BOOK NOW
-                  </a>
-                </li>
-              </ul>
+              <button
+                id="closeSidebar"
+                class="absolute right-4 top-5 text-4xl text-white"
+              >
+                &#10005;
+              </button>
+              <div class="bg-[#494336]">
+                <ul
+                  class="flex flex-col justify-center items-center pt-20 gap-5"
+                >
+                  <li>
+                    <a
+                      class="text-[#D7D9DD] active text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                      href="./veterinary-services.html"
+                      >SERVICES</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                      href="./about-nebula-vets.html"
+                      >ABOUT US</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                      href="./washington-dc.html"
+                      >LOCATION</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                      href="./career.html"
+                      >CAREER</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                      href="/"
+                      >PATIENT PORTAL</a
+                    >
+                  </li>
+                  <li class="pb-10">
+                    <a
+                      class="text-[#494336] md:text-lg text-sm font-medium uppercase roboto-mono md:py-3 py-1.5 md:px-9 px-5.5 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 shadow hover:shadow-[0px_3px_15px_0px_rgba(228,178,178,0)]"
+                      href="#"
+                      >BOOK NOW
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -170,6 +173,7 @@
               <h1
                 class="xl:text-[70px] lg:text-6xl md:text-5xl text-4xl text-[#D7D9DD] pb-7 font-normal md:pb-7 pb-5"
                 data-aos="fade-up"
+                data-aos-once="true"
                 data-aos-duration="1000"
               >
                 Veterinary Services
@@ -177,6 +181,7 @@
               <p
                 class="text-[#D7D9DD] md:leading-[26px] leading-[22px] md:text-xl text-sm lg:pb-10 pb-11"
                 data-aos="fade-down"
+                data-aos-once="true"
                 data-aos-duration="1500"
               >
                 At Nebula Vets, we take pride in offering an extensive range of
@@ -187,6 +192,7 @@
               <div
                 class="text-[#494336]"
                 data-aos="fade-left"
+                data-aos-once="true"
                 data-aos-duration="2500"
               >
                 <a
@@ -199,6 +205,7 @@
             <div
               class="lg:max-w-[653px] rotate-y-190 lg:rotate-y-360 lg:absolute lg:right-0 bottom-0"
               data-aos="flip-right"
+              data-aos-once="true"
               data-aos-duration="1000"
             >
               <img src="./image/nebula.png" alt="nebula" width="100%" />
@@ -214,6 +221,7 @@
           <div
             class="swiper mySwiper"
             data-aos="flip-up"
+            data-aos-once="true"
             data-aos-duration="1500"
           >
             <div class="swiper-wrapper">
@@ -250,6 +258,7 @@
           <div
             class="flex justify-between gap-5 xl:flex-nowrap flex-wrap"
             data-aos="fade-left"
+            data-aos-once="true"
             data-aos-duration="1500"
           >
             <a
@@ -283,6 +292,7 @@
               <div
                 class="lg:max-w-[376px] md:max-w-[276px] max-w-[180px] md:pb-1 lg:pt-20 pt-30"
                 data-aos="flip-left"
+                data-aos-once="true"
                 data-aos-duration="1000"
               >
                 <img src="./image/care big.png" alt="care big" width="100%" />
@@ -291,6 +301,7 @@
                 <h2
                   class="xl:text-5xl lg:text-4xl text-[32px] font-normal text-[#494336] pb-3.5"
                   data-aos="fade-right"
+                  data-aos-once="true"
                   data-aos-duration="1500"
                 >
                   Preventive Care
@@ -298,6 +309,7 @@
                 <p
                   class="roboto-mono lg:text-2xl md:text-xl text-base text-[#494336] lg:max-w-[460px] leading-[150%] pb-8"
                   data-aos="fade-up"
+                  data-aos-once="true"
                   data-aos-duration="2000"
                 >
                   Your pet's well-being at the forefront of our practice.
@@ -305,6 +317,7 @@
                 <p
                   class="lg:text-xl md:text-base text-sm leading-[130%] text-[#494336] lg:max-w-[481px] pb-11"
                   data-aos="fade-left"
+                  data-aos-once="true"
                   data-aos-duration="2000"
                 >
                   At Nebula Vets, we take a proactive approach to your pet's
@@ -318,6 +331,7 @@
                 <div
                   class="text-[#494336]"
                   data-aos="flip-right"
+                  data-aos-once="true"
                   data-aos-duration="2500"
                 >
                   <a
@@ -334,6 +348,7 @@
                   <h2
                     class="roboto-mono lg:text-[28px] md:text-xl text-base font-normal text-[#494336] pb-6"
                     data-aos="fade-down"
+                    data-aos-once="true"
                     data-aos-duration="2000"
                   >
                     Animal Health Check
@@ -341,6 +356,7 @@
                   <p
                     class="lg:text-xl md:text-base text-sm leading-[26px] text-[#494336] pb-10"
                     data-aos="fade-up"
+                    data-aos-once="true"
                     data-aos-duration="2500"
                   >
                     Our practice offers the convenience of same or next-day
@@ -353,6 +369,7 @@
                   <div
                     class="lg:pb-15 pb-13 border-b lg:max-w-[483px]"
                     data-aos="fade-right"
+                    data-aos-once="true"
                     data-aos-duration="3000"
                   >
                     <a
@@ -369,6 +386,7 @@
                     class="roboto-mono lg:text-[28px] md:text-xl text-base font-normal text-[#494336] pb-6"
                     data-aos="fade-left"
                     data-aos-duration="2000"
+                    data-aos-once="true"
                   >
                     Vaccinations
                   </h2>
@@ -376,6 +394,7 @@
                     class="lg:text-xl md:text-base text-sm leading-[26px] text-[#494336] pb-10"
                     data-aos="fade-up"
                     data-aos-duration="2500"
+                    data-aos-once="true"
                   >
                     Vaccinations are a key component of your pet’s health and
                     essential to prevent life-threatening diseases. Nebula vets
@@ -385,6 +404,7 @@
                   <div
                     class="lg:pb-15 pb-13 border-b lg:max-w-[483px]"
                     data-aos="fade-right"
+                    data-aos-once="true"
                     data-aos-duration="3000"
                   >
                     <a
@@ -401,6 +421,7 @@
                     class="roboto-mono lg:text-[28px] md:text-xl text-base font-normal text-[#494336] pb-6"
                     data-aos="fade-left"
                     data-aos-duration="2000"
+                    data-aos-once="true"
                   >
                     Dentals
                   </h2>
@@ -408,6 +429,7 @@
                     class="lg:text-xl md:text-base text-sm leading-[26px] text-[#494336] pb-10"
                     data-aos="fade-up"
                     data-aos-duration="2500"
+                    data-aos-once="true"
                   >
                     Dental disease and smelly breath is common, and regular
                     cleanings and exams can save your pet a lot of pain and
@@ -418,6 +440,7 @@
                   <div
                     class="lg:pb-15 pb-13 border-b lg:max-w-[483px]"
                     data-aos="fade-right"
+                    data-aos-once="true"
                     data-aos-duration="3000"
                   >
                     <a
@@ -438,6 +461,7 @@
               <div
                 class="lg:max-w-[376px] md:max-w-[276px] max-w-[180px] lg:pb-20 pt-30"
                 data-aos="flip-left"
+                data-aos-once="true"
                 data-aos-duration="1000"
               >
                 <img
@@ -450,6 +474,7 @@
                 <h2
                   class="xl:text-5xl lg:text-4xl text-[32px] font-normal text-[#494336] pb-6"
                   data-aos="fade-right"
+                  data-aos-once="true"
                   data-aos-duration="1500"
                 >
                   Sick Patient Care
@@ -458,6 +483,7 @@
                   class="roboto-mono lg:text-2xl md:text-xl text-base text-[#494336] lg:max-w-[460px] leading-[150%] pb-8"
                   data-aos="fade-up"
                   data-aos-duration="2000"
+                  data-aos-once="true"
                 >
                   Delivering exceptional care for sick patients, combining the
                   virtues of efficiency and expertise 
@@ -466,6 +492,7 @@
                   class="lg:text-xl md:text-base text-sm leading-[130%] text-[#494336] lg:max-w-[481px] pb-11"
                   data-aos="fade-left"
                   data-aos-duration="2000"
+                  data-aos-once="true"
                 >
                   At Nebula Vets, we are fully equipped with advanced diagnostic
                   tools and a wide range of treatment options to address any
@@ -478,6 +505,7 @@
                   class="text-[#494336]"
                   data-aos="flip-right"
                   data-aos-duration="2500"
+                  data-aos-once="true"
                 >
                   <a
                     class="max-w-[163px] md:text-lg text-base font-medium uppercase roboto-mono md:py-3 md:px-9 py-1.5 px-5.5 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)] hidden lg:flex"
@@ -493,6 +521,7 @@
                   <h2
                     class="roboto-mono lg:text-[28px] md:text-xl text-base font-normal text-[#494336] pb-6"
                     data-aos="fade-down"
+                    data-aos-once="true"
                     data-aos-duration="2000"
                   >
                     Urgent & Emergency Care
@@ -501,6 +530,7 @@
                     class="lg:text-xl md:text-base text-sm leading-[26px] text-[#494336] pb-10"
                     data-aos="fade-up"
                     data-aos-duration="2500"
+                    data-aos-once="true"
                   >
                     Whether your pet is sick or injured, we’re here to help get
                     them the help they need. This includes telemedicine
@@ -510,6 +540,7 @@
                   <div
                     class="lg:pb-15 pb-13 border-b lg:max-w-[483px]"
                     data-aos="fade-right"
+                    data-aos-once="true"
                     data-aos-duration="3000"
                   >
                     <a
@@ -526,6 +557,7 @@
                     class="roboto-mono lg:text-[28px] md:text-xl text-base font-normal text-[#494336] pb-6"
                     data-aos="fade-left"
                     data-aos-duration="2000"
+                    data-aos-once="true"
                   >
                     Telemedicine consults
                   </h2>
@@ -533,6 +565,7 @@
                     class="lg:text-xl md:text-base text-sm leading-[26px] text-[#494336] pb-10"
                     data-aos="fade-up"
                     data-aos-duration="2500"
+                    data-aos-once="true"
                   >
                     Nebula vets offers a fast telemedicine service, to help your
                     pet without leaving the home
@@ -541,6 +574,7 @@
                     class="lg:pb-15 pb-13 border-b lg:max-w-[483px]"
                     data-aos="fade-right"
                     data-aos-duration="3000"
+                    data-aos-once="true"
                   >
                     <a
                       class="text-[#494336] md:text-lg text-base font-medium uppercase roboto-mono md:py-3 md:px-9 py-1.5 px-5.5 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
@@ -555,6 +589,7 @@
                   <h2
                     class="roboto-mono lg:text-[28px] md:text-xl text-base font-normal text-[#494336] pb-6"
                     data-aos="fade-up"
+                    data-aos-once="true"
                     data-aos-duration="2000"
                   >
                     Diagnostics
@@ -563,6 +598,7 @@
                     class="lg:text-xl md:text-base text-sm leading-[26px] text-[#494336] pb-10"
                     data-aos="fade-down"
                     data-aos-duration="2500"
+                    data-aos-once="true"
                   >
                     Nebula vets has invested in the latest technology, equipped
                     for all the diagnostic tests your pet needs to stay healthy,
@@ -574,6 +610,7 @@
                   <div
                     class="lg:pb-15 pb-13 border-b lg:max-w-[483px]"
                     data-aos="fade-right"
+                    data-aos-once="true"
                     data-aos-duration="3000"
                   >
                     <a
@@ -589,6 +626,7 @@
                   <h2
                     class="roboto-mono lg:text-[28px] md:text-xl text-base font-normal text-[#494336] pb-6"
                     data-aos="fade-left"
+                    data-aos-once="true"
                     data-aos-duration="2000"
                   >
                     Pharmacy
@@ -597,6 +635,7 @@
                     class="lg:text-xl md:text-base text-sm leading-[26px] text-[#494336] pb-10"
                     data-aos="fade-up"
                     data-aos-duration="2500"
+                    data-aos-once="true"
                   >
                     Our highly stocked on-site pharmacy inlcudes a variety of
                     prescription medications and pet health products for your
@@ -607,6 +646,7 @@
                   <div
                     class="lg:pb-15 pb-13 border-b lg:max-w-[483px]"
                     data-aos="fade-right"
+                    data-aos-once="true"
                     data-aos-duration="3000"
                   >
                     <a
@@ -627,6 +667,7 @@
               <div
                 class="lg:max-w-[376px] md:max-w-[276px] max-w-[180px] lg:mt-[-105px] lg:pb-22 pt-30 lg:pt-0"
                 data-aos="flip-left"
+                data-aos-once="true"
                 data-aos-duration="1000"
               >
                 <img src="./image/Surgery.png" alt="care big" width="100%" />
@@ -635,6 +676,7 @@
                 <h2
                   class="xl:text-5xl lg:text-4xl text-[32px] font-normal text-[#494336] pb-3.5"
                   data-aos="fade-right"
+                  data-aos-once="true"
                   data-aos-duration="1500"
                 >
                   Surgery
@@ -643,6 +685,7 @@
                   class="roboto-mono lg:text-2xl md:text-xl text-base text-[#494336] lg:max-w-[460px] leading-[150%] pb-8"
                   data-aos="fade-up"
                   data-aos-duration="2000"
+                  data-aos-once="true"
                 >
                   Highly experienced surgeons -dedicated to delivering
                   outstanding care for your pet.
@@ -650,6 +693,7 @@
                 <p
                   class="lg:text-xl md:text-base text-sm leading-[130%] text-[#494336] lg:max-w-[481px] pb-11"
                   data-aos="fade-left"
+                  data-aos-once="true"
                   data-aos-duration="2000"
                 >
                   At Nebula Vets, we are equipped to handle a wide range of
@@ -660,6 +704,7 @@
                 <div
                   class="text-[#494336]"
                   data-aos="flip-right"
+                  data-aos-once="true"
                   data-aos-duration="2500"
                 >
                   <a
@@ -677,6 +722,7 @@
                     class="roboto-mono lg:text-[28px] md:text-xl text-base font-normal text-[#494336] pb-6"
                     data-aos="flip-right"
                     data-aos-duration="2000"
+                    data-aos-once="true"
                   >
                     Surgery
                   </h2>
@@ -684,6 +730,7 @@
                     class="lg:text-xl md:text-base text-sm leading-[26px] text-[#494336] pb-10"
                     data-aos="fade-up"
                     data-aos-duration="2500"
+                    data-aos-once="true"
                   >
                     In our advanced state-of-the-art surgery suite, our
                     experienced doctors can perform all routine surgeries,
@@ -695,6 +742,7 @@
                   <div
                     class="lg:pb-15 pb-13 border-b lg:max-w-[483px]"
                     data-aos="fade-down"
+                    data-aos-once="true"
                     data-aos-duration="3000"
                   >
                     <a
@@ -710,6 +758,7 @@
                   <h2
                     class="roboto-mono lg:text-[28px] md:text-xl text-base font-normal text-[#494336] pb-6"
                     data-aos="fade-left"
+                    data-aos-once="true"
                     data-aos-duration="2000"
                   >
                     Spays & Neuters
@@ -717,6 +766,7 @@
                   <p
                     class="lg:text-xl md:text-base text-sm leading-[26px] text-[#494336] pb-10"
                     data-aos="fade-down"
+                    data-aos-once="true"
                     data-aos-duration="2500"
                   >
                     Our team comprises highly trained doctors who excel in
@@ -728,6 +778,7 @@
                   <div
                     class="lg:pb-15 pb-13 border-b lg:max-w-[483px]"
                     data-aos="fade-up"
+                    data-aos-once="true"
                     data-aos-duration="3000"
                   >
                     <a
@@ -748,6 +799,7 @@
               <div
                 class="lg:max-w-[376px] md:max-w-[276px] max-w-[180px] lg:pb-20 lg:pt-20 pt-30"
                 data-aos="flip-left"
+                data-aos-once="true"
                 data-aos-duration="1000"
               >
                 <img
@@ -760,6 +812,7 @@
                 <h2
                   class="xl:text-5xl lg:text-4xl text-[32px] font-normal text-[#494336] pb-6"
                   data-aos="fade-right"
+                  data-aos-once="true"
                   data-aos-duration="1500"
                 >
                   Additional Services
@@ -767,6 +820,7 @@
                 <p
                   class="roboto-mono lg:text-2xl md:text-xl text-base text-[#494336] lg:max-w-[460px] leading-[150%] pb-8"
                   data-aos="fade-up"
+                  data-aos-once="true"
                   data-aos-duration="2000"
                 >
                   Additional Services that Go Above and Beyond: Experience
@@ -775,6 +829,7 @@
                 <p
                   class="lg:text-xl md:text-base text-sm leading-[130%] text-[#494336] lg:max-w-[481px] pb-11"
                   data-aos="fade-left"
+                  data-aos-once="true"
                   data-aos-duration="2000"
                 >
                   Experience comprehensive veterinary care at Nebula Vets. We
@@ -786,6 +841,7 @@
                 <div
                   class="text-[#494336]"
                   data-aos="flip-right"
+                  data-aos-once="true"
                   data-aos-duration="2500"
                 >
                   <a
@@ -802,6 +858,7 @@
                   <h2
                     class="roboto-mono lg:text-[28px] md:text-xl text-base font-normal text-[#494336] pb-6"
                     data-aos="fade-right"
+                    data-aos-once="true"
                     data-aos-duration="2000"
                   >
                     Travel Certificates
@@ -809,6 +866,7 @@
                   <p
                     class="lg:text-xl md:text-base text-sm leading-[26px] text-[#494336] pb-10"
                     data-aos="fade-left"
+                    data-aos-once="true"
                     data-aos-duration="2500"
                   >
                     From domestic or international travel, you will usually
@@ -819,6 +877,7 @@
                   <div
                     class="lg:pb-15 pb-13 border-b lg:max-w-[483px]"
                     data-aos="fade-down"
+                    data-aos-once="true"
                     data-aos-duration="3000"
                   >
                     <a
@@ -834,6 +893,7 @@
                   <h2
                     class="roboto-mono lg:text-[28px] md:text-xl text-base font-normal text-[#494336] pb-6"
                     data-aos="zoom-in"
+                    data-aos-once="true"
                     data-aos-duration="2000"
                   >
                     Skin & Dermatology
@@ -842,6 +902,7 @@
                     class="lg:text-xl md:text-base text-sm leading-[26px] text-[#494336] pb-10"
                     data-aos="zoom-out"
                     data-aos-duration="2500"
+                    data-aos-once="true"
                   >
                     If your pet is experiencing uncomfortable symptoms such as
                     itchy skin, hair loss, or rashes, it may be indicative of
@@ -857,6 +918,7 @@
                   <div
                     class="lg:pb-15 pb-13 border-b lg:max-w-[483px]"
                     data-aos="fade-left"
+                    data-aos-once="true"
                     data-aos-duration="3000"
                   >
                     <a
@@ -872,6 +934,7 @@
                   <h2
                     class="roboto-mono lg:text-[28px] md:text-xl text-base font-normal text-[#494336] pb-6"
                     data-aos="fade-down"
+                    data-aos-once="true"
                     data-aos-duration="2000"
                   >
                     Microchipping
@@ -890,6 +953,7 @@
                   <div
                     class="lg:pb-15 pb-13 border-b lg:max-w-[483px]"
                     data-aos="zoom-in"
+                    data-aos-once="true"
                     data-aos-duration="3000"
                   >
                     <a
@@ -906,6 +970,7 @@
                     class="roboto-mono lg:text-[28px] md:text-xl text-base font-normal text-[#494336] pb-6"
                     data-aos="fade-right"
                     data-aos-duration="2000"
+                    data-aos-once="true"
                   >
                     Laser Therapy
                   </h2>
@@ -913,6 +978,7 @@
                     class="lg:text-xl md:text-base text-sm leading-[26px] text-[#494336] pb-10"
                     data-aos="fade-left"
                     data-aos-duration="2500"
+                    data-aos-once="true"
                   >
                     Our state-of-the-art veterinary hospital utilizes advanced
                     laser technology to provide non-invasive and drug-free
@@ -923,6 +989,7 @@
                     class="lg:pb-15 pb-13 border-b lg:max-w-[483px]"
                     data-aos="fade-up"
                     data-aos-duration="3000"
+                    data-aos-once="true"
                   >
                     <a
                       class="text-[#494336] md:text-lg text-base font-medium uppercase roboto-mono md:py-3 md:px-9 py-1.5 px-5.5 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 hover:shadow-[0px_3px_15px_0px_rgba(228,178,178)]"
@@ -938,6 +1005,7 @@
                     class="roboto-mono lg:text-[28px] md:text-xl text-base font-normal text-[#494336] pb-6"
                     data-aos="flip-up"
                     data-aos-duration="2000"
+                    data-aos-once="true"
                   >
                     Hospice & Euthanasia
                   </h2>
@@ -945,6 +1013,7 @@
                     class="lg:text-xl md:text-base text-sm leading-[26px] text-[#494336] pb-10"
                     data-aos="flip-right"
                     data-aos-duration="2500"
+                    data-aos-once="true"
                   >
                     The decision to say goodbye to your pet is the most
                     difficult decision you’ll have to make. Our team at nebula
@@ -955,6 +1024,7 @@
                   <div
                     class="lg:pb-15 pb-13 border-b lg:max-w-[483px]"
                     data-aos="zoom-in"
+                    data-aos-once="true"
                     data-aos-duration="3000"
                   >
                     <a
@@ -981,6 +1051,7 @@
               <h2
                 class="roboto-mono lg:text-2xl md:text-xl text-base text-[#D7D9DD] leading-[175%] pb-6"
                 data-aos="fade-right"
+                data-aos-once="true"
                 data-aos-duration="1000"
               >
                 Stay in touch:
@@ -989,6 +1060,7 @@
                 class="text-[#D7D9DD] border text-lg py-1.5 ps-3.5 max-w-[309px] md:pe-24 pe-16"
                 data-aos="zoom-in"
                 data-aos-duration="1500"
+                data-aos-once="true"
                 type="email"
                 name="email"
                 id="2"
@@ -1000,6 +1072,7 @@
                     class="group duration-1000"
                     data-aos="fade-right"
                     data-aos-easing="linear"
+                    data-aos-once="true"
                     data-aos-duration="1500"
                     href="https://www.facebook.com/login/"
                     target="_blank"
@@ -1034,6 +1107,7 @@
                     target="_blank"
                     data-aos="fade-right"
                     data-aos-easing="linear"
+                    data-aos-once="true"
                     data-aos-duration="2000"
                     ><svg
                       class="group duration-1000 hover:rotate-[360deg] lg:w-[51px] w-[39px]"
@@ -1064,6 +1138,7 @@
                     href="https://www.instagram.com/accounts/login/?hl=en"
                     data-aos="fade-right"
                     data-aos-easing="linear"
+                    data-aos-once="true"
                     data-aos-duration="2500"
                     target="_blank"
                     ><svg
@@ -1098,6 +1173,7 @@
               class="w-full sm:w-auto"
               data-aos="fade-up"
               data-aos-duration="1500"
+              data-aos-once="true"
             >
               <h2
                 class="roboto-mono lg:text-2xl md:text-lg text-base text-[#D7D9DD] lg:pb-8 md:pb-6 pb-2.5"
@@ -1128,6 +1204,7 @@
               class="w-full sm:w-auto"
               data-aos="fade-down"
               data-aos-duration="2000"
+              data-aos-once="true"
             >
               <h2
                 class="roboto-mono lg:text-2xl md:text-lg text-base text-[#D7D9DD] lg:pb-8 md:pb-6 pb-2.5"
@@ -1149,6 +1226,7 @@
             <div
               class="w-full sm:w-auto"
               data-aos="fade-left"
+              data-aos-once="true"
               data-aos-duration="2500"
             >
               <h2

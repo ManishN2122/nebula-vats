@@ -93,65 +93,68 @@
             </ul>
           </div>
 
-          <!-- Overlay -->
-          <div id="overlay" class="overlay fixed inset-0 bg-black"></div>
-
-          <!-- Sidebar -->
-          <div
-            id="sidebar"
-            class="sidebar fixed top-0 right-0 w-full sm:w-64 h-full bg-[#494336] absolute z-5 shadow-lg p-4 overflow-y-auto"
-          >
-            <button
-              id="closeSidebar"
-              class="absolute right-4 top-5 text-4xl text-white"
+          <div class="flex">
+            <!-- Overlay -->
+            <div id="overlay" class="overlay fixed inset-0 bg-black z-4"></div>
+            <!-- Sidebar -->
+            <div
+              id="sidebar"
+              class="sidebar fixed top-0 right-0 w-full sm:w-64 h-full bg-[#494336] absolute z-5 shadow-lg p-4 overflow-y-auto"
             >
-              &#10005;
-            </button>
-            <div class="bg-[#494336]">
-              <ul class="flex flex-col justify-center items-center pt-20 gap-5">
-                <li>
-                  <a
-                    class="text-[#D7D9DD] active text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
-                    href="./veterinary-services.html"
-                    >SERVICES</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
-                    href="./about-nebula-vets.html"
-                    >ABOUT US</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
-                    href="./washington-dc.html"
-                    >LOCATION</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
-                    href="./career.html"
-                    >CAREER</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
-                    href="/"
-                    >PATIENT PORTAL</a
-                  >
-                </li>
-                <li class="pb-10">
-                  <a
-                    class="text-[#494336] md:text-lg text-sm font-medium uppercase roboto-mono md:py-3 md:px-9 py-1.5 px-5.5 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 shadow hover:shadow-[0px_3px_15px_0px_rgba(228,178,178,0)]"
-                    href="#"
-                    >BOOK NOW
-                  </a>
-                </li>
-              </ul>
+              <button
+                id="closeSidebar"
+                class="absolute right-4 top-5 text-4xl text-white"
+              >
+                &#10005;
+              </button>
+              <div class="bg-[#494336]">
+                <ul
+                  class="flex flex-col justify-center items-center pt-20 gap-5"
+                >
+                  <li>
+                    <a
+                      class="text-[#D7D9DD] active text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                      href="./veterinary-services.html"
+                      >SERVICES</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                      href="./about-nebula-vets.html"
+                      >ABOUT US</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                      href="./washington-dc.html"
+                      >LOCATION</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                      href="./career.html"
+                      >CAREER</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-[#D7D9DD] text-xs font-medium uppercase tracking-[1.4px] roboto-mono duration-1000 hover:text-orange-500"
+                      href="/"
+                      >PATIENT PORTAL</a
+                    >
+                  </li>
+                  <li class="pb-10">
+                    <a
+                      class="text-[#494336] md:text-lg text-sm font-medium uppercase roboto-mono md:py-3 py-1.5 md:px-9 px-5.5 bg-white rounded-3xl bg-linear-to-r/srgb from-[#FFA280] to-[#8FD9D9] ease-in-out duration-1000 shadow hover:shadow-[0px_3px_15px_0px_rgba(228,178,178,0)]"
+                      href="#"
+                      >BOOK NOW
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -168,6 +171,7 @@
               <h1
                 class="xl:text-[70px] lg:text-6xl md:text-5xl text-[32px] sm:max-w-[600px] max-w-[280px] text-[#D7D9DD] pb-7.5 font-normal md:pb-7 pb-5"
                 data-aos="fade-up"
+                data-aos-once="true"
                 data-aos-duration="1000"
               >
                 Urgent & Emergency Care
@@ -175,6 +179,7 @@
               <p
                 class="text-[#D7D9DD] md:leading-[26px] leading-[22px] md:text-xl text-sm lg:pb-10 pb-11"
                 data-aos="fade-down"
+                data-aos-once="true"
                 data-aos-duration="1500"
               >
                 At Nebula Vets, we understand that when your pet is sick or
@@ -185,6 +190,7 @@
               <div
                 class="text-[#494336]"
                 data-aos="fade-left"
+                data-aos-once="true"
                 data-aos-duration="2000"
               >
                 <a
@@ -197,6 +203,7 @@
             <div
               class="xl:max-w-[528px] lg:max-w-[390px] max-w-[253px] lg:ms-0 ms-18 absolute z-0 right-0 top-10"
               data-aos="flip-right"
+              data-aos-once="true"
               data-aos-duration="1000"
             >
               <img src="./image/Urgent Icon.png" alt="nebula" width="100%" />
@@ -215,6 +222,7 @@
             <h2
               class="xl:text-4xl lg:text-3xl text-2xl font-normal text-[#494336] md:pb-6 pb-4 sm:max-w-none"
               data-aos="fade-right"
+              data-aos-once="true"
               data-aos-duration="1000"
             >
               Urgent & Emergency Care during open hours
@@ -222,6 +230,7 @@
             <p
               class="lg:text-xl md:text-base text-sm pb-6 text-[#494336] lg:leading-[26px] leading-[22px]"
               data-aos="flip-up"
+              data-aos-once="true"
               data-aos-duration="1500"
             >
               At Nebula Vets, we understand that emergencies can happen at any
@@ -232,6 +241,7 @@
             <p
               class="lg:text-xl md:text-base text-sm text-[#494336] lg:leading-[26px] leading-[22px] pb-6"
               data-aos="flip-down"
+              data-aos-once="true"
               data-aos-duration="1500"
             >
               Our clinic is open from
@@ -243,6 +253,7 @@
             <p
               class="lg:text-xl md:text-base text-sm text-[#494336] lg:leading-[26px] leading-[22px] pb-12"
               data-aos="flip-up"
+              data-aos-once="true"
               data-aos-duration="1500"
             >
               If you have an urgent situation and require immediate advice or
@@ -255,12 +266,14 @@
               class="xl:text-4xl lg:text-3xl text-2xl font-normal text-[#494336] md:pb-6 pb-4 sm:max-w-none"
               data-aos="fade-left"
               data-aos-duration="1000"
+              data-aos-once="true"
             >
               Outside open hours
             </h3>
             <p
               class="lg:text-xl md:text-base text-sm pb-12 text-[#494336] lg:leading-[26px] leading-[22px]"
               data-aos="flip-up"
+              data-aos-once="true"
               data-aos-duration="1500"
             >
               The closest 24hr emergency veterinary hospital to our practice is:
@@ -270,6 +283,7 @@
             <h4
               class="xl:text-4xl lg:text-3xl text-2xl font-normal text-[#494336] md:pb-6 pb-4 sm:max-w-none"
               data-aos="zoom-out"
+              data-aos-once="true"
               data-aos-duration="1000"
             >
               Reasons to seek Urgent or Emergency care
@@ -278,6 +292,7 @@
               class="lg:text-xl md:text-base text-sm text-[#494336] flex flex-col lg:leading-[26px] leading-[22px] list-disc ps-6"
               data-aos="zoom-in-left"
               data-aos-duration="1500"
+              data-aos-once="true"
             >
               <li>Open wounds</li>
               <li>Toxin ingestion or foreign body</li>
@@ -305,7 +320,7 @@
         <div class="max-w-[1240px] mx-auto xl:px-12 ps-8.5 pe-8">
           <div class="lg:pt-21.5 lg:pb-20 py-15">
             <h2
-              class="lg:text-4xl md:text-3xl text-2xl font-normal text-[#494336] lg:pb-10 pb-6 lg:block hidden"
+              class="lg:text-4xl md:text-3xl text-2xl font-normal text-[#494336] lg:pb-10 pb-6"
               data-aos="fade-right"
               data-aos-duration="1000"
             >
@@ -314,6 +329,7 @@
             <div
               class="max-w-[1080px] pb-8"
               data-aos="fade-left"
+              data-aos-once="true"
               data-aos-duration="1500"
             >
               <button
@@ -354,6 +370,7 @@
             <div
               class="max-w-[1080px] pb-8"
               data-aos="fade-right"
+              data-aos-once="true"
               data-aos-duration="1500"
             >
               <button
@@ -394,6 +411,7 @@
             <div
               class="max-w-[1080px] pb-8"
               data-aos="fade-left"
+              data-aos-once="true"
               data-aos-duration="1500"
             >
               <button
@@ -434,6 +452,7 @@
             <div
               class="max-w-[1080px] pb-8"
               data-aos="fade-right"
+              data-aos-once="true"
               data-aos-duration="1500"
             >
               <button
@@ -475,6 +494,7 @@
             <div
               class="max-w-[1080px] pb-8"
               data-aos="fade-left"
+              data-aos-once="true"
               data-aos-duration="1500"
             >
               <button
@@ -515,6 +535,7 @@
             <div
               class="max-w-[1080px] pb-8"
               data-aos="fade-right"
+              data-aos-once="true"
               data-aos-duration="1500"
             >
               <button
@@ -555,6 +576,7 @@
             <div
               class="max-w-[1080px] pb-8"
               data-aos="fade-left"
+              data-aos-once="true"
               data-aos-duration="1500"
             >
               <button
@@ -594,6 +616,7 @@
             </div>
             <div
               class="max-w-[1080px]"
+              data-aos-once="true"
               data-aos="fade-right"
               data-aos-duration="1500"
             >
@@ -646,6 +669,7 @@
             <h2
               class="xl:text-4xl lg:text-3xl text-2xl font-normal text-[#D7D9DD] lg:pb-10 pb-13"
               data-aos="fade-up"
+              data-aos-once="true"
               data-aos-duration="1500"
             >
               We look forward to seeing you and your pet soon!
@@ -654,6 +678,7 @@
             <div
               class="text-[#494336] relative z-4"
               data-aos="flip-right"
+              data-aos-once="true"
               data-aos-duration="2000"
             >
               <a
@@ -682,6 +707,7 @@
               <h2
                 class="roboto-mono lg:text-2xl md:text-xl text-base text-[#D7D9DD] leading-[175%] pb-6"
                 data-aos="fade-right"
+                data-aos-once="true"
                 data-aos-duration="1000"
               >
                 Stay in touch:
@@ -690,6 +716,7 @@
                 class="text-[#D7D9DD] border text-lg py-1.5 ps-3.5 max-w-[309px] md:pe-24 pe-16"
                 data-aos="zoom-in"
                 data-aos-duration="1500"
+                data-aos-once="true"
                 type="email"
                 name="email"
                 id="2"
@@ -701,6 +728,7 @@
                     class="group duration-1000"
                     data-aos="fade-right"
                     data-aos-easing="linear"
+                    data-aos-once="true"
                     data-aos-duration="1500"
                     href="https://www.facebook.com/login/"
                     target="_blank"
@@ -735,6 +763,7 @@
                     target="_blank"
                     data-aos="fade-right"
                     data-aos-easing="linear"
+                    data-aos-once="true"
                     data-aos-duration="2000"
                     ><svg
                       class="group duration-1000 hover:rotate-[360deg] lg:w-[51px] w-[39px]"
@@ -765,6 +794,7 @@
                     href="https://www.instagram.com/accounts/login/?hl=en"
                     data-aos="fade-right"
                     data-aos-easing="linear"
+                    data-aos-once="true"
                     data-aos-duration="2500"
                     target="_blank"
                     ><svg
@@ -799,6 +829,7 @@
               class="w-full sm:w-auto"
               data-aos="fade-up"
               data-aos-duration="1500"
+              data-aos-once="true"
             >
               <h2
                 class="roboto-mono lg:text-2xl md:text-lg text-base text-[#D7D9DD] lg:pb-8 md:pb-6 pb-2.5"
@@ -829,6 +860,7 @@
               class="w-full sm:w-auto"
               data-aos="fade-down"
               data-aos-duration="2000"
+              data-aos-once="true"
             >
               <h2
                 class="roboto-mono lg:text-2xl md:text-lg text-base text-[#D7D9DD] lg:pb-8 md:pb-6 pb-2.5"
@@ -850,6 +882,7 @@
             <div
               class="w-full sm:w-auto"
               data-aos="fade-left"
+              data-aos-once="true"
               data-aos-duration="2500"
             >
               <h2
