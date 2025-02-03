@@ -892,15 +892,19 @@
       const closeSidebarButton = document.getElementById("closeSidebar");
       const sidebar = document.getElementById("sidebar");
       const overlay = document.getElementById("overlay");
+      const body = document.getElementsByTagName("body")[0];
+      console.log(body);
 
       openSidebarButton.addEventListener("click", () => {
         sidebar.classList.add("open");
         overlay.classList.add("visible");
+        body.classList.add("overflow-hidden");
       });
 
       closeSidebarButton.addEventListener("click", () => {
         sidebar.classList.remove("open");
         overlay.classList.remove("visible");
+        body.classList.remove("overflow-hidden");
       });
 
       // Close sidebar when clicking on the overlay

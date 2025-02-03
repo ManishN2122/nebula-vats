@@ -245,7 +245,7 @@
               data-aos-duration="1500"
             >
               Our clinic is open from
-              <span class="!font-bold"
+              <span class="avantt-bold"
                 >8am to 6pm on weekdays and from 9am to 5pm on Saturdays</span
               >. During these hours, our team of veterinarians and staff are
               ready to provide care for your pets.
@@ -928,15 +928,19 @@
       const closeSidebarButton = document.getElementById("closeSidebar");
       const sidebar = document.getElementById("sidebar");
       const overlay = document.getElementById("overlay");
+      const body = document.getElementsByTagName("body")[0];
+      console.log(body);
 
       openSidebarButton.addEventListener("click", () => {
         sidebar.classList.add("open");
         overlay.classList.add("visible");
+        body.classList.add("overflow-hidden");
       });
 
       closeSidebarButton.addEventListener("click", () => {
         sidebar.classList.remove("open");
         overlay.classList.remove("visible");
+        body.classList.remove("overflow-hidden");
       });
 
       // Close sidebar when clicking on the overlay

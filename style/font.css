@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 @font-face {
   font-family: AvanttTRIAL-Regular;
-  src: url(../style/avantt-font-family-1737770897-0/AvanttTRIAL-Regular-BF6721a86b1a848.otf);
+  src: url("../style/avantt-font-family-1737770897-0/AvanttTRIAL-Regular-BF6721a86b1a848.otf");
+}
+@font-face {
+  font-family: AvanttTRIAL-ExtraBold;
+  src: url("./avantt-font-family-1737770897-0/AvanttTRIAL-ExtraBold-BF6721a86b196a3.otf");
+}
+.avantt-bold {
+  font-family: AvanttTRIAL-ExtraBold;
 }
