@@ -291,6 +291,7 @@
                     class="text-slate-800 transition-transform duration-300"
                   >
                     <svg
+                      class="transition-all duration-300 ease-in-out"
                       xmlns="http://www.w3.org/2000/svg"
                       width="31"
                       height="31"
@@ -374,6 +375,7 @@
                     class="text-slate-800 transition-transform duration-300"
                   >
                     <svg
+                      class="transition-all duration-300 ease-in-out"
                       xmlns="http://www.w3.org/2000/svg"
                       width="31"
                       height="31"
@@ -457,6 +459,7 @@
                     class="text-slate-800 transition-transform duration-300"
                   >
                     <svg
+                      class="transition-all duration-300 ease-in-out"
                       xmlns="http://www.w3.org/2000/svg"
                       width="31"
                       height="31"
@@ -542,6 +545,7 @@
                     class="text-slate-800 transition-transform duration-300"
                   >
                     <svg
+                      class="transition-all duration-300 ease-in-out"
                       xmlns="http://www.w3.org/2000/svg"
                       width="31"
                       height="31"
@@ -625,6 +629,7 @@
                     class="text-slate-800 transition-transform duration-300"
                   >
                     <svg
+                      class="transition-all duration-300 ease-in-out"
                       xmlns="http://www.w3.org/2000/svg"
                       width="31"
                       height="31"
@@ -708,6 +713,7 @@
                     class="text-slate-800 transition-transform duration-300"
                   >
                     <svg
+                      class="transition-all duration-300 ease-in-out"
                       xmlns="http://www.w3.org/2000/svg"
                       width="31"
                       height="31"
@@ -838,7 +844,7 @@
                     data-aos-easing="ease-in-cubic"
                     data-aos-duration="1000"
                   >
-                    <div class="max-w-[93px] pt-6 pb-16 font-normal">
+                    <div class="max-w-[93px] pt-6 pb-12 font-normal">
                       <img src="./image/sring.png" alt="shring" width="100%" />
                     </div>
                     <h2
@@ -874,7 +880,7 @@
                     data-aos-easing="ease-in-cubic"
                     data-aos-duration="1500"
                   >
-                    <div class="max-w-[93px] pt-6 pb-12 font-normal">
+                    <div class="max-w-[93px] pt-6 pb-8 font-normal">
                       <img src="./image/curent.png" alt="shring" width="100%" />
                     </div>
                     <h2
@@ -943,7 +949,7 @@
                 </div>
                 <div class="swiper-slide !h-auto">
                   <div
-                    class="bg-[#494336] max-w-[320px] ps-7 md:h-[450px] !h-full"
+                    class="bg-[#494336] max-w-[320px] ps-6 md:h-[450px] !h-full"
                     data-aos="flip-down"
                     data-aos-once="true"
                     data-aos-easing="ease-in-cubic"
@@ -1312,51 +1318,15 @@
     <script>
       function toggleAccordion(index) {
         const content = document.getElementById(`content-${index}`);
-        const icon = document.getElementById(`icon-${index}`);
-
-        // SVG for Minus icon
-        const minusSVG = `
-     <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
-  <line x1="11.3468" y1="11.5626" x2="32.56" y2="32.7758" stroke="url(#paint0_linear_1203_3617)" stroke-width="2.5"/>
-  <line x1="11.5072" y1="32.7757" x2="32.7204" y2="11.5625" stroke="url(#paint1_linear_1203_3617)" stroke-width="2.5"/>
-  <defs>
-    <linearGradient id="paint0_linear_1203_3617" x1="10.4629" y1="12.4465" x2="31.6761" y2="33.6597" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFA280"/>
-      <stop offset="1" stop-color="#8FD9D9"/>
-    </linearGradient>
-    <linearGradient id="paint1_linear_1203_3617" x1="12.3911" y1="33.6595" x2="33.6043" y2="12.4463" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFA280"/>
-      <stop offset="1" stop-color="#8FD9D9"/>
-    </linearGradient>
-  </defs>
-</svg>
-    `;
-
-        // SVG for Plus icon
-        const plusSVG = `
-     <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
-  <line x1="0.0336914" y1="15.2025" x2="30.0337" y2="15.2025" stroke="url(#paint0_linear_1203_3616)" stroke-width="2.5"/>
-  <line x1="15.1475" y1="30.089" x2="15.1475" y2="0.0889893" stroke="url(#paint1_linear_1203_3616)" stroke-width="2.5"/>
-  <defs>
-    <linearGradient id="paint0_linear_1203_3616" x1="0.0336914" y1="16.4525" x2="30.0337" y2="16.4525" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFA280"/>
-      <stop offset="1" stop-color="#8FD9D9"/>
-    </linearGradient>
-    <linearGradient id="paint1_linear_1203_3616" x1="16.3975" y1="30.089" x2="16.3974" y2="0.0889893" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFA280"/>
-      <stop offset="1" stop-color="#8FD9D9"/>
-    </linearGradient>
-  </defs>
-</svg>
-    `;
+        const icon = document.querySelector(`#icon-${index} svg`);
 
         // Toggle the content's max-height for smooth opening and closing
         if (content.style.maxHeight && content.style.maxHeight !== "0px") {
           content.style.maxHeight = "0";
-          icon.innerHTML = plusSVG;
+          icon.classList.remove("rotate-45");
         } else {
           content.style.maxHeight = content.scrollHeight + "0px";
-          icon.innerHTML = minusSVG;
+          icon.classList.add("rotate-45");
         }
       }
     </script>
